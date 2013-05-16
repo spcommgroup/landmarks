@@ -34,12 +34,23 @@ def process(t,o, rules, LMtypes):
         (last_item_i, last_item) = (None, None)
         for (item_i, item) in zip(range(len(tier.items)), tier.items):
             if(item_i > 0): #starts on second item, so that last_item is defined
+                e=0
                 try:
-                    rule = rules[LMtypes[last_item.mark]+"-"+LMtypes[item.mark]]
+                    x=LMtypes[last_item.mark]# throwaway
                 except KeyError:
-                    print("Warning: Item not found in conversion table: "+last_item.mark+" - "+item.mark)
+                    print("Warning: Item not found in conversion table: "+last_item.mark)
+                    otier.items[last_item_i].mark=""
                     # TODO handle error, probably by removing LM
+                    e=1
+                try:
+                    x=LMtypes[item.mark]
+                except KeyError:
+                    print("Warning: Item not found in conversion table: "+item.mark)
+                    otier.items[item_i].mark=""
+                    e=1
+                if e==1: 
                     continue
+                rule = rules[LMtypes[last_item.mark]+"-"+LMtypes[item.mark]]
                 print("Applying rule "+str(rule)+" to "+last_item.mark+" - "+item.mark)
                 if(o.tiers[tier_i].items[last_item_i].mark==""):
                     print("\tChanging empty li to "+rule[0])
