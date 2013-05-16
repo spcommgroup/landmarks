@@ -3,32 +3,20 @@
 from TGProcess import *
 import sys
 import os
-# import re
-
-class Rule:
-    def __init__(self,liuLM):
-        self.liuLM = liuLM
-    def __str__(self):
-        #return str(self.choiLM) + " -> " + str(self.liuLM)
-        return str(self.liuLM)
-    __repr__ = __str__
-    def toLiu(self, t,o):
-        return None
-    # @classmethod
-    # def find(cls, rules, choiLM):
-    #     return [rule for rule in rules if rule.choiLM == choiLM][0]
 
 def compileRules():
+    """ Uses rules.txt to create dictionary from string pair of Choi LM to list of Liu LM .
+    Example: "#-Sr": ["", "", "+b, (+g)"] 
+    Also creates dictionary from Choi LMs to LM types"""
+
     f = open("rules.txt", "r")
-    rows = f.read().split('\n')
     rules = {}
-    for row in rows:
-        items = row.split("/")
-        if len(items) == 5: 
+    for line in f:
+        items = line.strip("\n").split("/")
+        if len(items) == 5: # keeps empty lines and such from being added
             rules[items[0]+"-"+items[1]] = items[2:]
-        # else: 
-        #     print("Error: "+str(items))
-    # rules = {row.split("/")[0]+"-"+row.split("/")[1]: Rule(row.split("/")[2:]) for row in rows};
+
+    # Dictionary of conversions from Choi LM (e.g. ng-cl) to LM type (e.g. Nc)
     LMtypes = {"V": "V", "#": "#"}
     LMtypes.update({nc : "Nc" for nc in ["n-cl","m-cl","ng-cl"]})
     LMtypes.update({nr : "Nr" for nr in ["n","m","ng"]})
@@ -39,38 +27,36 @@ def compileRules():
     LMtypes.update({sr : "Sr" for sr in ["b","p","t","d","k","g"]})
     return rules, LMtypes
 
-def userInterface(t):
-    return None
-
 def process(t,o, rules, LMtypes):
     for (tier_i, tier) in zip(range(len(t.tiers)), t.tiers):
+        otier = o.tiers[tier_i] # output tier
         toAdd = [] # Add new items at the end so they don't interfere with ids
         (last_item_i, last_item) = (None, None)
         for (item_i, item) in zip(range(len(tier.items)), tier.items):
-            if(item_i > 0):
+            if(item_i > 0): #starts on second item, so that last_item is defined
                 try:
                     rule = rules[LMtypes[last_item.mark]+"-"+LMtypes[item.mark]]
                 except KeyError:
                     print("Warning: Item not found in conversion table: "+last_item.mark+" - "+item.mark)
-                    # TODO handle error
+                    # TODO handle error, probably by removing LM
                     continue
                 print("Applying rule "+str(rule)+" to "+last_item.mark+" - "+item.mark)
                 if(o.tiers[tier_i].items[last_item_i].mark==""):
                     print("\tChanging empty li to "+rule[0])
-                    o.tiers[tier_i].items[last_item_i].mark = rule[0]
-                elif(o.tiers[tier_i].items[last_item_i].mark != rule[0]):# and rule[0]!=""):
-                    print("\tWarning: changed "+o.tiers[tier_i].items[last_item_i].mark+" to "+rule[0])
-                    o.tiers[tier_i].items[last_item_i].mark = rule[0]
+                    otier.items[last_item_i].mark = rule[0]
+                elif(otier.items[last_item_i].mark != rule[0]):# and rule[0]!=""):
+                    print("\tWarning: changed "+otier.items[last_item_i].mark+" to "+rule[0])
+                    otier.items[last_item_i].mark = rule[0]
                 if rule[1]:
                     print("\tQueuing point to add "+rule[1])
-                    #o.tiers[tier_i].addPoint(Point(str(float(item.time)-.001), rule[1]))
                     toAdd.append(Point(str(float(item.time)-.001), rule[1]))
-                print("\tChanging "+o.tiers[tier_i].items[item_i].mark+" to "+rule[2])
-                o.tiers[tier_i].items[item_i].mark = rule[2]
+                print("\tChanging "+otier.items[item_i].mark+" to "+rule[2])
+                otier.items[item_i].mark = rule[2]
             (last_item_i, last_item) = (item_i, item)
         for a in toAdd:
             print("Adding point "+str(a))
-            o.tiers[tier_i].addPoint(a)
+            otier.addPoint(a)
+        # TODO: Remove empty points
     return None
 
 #If is program was run on its own (not imported into another file):
