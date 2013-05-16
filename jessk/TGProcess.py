@@ -413,6 +413,15 @@ class Tier:
             tierWriter.writerow(['xmin','xmax','text'])
             for interval in self:
                 tierWriter.writerow([interval.xmin,interval.xmax,interval.text])
+
+    def removeBlankPoints(self):
+        """Removes all points whose mark is an empty string"""
+        i = 0
+        while i < len(self.items):
+            if self.items[i].mark == "":
+                self.removeItem(i)
+            else:
+                i+=1
     
 class Interval:
     def __init__(self,xmin = "", xmax = "", text = ""):

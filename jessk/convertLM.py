@@ -57,6 +57,7 @@ def process(t,o, rules, LMtypes):
             print("Adding point "+str(a))
             otier.addPoint(a)
         # TODO: Remove empty points
+        otier.removeBlankPoints()
     return None
 
 #If is program was run on its own (not imported into another file):
