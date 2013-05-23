@@ -418,7 +418,7 @@ class Tier:
         """Removes all points whose mark is an empty string"""
         i = 0
         while i < len(self.items):
-            if self.items[i].mark == "":
+            if type(self.items[i]) == Point and self.items[i].mark == "":
                 self.removeItem(i)
             else:
                 i+=1
