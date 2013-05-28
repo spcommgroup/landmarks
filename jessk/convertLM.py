@@ -6,6 +6,7 @@ from TGProcess import *
 import sys
 import os
 import itertools
+import operator
 
 def compileRules():
     """ Uses rules.txt to create dictionary from string pair of Choi LM to list of Liu LM .
@@ -64,11 +65,36 @@ def compileRules():
     # for i in rules:
     #     if i.startswith("#"):
     #         print(i+"\t"+str(rules[i]))
-    return rules, LMtypes
 
-def process(t,o, rules, LMtypes):
+    #Decide which tiers to operate on:
+    tiers = t.tiers
+    print("Available tiers:")
+    default = ""
+    for tier_i, tier in zip(range(len(t.tiers)),t.tiers):
+        print("\t"+str(tier_i)+" "+tier.name)
+        default += ","+str(tier_i)
+    useTiers = input("Tiers to use (default="+default.strip(",")+"): ").split(",")
+    if useTiers != "":
+        for thing in useTiers:
+            try:
+                i = int(thing)
+                if i<0 or i>len(t.tiers):
+                    useTiers = default.split(",")
+                    print("Invalid input, using default")
+                    break
+            except ValueError:
+                useTiers = default.split(",")
+                print("Invalid input, using default")
+                break
+    else:
+        useTiers = default.split(",")
+    return rules, LMtypes, useTiers
+
+def process(t,o, rules, LMtypes, useTiers):
     not_found = {}
-    for (tier_i, tier) in zip(range(len(t.tiers)), t.tiers):
+    for tier_i in useTiers:
+        tier_i = int(tier_i)
+        tier  = t.tiers[tier_i] # input tier
         otier = o.tiers[tier_i] # output tier
         toAdd = [] # Add new items at the end so they don't interfere with ids
         (last_item_i, last_item) = (None, None)
@@ -144,7 +170,7 @@ def process(t,o, rules, LMtypes):
             otier.addPoint(a)
         otier.removeBlankPoints()
     print("Not found marks:")
-    for mark,time in not_found.items():
+    for mark,time in sorted(not_found.items(),key=operator.itemgetter(1)):
         print("\t"+mark + " ("+time +")")
     return None
 
@@ -161,9 +187,9 @@ if __name__=="__main__":
         
     # rules = userInterface(t)
 
-    rules, LMtypes = compileRules();
+    rules, LMtypes, useTiers = compileRules();
     print("Processing TextGrid...\n")
-    process(t,o,rules, LMtypes)
+    process(t,o,rules, LMtypes, useTiers)
     o.writeGridToPath(destpath)
     print("File written to " + destpath +  ".")
     print("The TextGrid Processor has finished.")
