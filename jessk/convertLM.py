@@ -60,20 +60,24 @@ def compileRules():
     #     rules_plus[key+"-x"]= [a+"-x" for a in rules[key] if a != ""]
     #     rules_plus[key+"-+"]= [a+"-+" for a in rules[key] if a != ""]
     # rules.update(rules_plus)
-    for i in rules:
-        if i.startswith("#"):
-            print(i+"\t"+str(rules[i]))
+
+    # for i in rules:
+    #     if i.startswith("#"):
+    #         print(i+"\t"+str(rules[i]))
     return rules, LMtypes
 
 def process(t,o, rules, LMtypes):
+    not_found = {}
     for (tier_i, tier) in zip(range(len(t.tiers)), t.tiers):
         otier = o.tiers[tier_i] # output tier
         toAdd = [] # Add new items at the end so they don't interfere with ids
         (last_item_i, last_item) = (None, None)
         for (item_i, item) in zip(range(len(tier.items)), tier.items):
             if item_i == 0 and type(item)==Point: #First item, implicit "#" beforehand
-                if not item.mark in LMtypes:
-                    print("Warning: Item not found in conversion table: "+item.mark)
+                if not item.mark.strip() in LMtypes:
+                    if not item.mark.strip() in not_found:
+                        not_found[item.mark.strip()] = item.time
+                    #print("Warning: Item not found in conversion table: "+item.mark)
                     otier.items[item_i].mark=""
                 else:
                     if not "#-"+LMtypes[item.mark] in rules:
@@ -87,21 +91,25 @@ def process(t,o, rules, LMtypes):
                 e=0
                 #if last_item == None:
                 #    print("What?" + item.mark)
-                if not last_item.mark in LMtypes:
-                    print("Warning: Item not found in conversion table: "+last_item.mark)
+                if not last_item.mark.strip() in LMtypes:
+                    if not last_item.mark.strip() in not_found:
+                        not_found[last_item.mark.strip()] = last_item.time
+                    #print("Warning: Item not found in conversion table: "+last_item.mark)
                     otier.items[last_item_i].mark=""
                     e=1
-                if not item.mark in LMtypes:
-                    print("Warning: Item not found in conversion table: "+item.mark)
+                if not item.mark.strip() in LMtypes:
+                    if not item.mark.strip() in not_found:
+                        not_found[item.mark.strip()] = item.time
+                    #print("Warning: Item not found in conversion table: "+item.mark)
                     otier.items[item_i].mark=""
                     e=1
                 if e==0: 
-                    rule = rules[LMtypes[last_item.mark]+"-"+LMtypes[item.mark]]
+                    rule = rules[LMtypes[last_item.mark.strip()]+"-"+LMtypes[item.mark.strip()]]
                     #print("Applying rule "+str(rule)+" to "+last_item.mark+" - "+item.mark)
                     if(otier.items[last_item_i].mark==""):
                         #print("\tChanging empty li to "+rule[0])
                         otier.items[last_item_i].mark = rule[0]
-                    elif(otier.items[last_item_i].mark != rule[0] and rule[0]!=""):
+                    elif(otier.items[last_item_i].mark.strip() != rule[0] and rule[0]!=""):
                         print("\tWarning: changed "+otier.items[last_item_i].mark+" to "+rule[0])
                         otier.items[last_item_i].mark = rule[0]
                     if rule[1]:
@@ -113,16 +121,18 @@ def process(t,o, rules, LMtypes):
             (last_item_i, last_item) = (item_i, item)
 
         # Apply last rule, X-# at end of tier
-        if type(last_item)==Point and not last_item.mark in LMtypes:
-            print("Warning: Item not found in conversion table: "+last_item.mark)
+        if type(last_item)==Point and not last_item.mark.strip() in LMtypes:
+            if not last_item.mark.strip() in not_found:
+                not_found[last_item.mark.strip()] = last_item.time
+            #print("Warning: Item not found in conversion table: "+last_item.mark)
             otier.items[last_item_i].mark=""
         elif type(last_item)==Point: 
-            rule = rules[LMtypes[last_item.mark]+"-#"]
+            rule = rules[LMtypes[last_item.mark.strip()]+"-#"]
             #print("Applying rule "+str(rule)+" to "+last_item.mark+" - #")
-            if(o.tiers[tier_i].items[last_item_i].mark==""):
+            if(o.tiers[tier_i].items[last_item_i].mark.strip()==""):
                 #print("\tChanging empty li to "+rule[0])
                 otier.items[last_item_i].mark = rule[0]
-            elif(otier.items[last_item_i].mark != rule[0] and rule[0]!=""):
+            elif(otier.items[last_item_i].mark.strip() != rule[0] and rule[0]!=""):
                 print("\tWarning: changed "+otier.items[last_item_i].mark+" to "+rule[0])
                 otier.items[last_item_i].mark = rule[0]
             if rule[1]:
@@ -132,8 +142,10 @@ def process(t,o, rules, LMtypes):
         for a in toAdd:
             #print("Adding point "+str(a))
             otier.addPoint(a)
-        # TODO: Remove empty points
         otier.removeBlankPoints()
+    print("Not found marks:")
+    for mark,time in not_found.items():
+        print("\t"+mark + " ("+time +")")
     return None
 
 #If is program was run on its own (not imported into another file):
