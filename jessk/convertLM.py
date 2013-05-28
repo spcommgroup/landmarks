@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 # TODO: Combine 2 tiers, or all tiers?
+# TODO: run once ignoring %-x LMs, then generate -x's
 
 from TGProcess import *
 import sys
