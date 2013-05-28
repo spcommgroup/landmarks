@@ -7,6 +7,7 @@ import sys
 import os
 import itertools
 import operator
+import logging
 
 def compileRules():
     """ Uses rules.txt to create dictionary from string pair of Choi LM to list of Liu LM .
@@ -90,6 +91,8 @@ def compileRules():
         useTiers = default.split(",")
     return rules, LMtypes, useTiers
 
+
+
 def process(t,o, rules, LMtypes, useTiers):
     not_found = {}
     for tier_i in useTiers:
@@ -107,7 +110,7 @@ def process(t,o, rules, LMtypes, useTiers):
                     otier.items[item_i].mark=""
                 else:
                     if not "#-"+LMtypes[item.mark] in rules:
-                        print("Warning: Rule not found: "+"#-"+LMtypes[item.mark])
+                        logging.warning("Rule not found: "+"#-"+LMtypes[item.mark])
                     else:
                         rule = rules["#-"+LMtypes[item.mark]]
                         #print("Applying rule "+str(rule)+" to # - "+item.mark)
@@ -136,13 +139,13 @@ def process(t,o, rules, LMtypes, useTiers):
                         #print("\tChanging empty li to "+rule[0])
                         otier.items[last_item_i].mark = rule[0]
                     elif(otier.items[last_item_i].mark.strip() != rule[0] and rule[0]!=""):
-                        print("\tWarning: changed "+otier.items[last_item_i].mark+" to "+rule[0])
+                        logging.warning("\tchanged "+otier.items[last_item_i].mark+" to "+rule[0])
                         otier.items[last_item_i].mark = rule[0]
                     if rule[1]:
                         #print("\tQueuing point to add "+rule[1])
                         toAdd.append(Point(str(float(item.time)-.001), rule[1]))
                     if otier.items[item_i].mark in ["+g","-g","+b","-b","+s","-s"]:
-                        print("\tChanging "+otier.items[item_i].mark+" to "+rule[2])
+                        logging.warning("\tChanging "+otier.items[item_i].mark+" to "+rule[2])
                     otier.items[item_i].mark = rule[2]
             (last_item_i, last_item) = (item_i, item)
 
@@ -159,7 +162,7 @@ def process(t,o, rules, LMtypes, useTiers):
                 #print("\tChanging empty li to "+rule[0])
                 otier.items[last_item_i].mark = rule[0]
             elif(otier.items[last_item_i].mark.strip() != rule[0] and rule[0]!=""):
-                print("\tWarning: changed "+otier.items[last_item_i].mark+" to "+rule[0])
+                logging.warning("\tchanged "+otier.items[last_item_i].mark+" to "+rule[0])
                 otier.items[last_item_i].mark = rule[0]
             if rule[1]:
                 #print("\tQueuing point to add "+rule[1])
@@ -169,9 +172,9 @@ def process(t,o, rules, LMtypes, useTiers):
             #print("Adding point "+str(a))
             otier.addPoint(a)
         otier.removeBlankPoints()
-    print("Not found marks:")
+    logging.warning("Not found marks:")
     for mark,time in sorted(not_found.items(),key=operator.itemgetter(1)):
-        print("\t"+mark + " ("+time +")")
+        logging.warning("\t"+mark + " ("+time +")")
     return None
 
 #If is program was run on its own (not imported into another file):
@@ -184,6 +187,8 @@ if __name__=="__main__":
     
     t = TextGrid(filepath=filepath)
     o = TextGrid(filepath=filepath)#output textgrid
+    
+    logging.basicConfig(filename='log.txt',level=logging.DEBUG)
         
     # rules = userInterface(t)
 
