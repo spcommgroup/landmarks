@@ -161,6 +161,7 @@ if __name__=="__main__":
     o = process(t,rules, LMtypes, useTiers)
     o.writeGridToPath(destpath)
     print("File written to " + destpath +  ".")
+    print("Log file written to log.txt.")
     print("The TextGrid Processor has finished.")
     print("")
 
