@@ -1,11 +1,7 @@
 #!/usr/bin/python
 
 from TGProcess import *
-import sys
-import os
-import itertools
-import operator
-import logging
+import sys, os, itertools, operator, logging
 
 def compileRules():
     """ Uses rules.txt to create dictionary from string pair of Choi LM to list of Liu LM .
@@ -32,11 +28,11 @@ def compileRules():
     LMtypes.update({h  : "#"  for h  in ["<OS>","<breath>"]})
     LMtypes.update({nc : "Nc" for nc in ["n-cl","m-cl","ng-cl"]})
     LMtypes.update({nr : "Nr" for nr in ["n","m","ng"]})
-    LMtypes.update({g  : "G"  for g  in ["r","r-cl","l","w","y","h","t-glide","d-glide","g-glide","k-glide"]})
-    LMtypes.update({fc : "Fc" for fc in ["v-cl","f-cl","z-cl","s-cl","th-cl","dh-cl","sh-cl","j-cl","dj-1","ch1","jh1"]})
-    LMtypes.update({fr : "Fr" for fr in ["v","f","z","s","th","dh","sh","j","dj-2","ch2","jh2"]})
-    LMtypes.update({sc : "Sc" for sc in ["b-cl","p-cl","t-cl","d-cl","k-cl","g-cl","dj-cl","ch-cl","jh-cl"]})
-    LMtypes.update({sr : "Sr" for sr in ["b","p","t","d","k","g"]})
+    LMtypes.update({g  : "G"  for g  in ["r","r-cl","l","w","y","h","t-glide","d-glide","g-glide","k-glide","dh-glide","v-glide","l-cl","l-rl","m-glide"]})
+    LMtypes.update({fc : "Fc" for fc in ["v-cl","f-cl","z-cl","s-cl","th-cl","dh-cl","sh-cl","j-cl","dj-1","ch1","jh1","h-cl","d-fric-cl","k-fric-cl","dh-cl-?"]})
+    LMtypes.update({fr : "Fr" for fr in ["v","f","z","s","th","dh","sh","j","dj-2","jh-2","ch2","jh2","t-fric","d-fric","k-fric","g-fric","h-rl"]})
+    LMtypes.update({sc : "Sc" for sc in ["b-cl","p-cl","t-cl","d-cl","k-cl","g-cl","dj-cl","ch-cl","jh-cl","dh-stop-cl"]})
+    LMtypes.update({sr : "Sr" for sr in ["b","p","t","d","k","g","dh-stop","k-fric-rl","gl-stop","t-glot"]})
 
     LMtypes_plus, rules_plus = ({},{})
     for key in LMtypes:
@@ -70,19 +66,21 @@ def compileRules():
     return rules, LMtypes, useTiers
 
 def process(t, rules, LMtypes, useTiers):
+    logging.info("Running process()...")
     ctiers = []
     output = []
     not_found = {}
     print("Building TextGrid list...")
     for i in useTiers:
-        ctiers.extend([(item.mark.strip(), float(item.time), int(i)) for item in t.tiers[int(i)].items if type(item)==Point])
+        ctiers.extend([(item.mark.strip(), float(item.time), int(i)) for item in t.tiers[int(i)].items if type(item)==Point and (item.mark.strip() in LMtypes)])
+        not_found.update({item.mark: item.time for item in t.tiers[int(i)] if type(item)==Point and item.mark.strip() not in LMtypes})
     ctiers.sort(key=operator.itemgetter(1,2))
     ctiers.insert(0,("#",0.0,0))
     ctiers.append(("#",float(t.tiers[0].xmax),0))
     ctiers_no_xs = [item_t for item_t in ctiers if not item_t[0].endswith("-x")]
     print("Translating pairs...")
     for pair in zip(ctiers_no_xs, ctiers_no_xs[1:]):
-        logging.warning("Operating on pair "+str(pair))
+        logging.debug("Operating on pair "+str(pair))
         error=0
         for item_t in pair:
             if not item_t[0] in LMtypes:
@@ -95,7 +93,7 @@ def process(t, rules, LMtypes, useTiers):
             except KeyError:
                 logging.warning("RULE NOT FOUND: "+LMtypes[pair[0][0]]+"-"+LMtypes[pair[1][0]])
                 continue
-            if rule[0]:
+            if rule[0] and not [item_t for item_t in output if item_t[1]==pair[0][1] and item_t[0]==rule[0]]: #Item doesn't already exist 
                 output.append((rule[0], pair[0][1], int(useTiers[1]) if rule[0].endswith("-+") else int(useTiers[0])))
             if rule[1]:
                 output.append((rule[1], pair[1][1]-0.001, int(useTiers[1]) if rule[1].endswith("-+") else int(useTiers[0])))
@@ -122,6 +120,11 @@ def process(t, rules, LMtypes, useTiers):
                     output.append((rule[1], pair[1][1]-0.001, int(useTiers[1]) )) 
                 if rule[2].endswith("-x"):
                     output.append((rule[2], pair[1][1], int(useTiers[1]) )) 
+
+    logging.warning("Not found LMs:")
+    for mark, time in not_found.items():
+        logging.warning("\t"+mark+" "+str(time))
+
     #Recreate textgrid
     print("Recompiling TextGrid...")
     output.sort(key=operator.itemgetter(1,2))
@@ -150,7 +153,7 @@ if __name__=="__main__":
     filepath = os.path.abspath(sys.argv[1])
     pathsplit = os.path.splitext(filepath)
     destpath = pathsplit[0] + ".processed" + pathsplit[1]
-    logging.basicConfig(filename='log.txt',level=logging.DEBUG)
+    logging.basicConfig(filename='log.txt',level=logging.INFO)
 
     t = TextGrid(filepath=filepath)
     rules, LMtypes, useTiers = compileRules();
