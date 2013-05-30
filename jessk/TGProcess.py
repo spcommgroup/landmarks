@@ -6,6 +6,7 @@
 import re
 import operator
 import csv
+from time import strftime
 
 """Conventions:
 This script zero-indexes everything. So, the first point/interval in the first tier is
@@ -51,7 +52,19 @@ class TextGrid:
         self.tiers.append(item)
     def __init__(self,fileType="ooTextFile",objectClass="TextGrid",xmin="0 ",xmax="",hasTiers="exists",filepath=None):
         """Creates an empty TextGrid with to specified metadata, or reads a grid from the filepath into a new TextGrid instance."""
-        if filepath != None:
+    
+        #Only used for .lm filetype:
+        self.waveformName = ""
+        self.waveformChecksum = ""
+
+        if filepath.endswith(".lm"):
+            self.tiers = []
+            self.fileType = fileType
+            self.objectClass = objectClass
+            self.xmin = xmin
+            self.hasTiers = hasTiers
+            self.readAsLM(filepath)
+        elif filepath != None:
             self.tiers = []
             self.readGridFromPath(filepath)
         else:
@@ -63,7 +76,7 @@ class TextGrid:
             self.hasTiers = hasTiers
             self.enc = None #Encoding must be set when grid is read.
                             #We don't define self.size.  We simply use len(self.tiers)
-        
+
     def writeGridToPath(self, path):
         """Writes the TextGrid in the standard TextGrid format to the file path."""
         f = open(path,'w',encoding=self.enc)
@@ -267,7 +280,62 @@ class TextGrid:
     def listTiers(self):
         for i in range(0,len(self)):
             print(str(i+1) + ": " + str(self[i]))
-                
+
+    def saveAsLM(self, path):
+        """Writes TextGrid in the SpeechMark WaveSurfer landmark .lm format, 
+        as well as the WaveShark .lab format."""
+        if not path.endswith(".lm"):
+            path += ".lm"
+        f = open(path, 'w', encoding=self.enc)
+        f_lab = open(path+".lab", 'w', encoding=self.enc)
+        f.write("#SpeechMark Landmark File\n")
+        f.write("#SMPRODUCT: TGProcess.py\n")
+        f.write("#SMVERSION: 1\n")
+        f.write("#LMVERSION: 2013-03-26\n")
+        f.write("#WAVEFORM NAME: "+self.waveformName+"\n")
+        f.write("#WAVEFORM CHECKSUM: "+self.waveformChecksum+"\n")
+        f.write("#FILE CREATED:"+strftime("%m/%d/%Y %H:%M:%S")+"\n")
+        f.write("#--------------------------------------------------------------\n")
+        f.write("#\n")
+        #condense tiers into single list
+        items = [(item.mark.replace(" ","_"), "%.3f" % float(item.time)) for tier in self.tiers for item in tier if type(item)==Point]
+        items.sort(key=lambda item: item[1])
+        last_time = "0"
+        #write items to both files
+        for item in items:
+            f.write(item[1]+" "+item[0]+"\n")
+            f_lab.write(last_time + " " + item[1] + " " + item[0]+"\n")
+            last_time = item[1]
+
+    def readAsLM(self, path):
+        """Parses a .lm file and represents it internally in this TextTier() instance."""
+        try:
+            f = open(path,'r',encoding='utf-8')
+        except UnicodeDecodeError:
+            f = open(path,'r',encoding='utf-16')
+        self.enc = f.encoding
+        self.append(Tier()) #Only 1 tier here
+        for line in f:
+            if line.startswith("#"): #metadata
+                match = re.compile(r"#WAVEFORM NAME: (.+)").search(line)
+                if match:
+                    self.waveformName = match.groups()[0]
+                    continue
+                match = re.compile(r"#WAVEFORM CHECKSUM: (.+)").search(line)
+                if match:
+                    self.waveformChecksum = match.groups()[0]
+                    continue
+            else:
+                match = re.compile(r"(.+) (.+)").search(line)
+                if match:
+                    self[0].append(Point(match.groups()[0], match.groups()[1]))
+        if len(self[0].items)>0:
+            self.xmax = self[0].items[-1].time
+        else:
+            self.xmax = "0"
+
+
+
 class Tier:
     """Object for storing and manipulating Tiers.
     Intended to be stored in a TextGrid() instance."""
