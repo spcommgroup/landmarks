@@ -57,7 +57,7 @@ class TextGrid:
         self.waveformName = ""
         self.waveformChecksum = ""
 
-        if filepath.endswith(".lm"):
+        if filepath != None and filepath.endswith(".lm"):
             self.tiers = []
             self.fileType = fileType
             self.objectClass = objectClass

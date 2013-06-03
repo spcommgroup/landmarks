@@ -8,9 +8,10 @@ When it gives the option for what tiers to use, enter a comma-separated list of 
     Leave this option blank to use all tiers.
     Used tiers will be translated to Liu notation & all unrecognized points will be erased.
     Unused tiers will be left intact and saved in the output TextGrid.
-You can save it as a .TextGrid file or as .wm
+You can save it as a .TextGrid file or as .lm
     Leave this option blank to save as .TextGrid
-    .wm file type doesn't have separate tiers, so all tiers will be condensed into 1.
+    .lm file type doesn't have separate tiers, so all tiers will be condensed into 1.
+    Saving as .lm also generates a .lm.lab file.
 The generated log.txt will include all the LMs on processed tiers that were not found in the lookup tables.
 """
 
@@ -45,8 +46,8 @@ def userOptions():
         useTiers = default.strip(",").split(",")
 
     #What filetype to save as
-    saveas_input = input("Save as (T)extgrid, (w)m, or (b)oth? ")
-    if saveas_input == "w":
+    saveas_input = input("Save as (T)extgrid, (l)m, or (b)oth? ")
+    if saveas_input == "l":
         saveas = 1
     elif saveas_input == "b":
         saveas = 2
@@ -185,7 +186,7 @@ if __name__=="__main__":
     filepath = os.path.abspath(sys.argv[1])
     pathsplit = os.path.splitext(filepath)
     destpathTG = pathsplit[0] + ".processed" + pathsplit[1]
-    destpathWM = pathsplit[0] + ".processed" + ".wm"
+    destpathWM = pathsplit[0] + ".processed" + ".lm"
     logging.basicConfig(filename='log.txt',level=logging.WARNING)
 
     t = TextGrid(filepath=filepath)
