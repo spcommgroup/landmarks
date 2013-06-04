@@ -87,14 +87,18 @@ class TextGrid:
         
     def writeGridToPath(self, path):
         """Writes the TextGrid in the standard TextGrid format to the file path."""
-        f = open(path+'.textgrid','w',encoding=self.enc)
+        if not path.lower().endswith('.textgrid'):
+            path += ".TextGrid"
+        f = open(path,'w',encoding=self.enc)
         self.writeGrid(f, range(len(self.tiers)))
         
     def writePartialGrid(self, path, tiers):
         """ Write textgrid selectively.
         tiers: list of tier indices.
         """
-        f = open(path+'.textgrid','w',encoding=self.enc)
+        if not path.lower().endswith('.textgrid'):
+            path += ".TextGrid"
+        f = open(path,'w',encoding=self.enc)
         self.writeGrid(f, tiers)    
         
     def writeGrid(self,f, tiers):
