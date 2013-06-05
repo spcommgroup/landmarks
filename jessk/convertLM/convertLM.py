@@ -1,4 +1,4 @@
-#!/usr/bin/python
+v#!/usr/bin/python
 
 """
 convertLM.py
@@ -188,6 +188,11 @@ if __name__=="__main__":
     destpathTG = pathsplit[0] + ".processed" + pathsplit[1]
     destpathWM = pathsplit[0] + ".processed" + ".lm"
     logging.basicConfig(filename='log.txt',level=logging.WARNING)
+
+    try:
+        f = open("rules.txt")
+    except IOError:
+        exit("Requires rules.txt to be in the same directory")
 
     t = TextGrid(filepath=filepath)
     useTiers,saveas = userOptions();
