@@ -1,0 +1,120 @@
+{
+	"weights": "Default: 0.000000. CONTINUANT: 1.0.",
+	"wordsPerRanking": 6.723721,
+	"partitioningsPerSentence": 75.666664,
+},
+{
+	"weights": "Default: 0.000000. HIGH: 1.0.",
+	"wordsPerRanking": 5.632588,
+	"partitioningsPerSentence": 51.129631,
+},
+{
+	"weights": "Default: 0.000000. LIPS: 1.0.",
+	"wordsPerRanking": 14.342437,
+	"partitioningsPerSentence": 110.287041,
+},
+{
+	"weights": "Default: 0.000000. BODY: 1.0.",
+	"wordsPerRanking": 17.219872,
+	"partitioningsPerSentence": 110.287041,
+},
+{
+	"weights": "Default: 0.000000. GLIDE: 1.0.",
+	"wordsPerRanking": 20.032841,
+	"partitioningsPerSentence": 96.620369,
+},
+{
+	"weights": "Default: 0.000000. LOW: 1.0.",
+	"wordsPerRanking": 6.964145,
+	"partitioningsPerSentence": 60.074074,
+},
+{
+	"weights": "Default: 0.000000. BLADE: 1.0.",
+	"wordsPerRanking": 10.424388,
+	"partitioningsPerSentence": 102.435188,
+},
+{
+	"weights": "Default: 0.000000. SONORANT: 1.0.",
+	"wordsPerRanking": 6.507449,
+	"partitioningsPerSentence": 71.064812,
+},
+{
+	"weights": "Default: 0.000000. LATERAL: 1.0.",
+	"wordsPerRanking": 17.798170,
+	"partitioningsPerSentence": 110.287041,
+},
+{
+	"weights": "Default: 0.000000. ATR: 1.0.",
+	"wordsPerRanking": 8.328029,
+	"partitioningsPerSentence": 51.388889,
+},
+{
+	"weights": "Default: 0.000000. RHOTIC: 1.0.",
+	"wordsPerRanking": 17.798170,
+	"partitioningsPerSentence": 110.287041,
+},
+{
+	"weights": "Default: 0.000000. NASAL: 1.0.",
+	"wordsPerRanking": 17.749083,
+	"partitioningsPerSentence": 94.888885,
+},
+{
+	"weights": "Default: 0.000000. DISTRIBUTED: 1.0.",
+	"wordsPerRanking": 8.901770,
+	"partitioningsPerSentence": 84.657410,
+},
+{
+	"weights": "Default: 0.000000. CONSTRICTED: 1.0.",
+	"wordsPerRanking": 23.274778,
+	"partitioningsPerSentence": 110.287041,
+},
+{
+	"weights": "Default: 0.000000. VOWEL: 1.0.",
+	"wordsPerRanking": 13.888537,
+	"partitioningsPerSentence": 69.111115,
+},
+{
+	"weights": "Default: 0.000000. ANTERIOR: 1.0.",
+	"wordsPerRanking": 8.849295,
+	"partitioningsPerSentence": 83.879631,
+},
+{
+	"weights": "Default: 0.000000. BACK: 1.0.",
+	"wordsPerRanking": 6.362072,
+	"partitioningsPerSentence": 52.277779,
+},
+{
+	"weights": "Default: 0.000000. CONSONANT: 1.0.",
+	"wordsPerRanking": 10.018444,
+	"partitioningsPerSentence": 84.527779,
+},
+{
+	"weights": "Default: 0.000000. SLACK: 1.0.",
+	"wordsPerRanking": 14.253428,
+	"partitioningsPerSentence": 110.287041,
+},
+{
+	"weights": "Default: 0.000000. ROUND: 1.0.",
+	"wordsPerRanking": 9.190013,
+	"partitioningsPerSentence": 110.287041,
+},
+{
+	"weights": "Default: 0.000000. STRIDENT: 1.0.",
+	"wordsPerRanking": 16.629650,
+	"partitioningsPerSentence": 110.287041,
+},
+{
+	"weights": "Default: 0.000000. STIFF: 1.0.",
+	"wordsPerRanking": 12.103922,
+	"partitioningsPerSentence": 110.287041,
+},
+{
+	"weights": "Default: 0.000000. SPREAD: 1.0.",
+	"wordsPerRanking": 22.418535,
+	"partitioningsPerSentence": 110.287041,
+},
+{
+	"weights": "Default: 0.000000. CTR: 1.0.",
+	"wordsPerRanking": 11.735012,
+	"partitioningsPerSentence": 63.222221,
+},
