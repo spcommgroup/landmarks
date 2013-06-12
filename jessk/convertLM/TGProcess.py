@@ -12,6 +12,8 @@
   - Updates (6/7/13) jessk:
         * added TextGrid.readAsLM() and TextGrid.saveAsLM() for .lm file format
         * added PointTier.removeBlankPoints()
+  - Updates (6/12/13) jessk:
+        * added option to supress text output
 """
 
 import re
@@ -53,14 +55,17 @@ class TextGrid:
         del(self.tiers[i])
     def append(self, t):
         self.tiers.append(t)
-        print('Added ', t)
+        if self.oprint:
+            print('Added ', t)
     def remove(self, t_index):
-        print('Removed ', self.tiers[t_index])        
+        if self.oprint:
+            print('Removed ', self.tiers[t_index])        
         self.tiers.remove(self.tiers[t_index])
 
-    def __init__(self,fileType="ooTextFile", objectClass="TextGrid", xmin=0, xmax=0, hasTiers="exists", filepath=None ):
+    def __init__(self,fileType="ooTextFile", objectClass="TextGrid", xmin=0, xmax=0, hasTiers="exists", filepath=None, oprint=True ):
         """Creates an empty TextGrid with to specified metadata, or reads a grid from the filepath into a new TextGrid instance."""
-        
+        self.oprint = oprint
+
         #Only used for .lm filetype:
         self.waveformName = ""
         self.waveformChecksum = ""
@@ -305,7 +310,8 @@ class TextGrid:
                 if match:
                     inTierMeta = True #We just started a tier, we need to read the metadata.
                     continue
-        print("Constructed new",self)
+        if self.oprint:
+            print("Constructed new",self)
 
     def listTiers(self):
         for i in range(0,len(self)):
@@ -318,7 +324,8 @@ class TextGrid:
                 t = tier
         if t == None:
             raise Exception("Tier named \"", n,"\" not found.")
-        print('Found', t)
+        if self.oprint:
+            print('Found', t)
         return t
         
 
@@ -339,13 +346,15 @@ class TextGrid:
             interval = t.items[i]
             if abs(interval.xmin-gapEnd)>EPSILON:
                 t.items.insert(i, Interval(gapEnd, interval.xmin, ""))
-                print("inserted at ", i, " ", gapEnd, "-", interval.xmin)
+                if self.oprint:
+                    print("inserted at ", i, " ", gapEnd, "-", interval.xmin)
                 i+=1
             gapEnd = interval.xmax
             i+=1
         if abs(interval.xmax- t.xmax)>EPSILON:
             t.append(Interval(interval.xmax, t.xmax, ""))
-            print("inserted at ", i, " ", interval.xmax, "-", t.xmax)
+            if self.oprint:
+                print("inserted at ", i, " ", interval.xmax, "-", t.xmax)
 
 
     def sample(self, end, start = 0):
