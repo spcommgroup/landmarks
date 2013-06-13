@@ -409,7 +409,7 @@ class TextGrid:
         #condense tiers into single list
         for tier in self:
             if type(tier)==IntervalTier:
-                items = [(item.text.replace(" ","_"), "%.3f" % float(item.xmin), "%.3f" % float(item.xmax)) for item in tier if item.text.replace(" ","")!=""]
+                items = [(item.text.replace(" ","_"), "%.3f" % float(item.xmin), "%.3f" % float(item.xmax)) for item in tier]
                 items.sort(key=lambda item: item[1])
                 for item in items:
                     f.write(item[2]+" "+item[0]+"\n")
