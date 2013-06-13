@@ -29,7 +29,9 @@ public class BasicDemo {
         //Get the sequence of FeatureSets that represent the sentence "Look at that machine."
         //In the real world, this computation wouldn't be done... rather, signal processing
         //code would predict these FeatureSets from a speech signal.
-        List<FeatureSet> featureSetSequence = lexicon.featureSetSequence("Look at that machine.");
+        String sentence = "Look at that machine.";
+        //sentence = "She left your dark suit in dirty wash water all year.";
+        List<FeatureSet> featureSetSequence = lexicon.featureSetSequence(sentence);
         //Get some predicted matchings.
         List<Matching> matchings = matcher.match(featureSetSequence, 0.1f);
         //Present all the matchings to the user.

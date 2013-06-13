@@ -25,7 +25,7 @@ public class DeletionInsertionDemo {
         Matcher matcher = new Matcher(lexicon);
         
         List<FeatureSet> featureSetSequence = lexicon.featureSetSequence("This is a mark.");
-        featureSetSequence.remove(4);
+        featureSetSequence.remove(5);
         List<Matching> matchings = matcher.match(featureSetSequence, 0.1f);
         for (Matching m : matchings){
             System.out.println(String.format("Matching (p = %f):",m.getBestProbability()));

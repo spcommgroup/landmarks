@@ -273,6 +273,8 @@ public class FeatureSetLookup {
         list = new ArrayList<FeatureSet>();
         list.add(new FeatureSet(map));
         featureSetMap.put("hh", list);
+        //Alias "h"
+        featureSetMap.put("h",list);
         
         //w
         map = new HashMap<Feature, Float>();
