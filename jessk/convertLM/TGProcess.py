@@ -14,12 +14,15 @@
         * added PointTier.removeBlankPoints()
   - Updates (6/12/13) jessk:
         * added option to supress text output
+  - Updates (6/18/13) jessk:
+        * added checking for python 3 (exits gracefully instead of throwing error)
 """
 
 import re
 import operator
 import csv
 from time import strftime
+import sys
 
 """Conventions:
 This script zero-indexes everything. So, the first point/interval in the first tier is
@@ -64,6 +67,11 @@ class TextGrid:
 
     def __init__(self,fileType="ooTextFile", objectClass="TextGrid", xmin=0, xmax=0, hasTiers="exists", filepath=None, oprint=True ):
         """Creates an empty TextGrid with to specified metadata, or reads a grid from the filepath into a new TextGrid instance."""
+        
+        if sys.version_info < (3, 0):
+            sys.stdout.write("The TextGrid processor requires Python 3.0 or above. Exiting.\n")
+            sys.exit(1)
+
         self.oprint = oprint
 
         #Only used for .lm filetype:
@@ -407,14 +415,26 @@ class TextGrid:
         f.write("#--------------------------------------------------------------\n")
         f.write("#\n")
         #condense tiers into single list
-        items = [(item.mark.replace(" ","_"), "%.3f" % float(item.time)) for tier in self.tiers for item in tier if type(item)==Point]
-        items.sort(key=lambda item: item[1])
-        last_time = "0"
+        for tier in self:
+            if type(tier)==IntervalTier:
+                items = [(item.text.replace(" ","_"), "%.3f" % float(item.xmin), "%.3f" % float(item.xmax)) for item in tier]
+                items.sort(key=lambda item: item[1])
+                for item in items:
+                    f.write(item[2]+" "+item[0]+"\n")
+                    f_lab.write(item[2]+" "+item[1]+" "+item[0]+"\n")
+            elif type(tier)==TextTier:
+                items = [(item.mark.replace(" ","_"), "%.3f" % float(item.time)) for item in tier]
+                items.sort(key=lambda item: item[1])
+                last_time = "0"
+                for item in items:
+                    f.write(item[1]+" "+item[0]+"\n")
+                    f_lab.write(last_time + " " + item[1] + " " + item[0]+"\n")
+                    last_time = item[1]
+            else:
+                return
+        print(items)
         #write items to both files
-        for item in items:
-            f.write(item[1]+" "+item[0]+"\n")
-            f_lab.write(last_time + " " + item[1] + " " + item[0]+"\n")
-            last_time = item[1]
+        
 
     def readAsLM(self, path):
         """Parses a .lm file and represents it internally in this TextTier() instance."""

@@ -14,12 +14,15 @@
         * added PointTier.removeBlankPoints()
   - Updates (6/12/13) jessk:
         * added option to supress text output
+  - Updates (6/18/13) jessk:
+        * added checking for python 3 (exits gracefully instead of throwing error)
 """
 
 import re
 import operator
 import csv
 from time import strftime
+import sys
 
 """Conventions:
 This script zero-indexes everything. So, the first point/interval in the first tier is
@@ -64,6 +67,11 @@ class TextGrid:
 
     def __init__(self,fileType="ooTextFile", objectClass="TextGrid", xmin=0, xmax=0, hasTiers="exists", filepath=None, oprint=True ):
         """Creates an empty TextGrid with to specified metadata, or reads a grid from the filepath into a new TextGrid instance."""
+        
+        if sys.version_info < (3, 0):
+            sys.stdout.write("The TextGrid processor requires Python 3.0 or above. Exiting.\n")
+            sys.exit(1)
+
         self.oprint = oprint
 
         #Only used for .lm filetype:
