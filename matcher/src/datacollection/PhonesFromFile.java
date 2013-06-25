@@ -25,13 +25,14 @@ public class PhonesFromFile {
 
     public static void main(String[] args) throws IOException{
         //create the lexicon (from the file timitdict.txt)
-        Lexicon lexicon = new CMULexicon("src/english/cmudict.0.7a");
+        Lexicon lexicon = new CMULexicon("src/english/Conv07_lexicon.txt");
         //creating the matcher, based off of that lexicon.
         Matcher matcher = new Matcher(lexicon);
         
         //Read the phone sequence from file
-        BufferedReader br = new BufferedReader(new FileReader("src/english/Conv07_final.lm"));
+        BufferedReader br = new BufferedReader(new FileReader("src/english/Conv07_phones.lm"));
         List<String> phones = new ArrayList<String>();
+        List<Float> phonesTimes = new ArrayList<Float>(); //Start time of each phone in phones
         String line;
         while ((line = br.readLine()) != null){
             if (line.startsWith("#")){
@@ -48,14 +49,40 @@ public class PhonesFromFile {
             else {
             	phones.add("");
             }
+            phonesTimes.add(Float.parseFloat(parts[0]));
+        }
+        br.close();
+        
+        //Read the words sequence from file (same as above)
+        br = new BufferedReader(new FileReader("src/english/Conv07_words.lm"));
+        List<String> words = new ArrayList<String>();
+        List<Float> wordsTimes = new ArrayList<Float>();
+        while ((line = br.readLine()) != null){
+            if (line.startsWith("#")){
+                continue;
+            }
+            //System.out.println(line);
+            line = line.replace("\n", "").replace("\r", "");
+            String[] parts = line.split(" ");
+            //System.out.println(parts[0]);
+            //System.out.println(parts[1]);
+            if (parts.length == 2 && !parts[1].startsWith("<")){
+                words.add(parts[1].toLowerCase());
+            }
+            else {
+            	words.add("");
+            }
+            wordsTimes.add(Float.parseFloat(parts[0]));
         }
         br.close();
         
         //Split into "phone groups", separating by spaces in the phone list
         //So instead of running the matcher on the entire file, it splits up
-        //into smaller, more managable chunks
+        //into smaller, more manageable chunks
         List<ArrayList<String>> phoneGroups = new ArrayList<ArrayList<String>>();
         ArrayList<String> phoneList = new ArrayList<String>();
+        int lastPhonegroupEndIndex;
+        int currentPhoneIndex = 0;
         for (String phone : phones){
         	if (phone.trim()==""){
         		//System.out.println("Adding phonegroup to groups");
@@ -63,11 +90,13 @@ public class PhonesFromFile {
         		phoneGroups.add(phoneList);
                 ArrayList<String> newPhoneList = new ArrayList<String>();
                 phoneList = newPhoneList;
+                
         	}
         	else {
         		//System.out.println("Adding phone to group");
         		phoneList.add(phone);
         	}
+        	currentPhoneIndex++;
         }
         //System.out.println(phoneGroups);
         for (ArrayList<String> phoneGroup : phoneGroups){
@@ -91,6 +120,7 @@ public class PhonesFromFile {
 		        for (Ranking r : matchings.get(0).getRankings()){
 		        	System.out.println(r.getBestProbabilitySet().getWords());
 		        }
+		        System.out.println("");
         	}
         }
         
