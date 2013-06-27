@@ -35,9 +35,9 @@ public class BasicDemo {
         //Get some predicted matchings.
         List<Matching> matchings = matcher.match(featureSetSequence, 0.1f);
         //Present all the matchings to the user.
-        for (Matching m : matchings){
+        for (Matching m : matchings){//A whole "sentence"
             System.out.println(String.format("Matching (p = %f):",m.getBestProbability()));
-            for (Ranking r : m.getRankings()){
+            for (Ranking r : m.getRankings()){//each word(set)
                 //The most probable words from each ranking in the matching are the ones we want to
                 //display when we represent the matching for the user.
                 System.out.print(r.getBestProbabilitySet().getWords());
