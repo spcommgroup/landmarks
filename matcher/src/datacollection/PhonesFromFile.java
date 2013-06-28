@@ -3,11 +3,8 @@ package datacollection;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.AbstractCollection;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
 
 import matcher.Matcher;
 import matcher.CMULexicon;
@@ -89,7 +86,9 @@ public class PhonesFromFile {
         List<ArrayList<String>> wordGroups = new ArrayList<ArrayList<String>>();
         ArrayList<String> wordGroup = new ArrayList<String>();
         int currentPhoneIndex = 0;
+//        System.out.println("phones = "+phones);
         for (String phone : phones){
+//        	System.out.println("phone = "+phone);
         	if (phone.trim()=="" && phoneGroup.size()>0){
         		//System.out.println("Adding wordgroup to groups");
         		//System.out.println(wordGroup);
@@ -116,6 +115,10 @@ public class PhonesFromFile {
 	        		currentWordIndex++;
 	        	}*/
         	}
+        	if(currentPhoneIndex+1==phones.size()){
+        		//End of loop. add last phonegroup
+        		phoneGroups.add(phoneGroup);
+        	}
         	currentPhoneIndex++;
         }
         int currentWordIndex = 0;
@@ -140,16 +143,21 @@ public class PhonesFromFile {
         	}
         	wordGroup.add(word);
 //        	System.out.println("Word group: "+wordGroup);
+        	if(currentWordIndex+1==words.size()){
+        		wordGroups.add(wordGroup);
+        	}
         	currentWordIndex++;
         }
 //        System.out.println(wordsTimes);
 //        System.out.println(phoneGroups);
 //        System.out.println(wordGroups);
 //        System.out.println(phoneGroupsStartTimes);
-        
+//        System.out.println(phoneGroups);
         List<Double> phraseRanks = new ArrayList<Double>();
         int currentPhonePhraseIndex = 0;
+//        int[] matchingRanks = {0,0,0,0,0};
         for (ArrayList<String> phonePhrase : phoneGroups){
+        	//System.out.println(phonePhrase);
         	if(phonePhrase.size() > 0){
 		        //Get FeatureSet sequence from phones list
 		        List<FeatureSet> featureSetSequence = new ArrayList<FeatureSet>();
@@ -186,7 +194,7 @@ public class PhonesFromFile {
 //	        	System.out.println("Matches for "+correctWords+":");
 	        	MatchLoop:
 		        for (Matching m : matchings){
-		        	if (matchingsChecked >= 10) {
+		        	if (matchingsChecked >= 5) {
 		        		//If you checked the top 5 or if the next best match can't do better than
 		        		// what you already have
 		        		break;
@@ -196,9 +204,7 @@ public class PhonesFromFile {
 //		        	for (Ranking r : m.getRankings()){
 //		        		System.out.println("\t"+r.getBestProbabilitySet().getWords());
 //		        	}
-		        	PhraseLoop:
 		        	for (Ranking r : m.getRankings()){//each word in a phrase
-		        		Set<String> matchWords = r.getBestProbabilitySet().getWords();
 		        		for (String word : r.getBestProbabilitySet().getWords()){
 //		        			if (correctWords.size() > cwi && correctWords.get(cwi)==word){
 //		        				thisRank += 1.0f/matchWords.size(); //Perfect match for this word
@@ -225,7 +231,8 @@ public class PhonesFromFile {
 		        			cwi++;
 		        		}
 		        	}
-		        	bestRank = 1.0 - 0.1 * matchingsChecked;
+		        	bestRank = 1.0 - 0.2 * matchingsChecked;
+//		        	matchingRanks[matchingsChecked]++;
 //		        	System.out.println("MatchingsChecked = "+matchingsChecked);
 //		        	System.out.println("Rank = "+bestRank);
 		        	bestMatching = m;
@@ -240,12 +247,12 @@ public class PhonesFromFile {
 		        if(bestMatching==null){
 //		        	System.out.println("No best matching found for "+correctWords);
 		        } else {
-//		        	System.out.println(correctWords);
-//			        System.out.println("Best matching: "+bestRank);
-//			        for (Ranking r : bestMatching.getRankings()){
-//			        	System.out.print(r.getBestProbabilitySet().getWords());
-//			        }
-//			        System.out.println("\n");
+		        	System.out.println(correctWords);
+			        System.out.println("Best matching: "+bestRank);
+			        for (Ranking r : bestMatching.getRankings()){
+			        	System.out.print(r.getBestProbabilitySet().getWords());
+			        }
+			        System.out.println("\n");
 		        	phraseRanks.add(bestRank);
 		        }
         	}
@@ -258,6 +265,9 @@ public class PhonesFromFile {
         Double totalRank = rankSum / phraseRanks.size();
         System.out.println(totalRank);
         
+//        for (int i=0; i<5; i++) {
+//        	System.out.println("Correct matchings ranked "+(i+1)+": "+((matchingRanks[i]+0.0f)/phoneGroups.size()));
+//        }
         //Present all the matchings to the user.
 //        for (Matching m : matchings){
 //            System.out.println(String.format("Matching (p = %f):",m.getBestProbability()));
