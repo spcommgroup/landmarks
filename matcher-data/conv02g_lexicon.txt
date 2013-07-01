@@ -1,0 +1,207 @@
+;;; This lexicon is a subset of CMUdict containing words from ../landmarks/matcher-data/conv02g.TextGrid
+;;; It was generated from the CMU dictionary file cmudict.0.7a
+slope  s l ow1 p
+all  ao1 l
+d-  d
+y-  y
+just  jh ah1 s t
+don't  d ow1 n t
+savannah  s ah0 v ae1 n ah0
+gradual  g r ae1 jh uw0 ah0 l
+over  ow1 v er0
+move  m uw1 v
+anyway  eh1 n iy0 w ey2
+four  f ao1 r
+bring  b r ih1 ng
+paper  p ey1 p er0
+through  th r uw1
+go  g ow1
+yes  y eh1 s
+yet  y eh1 t
+cla-  k l ah
+slop  s l aa1 p
+less  l eh1 s
+lake  l ey1 k
+actually  ae1 k ch uw2 ah0 l iy0
+up  ah1 p
+to  t uw1
+going  g ow1 ih0 ng
+circle  s er1 k ah0 l
+do  d uw1
+crash  k r ae1 sh
+around  er0 aw1 n d
+big  b ih1 g
+couple  k ah1 p ah0 l
+stop  s t aa1 p
+mm-kay  m k ey
+five  f ay1 v
+know  n ow1
+half  hh ae1 f
+not  n aa1 t
+bit  b ih1 t
+now  n aw1
+ng-kay  ng k ey
+down  d aw1 n
+we'll  w iy1 l
+like  l ay1 k
+rocks  r aa1 k s
+ignore  ih0 g n ao1 r
+up  ah p
+miles  m ay1 l z
+quarter  k w ao1 r t er0
+where  w eh1 r
+white  w ay t
+isn't  ih1 z ah0 n t
+right  r ay1 t
+elephants  eh1 l ah0 f ah0 n t s
+yeah  y ae1
+straighten  s t r ey1 t ah0 n
+past  p ae1 s t
+see  s iy1
+towards  t ah0 w ao1 r d z
+are  aa1 r
+evens  iy1 v ah0 n z
+out  aw1 t
+even  iy1 v ih0 n
+lake's  l ey1 k s
+gradually  g r ae1 jh uw0 ah0 l iy0
+for  f ao1 r
+bottom  b aa1 t ah0 m
+ways  w ey1 z
+grad[ual]  g r ae jh
+there's  dh eh1 r z
+shouldn't  sh uh1 d ah0 n t
+got  g aa1 t
+across  ah0 k r ao1 s
+be  b iy1
+waterhole  w ao t er hh ow l
+slight  s l ay1 t
+(th)it's  ih t s
+dja!  jh ae
+diagonal  d ay0 ae1 g ah0 n ah0 l
+path  p ae1 th
+come  k ah1 m
+by  b ay1
+wait  w ey1 t
+on  aa1 n
+about  ah0 b aw1 t
+anything  eh1 n iy0 th ih2 ng
+oh  ow1
+of  ah1 v
+keep  k iy1 p
+thing  th ih1 ng
+roman  r ow1 m ah0 n
+i'd  ay1 d
+passing  p ae1 s ih0 ng
+wanna  w aa1 n ah0
+or  ao1 r
+stony  s t ow1 n iy0
+two  t uw1
+'bout  b aw1 t
+antelope  ae1 n t ah0 l ow2 p
+springs  s p r ih1 ng z
+should  sh uh1 d
+your  y ao1 r
+sheet  sh iy1 t
+you're  y uh1 r
+little  l ih1 t ah0 l
+from  f r ah1 m
+would  w uh1 d
+it's  ih1 t s
+top  t aa1 p
+there  dh eh1 r
+three  th r iy1
+long  l ao1 ng
+next  n eh1 k s t
+start  s t aa1 r t
+much  m ah1 ch
+too  t uw1
+way  w ey1
+slopes  s l ow1 p s
+you-  y uw
+inches  ih1 n ch ah0 z
+that  dh ae1 t
+something  s ah1 m th ih0 ng
+collapsed  k ah0 l ae1 p s t
+but  b ah1 t
+hmm  hh m
+probably  p r aa1 b ah0 b l iy0
+line  l ay1 n
+white  w ay1 t
+those  dh ow1 z
+they're  dh eh1 r
+kind  k ay1 n d
+this  dh ih1 s
+steep  s t iy1 p
+straight  s t r ey1 t
+say  s ey1
+um  ah1 m
+so		so  s ow
+near  n ih1 r
+anywhere  eh1 n iy0 w eh2 r
+uh  ah1
+were  w er0
+my  m ay1
+savanna  s ah0 v ae1 n ah0
+and  ah0 n d
+gone  g ao1 n
+then  dh eh1 n
+almost  ao1 l m ow2 s t
+well  w eh1 l
+is  ih1 z
+baths  b ae1 th s
+it  ih1 t
+you've  y uw1 v
+an  ae1 n
+as  ae1 z
+at  ae1 t
+have  hh ae1 v
+in  ih0 n
+actu[ally]  ae k ch uw
+turn  t er1 n
+any  eh1 n iy0
+if  ih1 f
+again  ah0 g eh1 n
+different  d ih1 f er0 ah0 n t
+curving  k er1 v ih0 ng
+no  n ow1
+make  m ey1 k
+six  s ih1 k s
+s  eh1 s
+same  s ey1 m
+f-  f
+hot  hh aa1 t
+take  t ey1 k
+s-  s
+inch  ih1 n ch
+you  y uw1
+really  r ih1 l iy0
+slate  s l ey1 t
+sloping  s l ow1 p ih0 ng
+map  m ae1 p
+finish  f ih1 n ih0 sh
+okay  ow2 k ey1
+mountain  m aw1 n t ah0 n
+shelter  sh eh1 l t er0
+after  ae1 f t er0
+a-  ae
+what  w ah1 t
+wells  w eh1 l z
+plane  p l ey1 n
+kinda  k ih1 n d ah0
+cur-  k er
+desert  d eh1 z er0 t
+upwards  ah1 p w er0 d z
+a  ah0
+i  ay1
+maybe  m ey1 b iy0
+curve  k er1 v
+you'll  y uw1 l
+rome  r ow1 m
+so  s ow1
+alright  ao2 l r ay1 t
+(a)  ah
+the  dh ah0
+that's  dh ae1 t s
+starting  s t aa1 r t ih0 ng
+left  l eh1 f t

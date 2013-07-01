@@ -1,0 +1,158 @@
+;;; This lexicon is a subset of CMUdict containing words from ../landmarks/matcher-data/conv06g.TextGrid
+;;; It was generated from the CMU dictionary file cmudict.0.7a
+all  ao1 l
+just  jh ah1 s t
+don't  d ow1 n t
+paper  p ey1 p er0
+through  th r uw1
+go  g ow1
+follow  f aa1 l ow0
+yes  y eh1 s
+horizontally  hh ao2 r ih0 z aa1 n t ah0 l iy0
+rocket  r aa1 k ah0 t
+had  hh ae1 d
+should  sh uh1 d
+to  t uw1
+going  g ow1 ih0 ng
+under  ah1 n d er0
+sorry  s aa1 r iy0
+do  d uw1
+around  er0 aw1 n d
+get  g eh1 t
+far  f aa1 r
+big  b ih1 g
+gonna  g aa1 n ah0
+coast  k ow1 s t
+inch  ih1 n ch
+know  n ow1
+they  dh ey1
+bit  b ih1 t
+now  n aw1
+lefthand  l eh0 f t hh ae1 n d
+ng-kay  ng k ey
+like  l ay1 k
+shaped  sh ey1 p t
+did  d ih1 d
+fields  f iy1 l d z
+l-  l
+l  eh1 l
+bay  b ey1
+went  w eh1 n t
+cliffs  k l ih1 f s
+dip  d ih1 p
+page  p ey1 jh
+mean  m iy1 n
+right  r ay1 t
+old  ow1 l d
+another  ah0 n ah1 dh er0
+positioned  p ah0 z ih1 sh ah0 n d
+yeah  y ae1
+are  aa1 r
+corner  k ao1 r n er0
+er  er0
+what  w ah1 t
+bottom  b aa1 t ah0 m
+away  ah0 w ey1
+there's  dh eh1 r z
+above  ah0 b ah1 v
+between  b ih0 t w iy1 n
+across  ah0 k r ao1 s
+be  b iy1
+we  w iy1
+wheat  w iy1 t
+little  l ih1 t ah0 l
+perpendicular  p er2 p ah0 n d ih1 k y ah0 l er0
+along  ah0 l ao1 ng
+on  aa1 n
+c  s iy1
+oh  ow1
+of  ah1 v
+o  ow1
+side  s ay1 d
+thing  th ih1 ng
+cave(f)  k ey v
+upperhand  ah p er hh ae n d
+where  w eh1 r
+i'm  ay1 m
+makes  m ey1 k s
+into  ih0 n t uw1
+down  d aw1 n
+directly  d er0 eh1 k t l iy0
+your  y ao1 r
+canal  k ah0 n ae1 l
+you're  y uh1 r
+lighthouse  l ay1 t hh aw2 s
+from  f r ah1 m
+would  w uh1 d
+it's  ih1 t s
+top  t aa1 p
+there  dh eh1 r
+next  n eh1 k s t
+start  s t aa1 r t
+too  t uw1
+way  w ey1
+type  t ay1 p
+more  m ao1 r
+that  dh ae1 t
+some  s ah1 m
+exactly  ih0 g z ae1 k t l iy0
+about  ah0 b aw1 t
+but  b ah1 t
+crane  k r ey1 n
+those  dh ow1 z
+kind  k ay1 n d
+word  w er1 d
+look  l uh1 k
+straight  s t r ey1 t
+pretend  p r iy0 t eh1 n d
+up  ah1 p
+n  eh1 n
+um  ah1 m
+below  b ih0 l ow1
+yup  y ah1 p
+following  f aa1 l ow0 ih0 ng
+my  m ay1
+and  ah0 n d
+stream  s t r iy1 m
+then  dh eh1 n
+is  ih1 z
+didn't  d ih1 d ah0 n t
+it  ih1 t
+an  ae1 n
+say  s ey1
+at  ae1 t
+have  hh ae1 v
+in  ih0 n
+if  ih1 f
+again  ah0 g eh1 n
+end  eh1 n d
+no  n ow1
+make  m ey1 k
+pine  p ay1 n
+also  ao1 l s ow0
+forest  f ao1 r ah0 s t
+forge  f ao1 r jh
+you  y uw1
+map  m ae1 p
+finish  f ih1 n ih0 sh
+okay  ow2 k ey1
+where's  w eh1 r z
+warehouse  w eh1 r hh aw2 s
+kinda  k ih1 n d ah0
+righthand  r ay0 t hh ae1 n d
+horizontal  hh ao2 r ah0 z aa1 n t ah0 l
+cliff  k l ih1 f
+a  ah0
+lower  l ow1 er0
+e  iy1
+i  ay1
+wanna  w aa1 n ah0
+space  s p ey1 s
+curve  k er1 v
+bakery  b ey1 k er0 iy0
+so  s ow1
+very  v eh1 r iy0
+the  dh ah0
+once  w ah1 n s
+starting  s t aa1 r t ih0 ng
+left  l eh1 f t

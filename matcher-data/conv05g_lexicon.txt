@@ -1,0 +1,162 @@
+;;; This lexicon is a subset of CMUdict containing words from ../landmarks/matcher-data/conv05g.TextGrid
+;;; It was generated from the CMU dictionary file cmudict.0.7a
+all  ao1 l
+just  jh ah1 s t
+over  ow1 v er0
+starting  s t aa1 r t ih0 ng
+page  p ey1 jh
+quarters  k w ao1 r t er0 z
+four  f ao1 r
+paper  p ey1 p er0
+looks  l uh1 k s
+go  g ow1
+headin  hh eh d ih n
+still  s t ih1 l
+yet  y eh1 t
+hump  hh ah1 m p
+should  sh uh1 d
+to  t uw1
+going  g ow1 ih0 ng
+under  ah1 n d er0
+do  d uw1
+them  dh eh1 m
+above  ah0 b ah1 v
+get  g eh1 t
+very  v eh1 r iy0
+big  b ih1 g
+gonna  g aa1 n ah0
+underneath  ah2 n d er0 n iy1 th
+you've  y uw1 v
+half  hh ae1 f
+not  n aa1 t
+bit  b ih1 t
+now  n aw1
+lefthand  l eh0 f t hh ae1 n d
+mushroom  m ah1 sh r uw0 m
+like  l ay1 k
+yeah  y ae1
+rocks  r aa1 k s
+leave  l iy1 v
+that's  dh ae1 t s
+heading  hh eh1 d ih0 ng
+upper  ah1 p er0
+right  r ay1 t
+creek  k r iy1 k
+back  b ae1 k
+around  er0 aw1 n d
+up  ah1 p
+mm-  m
+slanting  s l ae1 n t ih0 ng
+see  s iy1
+cattle  k ae1 t ah0 l
+uh  ah1
+click  k l ih1 k
+out  aw1 t
+wide  w ay1 d
+bottom  b aa1 t ah0 m
+yup  y ah1 p
+there's  dh eh1 r z
+goes  g ow1 z
+between  b ih0 t w iy1 n
+(o)kay  k ey
+cause  k aa1 z
+side  s ay1 d
+be  b iy1
+slight  s l ay1 t
+diagonal  d ay0 ae1 g ah0 n ah0 l
+apache  ah0 p ae1 ch iy0
+come  k ah1 m
+on  aa1 n
+c  s iy1
+backwards  b ae1 k w er0 d z
+anything  eh1 n iy0 th ih2 ng
+of  ah1 v
+keep  k iy1 p
+s  eh1 s
+or  ao1 r
+comes  k ah1 m z
+hea-  hh eh
+whatever  w ah2 t eh1 v er0
+one  w ah1 n
+down  d aw1 n
+pole  p ow1 l
+directly  d er0 eh1 k t l iy0
+your  y ao1 r
+city  s ih1 t iy0
+little  l ih1 t ah0 l
+from  f r ah1 m
+it's  ih1 t s
+top  t aa1 p
+there  dh eh1 r
+three  th r iy1
+fast  f ae1 s t
+then  dh eh1 n
+flat  f l ae1 t
+diamond  d ay1 m ah0 n d
+inches  ih1 n ch ah0 z
+that  dh ae1 t
+something  s ah1 m th ih0 ng
+exactly  ih0 g z ae1 k t l iy0
+about  ah0 b aw1 t
+but  b ah1 t
+it  ih1 t
+ap-  ae p
+line  l ay1 n
+fort  f ao1 r t
+walled  w ao1 l d
+kind  k ay1 n d
+made  m ey1 d
+word  w er1 d
+this  dh ih1 s
+straight  s t r ey1 t
+pretend  p r iy0 t eh1 n d
+say  s ey1
+below  b ih0 l ow1
+can  k ae1 n
+were  w er0
+making  m ey1 k ih0 ng
+toward  t ah0 w ao1 r d
+carved  k aa1 r v d
+and  ah0 n d
+swerve  s w er1 v
+ranch  r ae1 n ch
+eventually  ih0 v eh1 n ch ah0 w ah0 l iy0
+almost  ao1 l m ow2 s t
+is  ih1 z
+mine  m ay1 n
+an  ae1 n
+middle  m ih1 d ah0 l
+as  ae1 z
+at  ae1 t
+have  hh ae1 v
+in  ih0 n
+if  ih1 f
+curving  k er1 v ih0 ng
+graveyard  g r ey1 v y aa2 r d
+no  n ow1
+make  m ey1 k
+tip  t ih1 p
+till  t ih1 l
+inch  ih1 n ch
+you  y uw1
+you're  y uh1 r
+finish  f ih1 n ih0 sh
+okay  ow2 k ey1
+a-  ae
+slant  s l ae1 n t
+stay  s t ey1
+two  t uw1
+kinda  k ih1 n d ah0
+else  eh1 l s
+a  ah0
+maybe  m ey1 b iy0
+camp  k ae1 m p
+curve  k er1 v
+you'll  y uw1 l
+edge  eh1 jh
+so  s ow1
+the  dh ah0
+backward  b ae1 k w er0 d
+buffalo  b ah1 f ah0 l ow2
+came  k ey1 m
+left  l eh1 f t

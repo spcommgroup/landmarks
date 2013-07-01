@@ -1,0 +1,262 @@
+;;; This lexicon is a subset of CMUdict containing words from ../landmarks/matcher-data/conv10g.TextGrid
+;;; It was generated from the CMU dictionary file cmudict.0.7a
+saying  s ey1 ih0 ng
+all  ao1 l
+forget  f er0 g eh1 t
+just  jh ah1 s t
+don't  d ow1 n t
+savannah  s ah0 v ae1 n ah0
+antelope  ae1 n t ah0 l ow2 p
+four  f ao1 r
+shape  sh ey1 p
+paper  p ey1 p er0
+through  th r uw1
+go  g ow1
+follow  f aa1 l ow0
+yes  y eh1 s
+waterhole  w ao t er h ow l
+help  hh eh1 l p
+one  w ah1 n
+horizontally  hh ao2 r ih0 z aa1 n t ah0 l iy0
+mm-hmm  m hh m
+fix  f ih1 k s
+less  l eh1 s
+except  ih0 k s eh1 p t
+actually  ae1 k ch uw2 ah0 l iy0
+to  t uw1
+going  g ow1 ih0 ng
+circle  s er1 k ah0 l
+might  m ay1 t
+rectangle  r eh1 k t ae0 ng g ah0 l
+do  d uw1
+them  dh eh1 m
+good  g uh1 d
+crash  k r ae1 sh
+above  ah0 b ah1 v
+yep  y eh1 p
+like  l ay k
+far  f aa1 r
+big  b ih1 g
+slate  s l ey1 t
+stop  s t aa1 p
+gonna  g aa1 n ah0
+five  f ay1 v
+know  n ow1
+half  hh ae1 f
+not  n aa1 t
+bit  b ih1 t
+now  n aw1
+lefthand  l eh0 f t hh ae1 n d
+like  l ay1 k
+did  d ih1 d
+drop  d r aa1 p
+stopped  s t aa1 p t
+oooh  uw1
+finishing  f ih1 n ih0 sh ih0 ng
+quarter  k w ao1 r t er0
+where  w eh1 r
+round  r aw1 n d
+towards  t ah0 w ao1 r d z
+it'll  ih1 t ah0 l
+right  r ay1 t
+elephants  eh1 l ah0 f ah0 n t s
+doing  d uw1 ih0 ng
+w-  w
+back  b ae1 k
+up  ah1 p
+past  p ae1 s t
+see  s iy1
+sure  sh uh1 r
+are  aa1 r
+perfect  p er0 f eh1 k t
+ummm  ah m
+curious  k y uh1 r iy0 ah0 s
+rectangular  r eh0 k t ae1 ng g y ah0 l er0
+out  aw1 t
+will  w ih1 l
+what  w ah1 t
+said  s eh1 d
+this'll  dh ih1 s ah0 l
+for  f ao1 r
+bottom  b aa1 t ah0 m
+mine  m ay1 n
+god  g aa1 d
+away  ah0 w ey1
+sites  s ay1 t s
+your  y ao1 r
+looking  l uh1 k ih0 ng
+shelter  sh eh1 l t er0
+outside  aw1 t s ay1 d
+shouldn't  sh uh1 d ah0 n t
+goes  g ow1 z
+probably  p r aa1 b ah0 b l iy0
+nope  n ow1 p
+across  ah0 k r ao1 s
+told  t ow1 l d
+be  b iy1
+ends  eh1 n d z
+d'you  d y uw
+vertical  v er1 t ih0 k ah0 l
+slight  s l ay1 t
+little  l ih1 t ah0 l
+we  w iy1
+nowhere  n ow1 w eh2 r
+stay  s t ey1
+by  b ay1
+both  b ow1 th
+about  ah0 b aw1 t
+antelopes  ae n t ah l ow p s
+ahead  ah0 hh eh1 d
+oh  ow1
+of  ah1 v
+route  r uw1 t
+barely  b eh1 r l iy0
+parts  p aa1 r t s
+side  s ay1 d
+turn  t er1 n
+roman  r ow1 m ah0 n
+i'd  ay1 d
+i'm  ay1 m
+mean  m iy1 n
+slightly  s l ay1 t l iy0
+or  ao1 r
+stony  s t ow1 n iy0
+point  p oy1 n t
+while  w ay1 l
+root  r uw1 t
+lake  l ey1 k
+down  d aw1 n
+square  s k w eh1 r
+done  d ah1 n
+tiny  t ay1 n iy0
+thick  th ih1 k
+should  sh uh1 d
+straight  s t r ey1 t
+you're  y uh1 r
+guess  g eh1 s
+from  f r ah1 m
+almo-  ao l m ow
+would  w uh1 d
+area  eh1 r iy0 ah0
+that's  dh ae1 t s
+it's  ih1 t s
+top  t aa1 p
+there  dh eh1 r
+savannah'll  s ah v ae n ah l
+three  th r iy1
+long  l ao1 ng
+next  n eh1 k s t
+breath  b r eh1 th
+start  s t aa1 r t
+savann-  s ah v ae n
+too  t uw1
+way  w ey1
+which  w ih1 ch
+white  w ay1 t
+really  r ih1 l iy0
+more  m ao1 r
+inches  ih1 n ch ah0 z
+on  aa1 n
+started  s t aa1 r t ah0 d
+collapsed  k ah0 l ae1 p s t
+exactly  ih0 g z ae1 k t l iy0
+great  g r ey1 t
+but  b ah1 t
+it  ih1 t
+hmm  hh m
+dow-  d aw
+ooh  uw1
+that'll  dh ae1 t ah0 l
+line  l ay1 n
+spot  s p aa t
+with  w ih1 dh
+sorry  s aa1 r iy0
+those  dh ow1 z
+they're  dh eh1 r
+kind  k ay1 n d
+made  m ey1 d
+look  l uh1 k
+this  dh ih1 s
+inside  ih0 n s ay1 d
+j  jh ey1
+say  s ey1
+air  eh1 r
+um  ah1 m
+near  n ih1 r
+yup  y ah1 p
+following  f aa1 l ow0 ih0 ng
+making  m ey1 k ih0 ng
+toward  t ah0 w ao1 r d
+my  m ay1
+loop  l uw1 p
+and  ah0 n d
+nearest  n ih1 r ah0 s t
+want  w aa1 n t
+s-  s
+then  dh eh1 n
+almost  ao1 l m ow2 s t
+ah  aa1
+is  ih1 z
+describe  d ih0 s k r ay1 b
+confused  k ah0 n f y uw1 z d
+an  ae1 n
+middle  m ih1 d ah0 l
+as  ae1 z
+at  ae1 t
+have  hh ae1 v
+baths  b ae1 th s
+curved  k er1 v d
+ma-  m aa
+well  w eh1 l
+around  er0 aw1 n d
+yeah  y ae1
+mountain  m aw1 n t ah0 n
+end  eh1 n d
+no  n ow1
+make  m ey1 k
+that  dh ae1 t
+when  w eh1 n
+same  s ey1 m
+how  hh aw1
+other  ah1 dh er0
+holding  hh ow1 l d ih0 ng
+inch  ih1 n ch
+instead  ih0 n s t eh1 d
+you  y uw1
+if  ih1 f
+what's  w ah1 t s
+circular  s er1 k y ah0 l er0
+draw  d r ao1
+finish  f ih1 n ih0 sh
+okay  ow2 k ey1
+though  dh ow1
+our  aw1 er0
+after  ae1 f t er0
+slant  s l ae1 n t
+those'll  dh ow z l
+hand  hh ae1 n d
+plane  p l ey1 n
+two  t uw1
+kinda  k ih1 n d ah0
+uh-oh  ah ow
+width-wise  w ih d th w ay z
+desert  d eh1 z er0 t
+hh-  hh
+a  ah0
+in  ih0 n
+center  s eh1 n t er0
+i  ay1
+maybe  m ey1 b iy0
+went  w eh1 n t
+curve  k er1 v
+think  th ih1 ng k
+so  s ow1
+we're  w iy1 r
+site  s ay1 t
+alright  ao2 l r ay1 t
+the  dh ah0
+once  w ah1 n s
+starting  s t aa1 r t ih0 ng
+yours  y uh1 r z
+came  k ey1 m
+left  l eh1 f t
