@@ -2,7 +2,6 @@
 ;;; It was generated from the CMU dictionary file cmudict.0.7a
 thirty  th er1 d iy0
 all  ao1 l
-y-  y
 just  jh ah1 s t
 over  ow1 v er0
 soon  s uw1 n
@@ -13,7 +12,6 @@ looks  l uh1 k s
 counterclockwise  k aw2 n t er0 k l ao1 k w ay0 z
 go  g ow1
 mill  m ih1 l
-ver-  v er
 halfway  hh ae1 f w ey1
 farmed  f aa1 r m d
 till  t ih1 l
@@ -28,14 +26,11 @@ do  d uw1
 hit  hh ih1 t
 above  ah0 b ah1 v
 very  v eh1 r iy0
-aba-  ae b ae
 underneath  ah2 n d er0 n iy1 th
 test  t eh1 s t
 five  f ay1 v
 front  f r ah1 n t
 bit  b ih1 t
-ng-kay  ng k ey
-(just)  j ah s t
 like  l ay1 k
 follows  f aa1 l ow0 z
 yeah  y ae1
@@ -49,7 +44,6 @@ right  r ay1 t
 old  ow1 l d
 meadow  m eh1 d ow2
 fence  f eh1 n s
-b-  b
 back  b ae1 k
 past  p ae1 s t
 see  s iy1
@@ -59,7 +53,6 @@ close  k l ow1 s
 bottom  b aa1 t ah0 m
 nuclear  n uw1 k l iy0 er0
 forty  f ao1 r t iy0
-nn-northwest  n ao r th w eh s t
 there's  dh eh1 r z
 goes  g ow1 z
 paradise  p eh1 r ah0 d ay2 s
@@ -74,7 +67,6 @@ anything  eh1 n iy0 th ih2 ng
 canadian  k ah0 n ey1 d iy0 ah0 n
 of  ah1 v
 could  k uh1 d
-ab-  ae b
 round  r aw1 n d
 uh  ah1
 thing  th ih1 ng
@@ -83,13 +75,10 @@ west  w eh1 s t
 slightly  s l ay1 t l iy0
 or  ao1 r
 south  s aw1 th
-mm-hmm  m hh m
 while  w ay1 l
 one  w ah1 n
 down  d aw1 n
-ba-  b aa
 directly  d er0 eh1 k t l iy0
-h-  hh
 marker  m aa1 r k er0
 you're  y uh1 r
 guess  g eh1 s
@@ -114,15 +103,11 @@ but  b ah1 t
 site  s ay1 t
 part  p aa1 r t
 basically  b ey1 s ih0 k l iy0
-two-thirds  t uw th er d z
 cottage  k aa1 t ah0 jh
 line  l ay1 n
 than  dh ae1 n
-east(ly)  iy s t l iy
 kind  k ay1 n d
-l-  l
 abandoned  ah0 b ae1 n d ah0 n d
-mar-  m aa r
 straight  s t r ey1 t
 oh  ow1
 up  ah1 p
@@ -147,14 +132,11 @@ around  er0 aw1 n d
 again  ah0 g eh1 n
 colle  k ow1 l
 angle  ae1 ng g ah0 l
-bel-  b eh l
 no  n ow1
 when  w eh1 n
 til  t ih1 l
 how  hh aw1
-th-  th
 forest  f ao1 r ah0 s t
-s-  s
 inch  ih1 n ch
 you  y uw1
 if  ih1 f
@@ -168,7 +150,6 @@ after  ae1 f t er0
 slant  s l ae1 n t
 stay  s t ey1
 let's  l eh1 t s
-sla-  s l ae
 peak  p iy1 k
 kinda  k ih1 n d ah0
 horizontal  hh ao2 r ah0 z aa1 n t ah0 l
@@ -177,7 +158,6 @@ land  l ae1 n d
 third  th er1 d
 i  ay1
 maybe  m ey1 b iy0
-coll-  k ah l
 curve  k er1 v
 dog  d ao1 g
 curvy  k er1 v iy0

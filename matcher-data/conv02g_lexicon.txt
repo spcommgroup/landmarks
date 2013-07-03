@@ -2,8 +2,6 @@
 ;;; It was generated from the CMU dictionary file cmudict.0.7a
 slope  s l ow1 p
 all  ao1 l
-d-  d
-y-  y
 just  jh ah1 s t
 don't  d ow1 n t
 savannah  s ah0 v ae1 n ah0
@@ -18,7 +16,6 @@ through  th r uw1
 go  g ow1
 yes  y eh1 s
 yet  y eh1 t
-cla-  k l ah
 slop  s l aa1 p
 less  l eh1 s
 lake  l ey1 k
@@ -33,24 +30,19 @@ around  er0 aw1 n d
 big  b ih1 g
 couple  k ah1 p ah0 l
 stop  s t aa1 p
-mm-kay  m k ey
 five  f ay1 v
 know  n ow1
 half  hh ae1 f
 not  n aa1 t
 bit  b ih1 t
 now  n aw1
-ng-kay  ng k ey
-down  d aw1 n
 we'll  w iy1 l
 like  l ay1 k
 rocks  r aa1 k s
 ignore  ih0 g n ao1 r
-up  ah p
 miles  m ay1 l z
 quarter  k w ao1 r t er0
 where  w eh1 r
-white  w ay t
 isn't  ih1 z ah0 n t
 right  r ay1 t
 elephants  eh1 l ah0 f ah0 n t s
@@ -68,17 +60,14 @@ gradually  g r ae1 jh uw0 ah0 l iy0
 for  f ao1 r
 bottom  b aa1 t ah0 m
 ways  w ey1 z
-grad[ual]  g r ae jh
 there's  dh eh1 r z
 shouldn't  sh uh1 d ah0 n t
 got  g aa1 t
 across  ah0 k r ao1 s
 be  b iy1
-waterhole  w ao t er hh ow l
 slight  s l ay1 t
-(th)it's  ih t s
-dja!  jh ae
 diagonal  d ay0 ae1 g ah0 n ah0 l
+white  w ay1 t
 path  p ae1 th
 come  k ah1 m
 by  b ay1
@@ -97,7 +86,7 @@ wanna  w aa1 n ah0
 or  ao1 r
 stony  s t ow1 n iy0
 two  t uw1
-'bout  b aw1 t
+down  d aw1 n
 antelope  ae1 n t ah0 l ow2 p
 springs  s p r ih1 ng z
 should  sh uh1 d
@@ -118,16 +107,14 @@ much  m ah1 ch
 too  t uw1
 way  w ey1
 slopes  s l ow1 p s
-you-  y uw
 inches  ih1 n ch ah0 z
 that  dh ae1 t
 something  s ah1 m th ih0 ng
 collapsed  k ah0 l ae1 p s t
 but  b ah1 t
-hmm  hh m
 probably  p r aa1 b ah0 b l iy0
 line  l ay1 n
-white  w ay1 t
+'bout b aw t
 those  dh ow1 z
 they're  dh eh1 r
 kind  k ay1 n d
@@ -136,7 +123,6 @@ steep  s t iy1 p
 straight  s t r ey1 t
 say  s ey1
 um  ah1 m
-so		so  s ow
 near  n ih1 r
 anywhere  eh1 n iy0 w eh2 r
 uh  ah1
@@ -157,7 +143,6 @@ as  ae1 z
 at  ae1 t
 have  hh ae1 v
 in  ih0 n
-actu[ally]  ae k ch uw
 turn  t er1 n
 any  eh1 n iy0
 if  ih1 f
@@ -169,10 +154,8 @@ make  m ey1 k
 six  s ih1 k s
 s  eh1 s
 same  s ey1 m
-f-  f
 hot  hh aa1 t
 take  t ey1 k
-s-  s
 inch  ih1 n ch
 you  y uw1
 really  r ih1 l iy0
@@ -184,12 +167,10 @@ okay  ow2 k ey1
 mountain  m aw1 n t ah0 n
 shelter  sh eh1 l t er0
 after  ae1 f t er0
-a-  ae
 what  w ah1 t
 wells  w eh1 l z
 plane  p l ey1 n
 kinda  k ih1 n d ah0
-cur-  k er
 desert  d eh1 z er0 t
 upwards  ah1 p w er0 d z
 a  ah0
@@ -200,7 +181,6 @@ you'll  y uw1 l
 rome  r ow1 m
 so  s ow1
 alright  ao2 l r ay1 t
-(a)  ah
 the  dh ah0
 that's  dh ae1 t s
 starting  s t aa1 r t ih0 ng

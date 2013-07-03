@@ -1,8 +1,6 @@
 ;;; This lexicon is a subset of CMUdict containing words from ../landmarks/matcher-data/conv12g.TextGrid
 ;;; It was generated from the CMU dictionary file cmudict.0.7a
 all  ao1 l
-t-  t
-y-  y
 just  jh ah1 s t
 don't  d ow1 n t
 over  ow1 v er0
@@ -22,7 +20,6 @@ only  ow1 n l iy0
 going  g ow1 ih0 ng
 circle  s er1 k ah0 l
 has  hh ae1 z
-route's  r uw t s
 do  d uw1
 above  ah0 b ah1 v
 get  g eh1 t
@@ -31,16 +28,13 @@ gonna  g aa1 n ah0
 inch  ih1 n ch
 five  f ay1 v
 know  n ow1
-'til  t ih1 l
 half  hh ae1 f
 not  n aa1 t
 bit  b ih1 t
 now  n aw1
-ng-kay  ng k ey
 like  l ay1 k
 bulge  b ah1 l jh
 fields  f iy1 l d z
-l-  l
 bay  b ey1
 this  dh ih1 s
 continue  k ah0 n t ih1 n y uw0
@@ -49,6 +43,7 @@ cliffs  k l ih1 f s
 where  w eh1 r
 heading  hh eh1 d ih0 ng
 it'll  ih1 t ah0 l
+em  eh1 m
 upper  ah1 p er0
 right  r ay1 t
 old  ow1 l d
@@ -63,6 +58,7 @@ what  w ah1 t
 for  f ao1 r
 yup  y ah1 p
 forty  f ao1 r t iy0
+re  r ey1
 outside  aw1 t s ay1 d
 does  d ah1 z
 goes  g ow1 z
@@ -73,7 +69,6 @@ cause  k aa1 z
 be  b iy1
 we  w iy1
 wheat  w iy1 t
-d'you  d y uw
 degree  d ih0 g r iy1
 little  l ih1 t ah0 l
 stay  s t ey1
@@ -96,7 +91,6 @@ down  d aw1 n
 says  s eh1 z
 clockwise  k l aa1 k w ay2 z
 your  y ao1 r
-'em  ah0 m
 size  s ay1 z
 canal  k ah0 n ae1 l
 you're  y uh1 r
@@ -111,12 +105,10 @@ next  n eh1 k s t
 start  s t aa1 r t
 too  t uw1
 way  w ey1
-b-  b
 really  r ih1 l iy0
 we're  w iy1 r
 sort  s ao1 r t
 building  b ih1 l d ih0 ng
-mis-  m ih s
 wanna  w aa1 n ah0
 that  dh ae1 t
 but  b ah1 t
@@ -126,19 +118,16 @@ trying  t r ay1 ih0 ng
 wide  w ay1 d
 kind  k ay1 n d
 ahead  ah0 hh eh1 d
-mmkay  m k ey
 these  dh iy1 z
 was  w aa1 z
 straight  s t r ey1 t
 say  s ey1
 um  ah1 m
 below  b ih0 l ow1
-'re  r
 can  k ae1 n
 maybe  m ey1 b iy0
 making  m ey1 k ih0 ng
 called  k ao1 l d
-p-  p
 and  ah0 n d
 stream  s t r iy1 m
 then  dh eh1 n
@@ -161,7 +150,7 @@ no  n ow1
 make  m ey1 k
 you'll  y uw1 l
 pine  p ay1 n
-f-  f
+til  t ih1 l
 how  hh aw1
 forest  f ao1 r ah0 s t
 forge  f ao1 r jh
@@ -175,12 +164,10 @@ though  dh ow1
 hand  hh ae1 n d
 where's  w eh1 r z
 warehouse  w eh1 r hh aw2 s
-i-  i
 two  t uw1
 kinda  k ih1 n d ah0
 why  w ay1
 a  ah0
-n-  n
 i  ay1
 light  l ay1 t
 curve  k er1 v

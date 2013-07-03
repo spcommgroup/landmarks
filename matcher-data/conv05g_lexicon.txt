@@ -10,7 +10,6 @@ four  f ao1 r
 paper  p ey1 p er0
 looks  l uh1 k s
 go  g ow1
-headin  hh eh d ih n
 still  s t ih1 l
 yet  y eh1 t
 hump  hh ah1 m p
@@ -45,7 +44,6 @@ creek  k r iy1 k
 back  b ae1 k
 around  er0 aw1 n d
 up  ah1 p
-mm-  m
 slanting  s l ae1 n t ih0 ng
 see  s iy1
 cattle  k ae1 t ah0 l
@@ -58,7 +56,6 @@ yup  y ah1 p
 there's  dh eh1 r z
 goes  g ow1 z
 between  b ih0 t w iy1 n
-(o)kay  k ey
 cause  k aa1 z
 side  s ay1 d
 be  b iy1
@@ -75,7 +72,6 @@ keep  k iy1 p
 s  eh1 s
 or  ao1 r
 comes  k ah1 m z
-hea-  hh eh
 whatever  w ah2 t eh1 v er0
 one  w ah1 n
 down  d aw1 n
@@ -100,7 +96,6 @@ exactly  ih0 g z ae1 k t l iy0
 about  ah0 b aw1 t
 but  b ah1 t
 it  ih1 t
-ap-  ae p
 line  l ay1 n
 fort  f ao1 r t
 walled  w ao1 l d
@@ -142,7 +137,6 @@ you  y uw1
 you're  y uh1 r
 finish  f ih1 n ih0 sh
 okay  ow2 k ey1
-a-  ae
 slant  s l ae1 n t
 stay  s t ey1
 two  t uw1

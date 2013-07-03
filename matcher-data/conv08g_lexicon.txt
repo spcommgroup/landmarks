@@ -17,7 +17,6 @@ go  g ow1
 follow  f aa1 l ow0
 yes  y eh1 s
 still  s t ih1 l
-  ah g l iy
 now  n aw1
 lake  l ey1 k
 should  sh uh1 d
@@ -30,7 +29,6 @@ do  d uw1
 them  dh eh1 m
 hit  hh ih1 t
 around  er0 aw1 n d
-ug-  ah g l iy
 get  g eh1 t
 far  f aa1 r
 slate  s l ey1 t
@@ -43,11 +41,9 @@ half  hh ae1 f
 not  n aa1 t
 bit  b ih1 t
 little  l ih1 t ah0 l
-ha-  h ae
 steeper  s t iy1 p er0
 like  l ay1 k
 h  ey1 ch
-ng-  ng
 went  w eh1 n t
 quarter  k w ao1 r t er0
 where  w eh1 r
@@ -69,7 +65,6 @@ away  ah0 w ey1
 yup  y ah1 p
 lean  l iy1 n
 near  n ih1 r
-crat-  k r ae t
 written  r ih1 t ah0 n
 does  d ah1 z
 finger  f ih1 ng g er0
@@ -86,7 +81,6 @@ anything  eh1 n iy0 th ih2 ng
 of  ah1 v
 turn  t er1 n
 roman  r ow1 m ah0 n
-st-  s t
 i'm  ay1 m
 wanna  w aa1 n ah0
 stony  s t ow1 n iy0

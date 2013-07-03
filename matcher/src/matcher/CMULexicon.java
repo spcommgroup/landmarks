@@ -28,6 +28,7 @@ public class CMULexicon extends Lexicon{
             String[] parts = line.split("  ");
             if (parts.length != 2){
                 br.close();
+                System.out.println(line);
                 throw new IOException("Malformed CMU dictionary.");
             }
             String[] phones = parts[1].split(" ");

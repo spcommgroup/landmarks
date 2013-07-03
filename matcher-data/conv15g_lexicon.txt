@@ -11,7 +11,6 @@ follow  f aa1 l ow0
 mill  m ih1 l
 its  ih1 t s
 farmed  f aa1 r m d
-mm-hmm  m hh m
 fenced  f eh1 n s t
 lake  l ey1 k
 to  t uw1
@@ -26,7 +25,6 @@ do  d uw1
 them  dh eh1 m
 triangle  t r ay1 ae2 ng g ah0 l
 above  ah0 b ah1 v
-ug-  ah g
 get  g eh1 t
 very  v eh1 r iy0
 test  t eh1 s t
@@ -38,16 +36,13 @@ bit  b ih1 t
 chimney  ch ih1 m n iy0
 feet  f iy1 t
 like  l ay1 k
-appart  ah p aa r t
 follows  f aa1 l ow0 z
-basicaly  b ey s ih k l iy
 yeah  y ae1
 x  eh1 k s
 told  t ow1 l d
 where  w eh1 r
 page  p ey1 jh
 two  t uw1
-thing-k  th ih ng k
 right  r ay1 t
 old  ow1 l d
 meadow  m eh1 d ow2
@@ -92,10 +87,8 @@ whatever  w ah2 t eh1 v er0
 one  w ah1 n
 down  d aw1 n
 another  ah0 n ah1 dh er0
-h-  hh
 marker  m aa1 r k er0
 your  y ao1 r
-actualy  ae k ch uw ah l iy
 guess  g eh1 s
 from  f r ah1 m
 picket  p ih1 k ih0 t
@@ -108,7 +101,6 @@ mark  m aa1 r k
 start  s t aa1 r t
 until  ah0 n t ih1 l
 more  m ao1 r
-knnow  n ow
 inches  ih1 n ch ah0 z
 that  dh ae1 t
 but  b ah1 t
@@ -116,7 +108,6 @@ site  s ay1 t
 cottage  k aa1 t ah0 jh
 line  l ay1 n
 with  w ih1 dh
-howw  hh aw
 wide  w ay1 d
 kind  k ay1 n d
 has  hh ae1 z
@@ -126,7 +117,6 @@ oh  ow1
 tree  t r iy1
 up  ah1 p
 um  ah1 m
-quaters  k w ao r t er z
 below  b ih0 l ow1
 can  k ae1 n
 monument  m aa1 n y uw0 m ah0 n t
@@ -167,7 +157,6 @@ slightly  s l ay1 t l iy0
 after  ae1 f t er0
 stay  s t ey1
 where's  w eh1 r z
-inbetween  ih n b ih t w iy n
 eight  ey1 t
 peak  p iy1 k
 kinda  k ih1 n d ah0

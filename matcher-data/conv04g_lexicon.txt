@@ -23,7 +23,6 @@ warehouse  w eh1 r hh aw2 s
 they  dh ey1
 not  n aa1 t
 bit  b ih1 t
-ha-  hh ae
 like  l ay1 k
 fields  f iy1 l d z
 bay  b ey1
@@ -33,7 +32,6 @@ page  p ey1 jh
 right  r ay1 t
 old  ow1 l d
 another  ah0 n ah1 dh er0
-w-  w
 yeah  y ae1
 see  s iy1
 are  aa1 r
@@ -48,7 +46,6 @@ got  g aa1 t
 side  s ay1 d
 be  b iy1
 wheat  w iy1 t
-a-  ae
 lighthouse  l ay1 t hh aw2 s
 jill  jh ih1 l
 along  ah0 l ao1 ng
@@ -76,7 +73,6 @@ start  s t aa1 r t
 too  t uw1
 way  w ey1
 we're  w iy1 r
-you-  y uw
 mostly  m ow1 s t l iy0
 i've  ay1 v
 but  b ah1 t
@@ -84,7 +80,6 @@ crane  k r ey1 n
 with  w ih1 dh
 kind  k ay1 n d
 word  w er1 d
-mm  m
 up  ah1 p
 um  ah1 m
 near  n ih1 r

@@ -27,7 +27,6 @@ paradise  p eh1 r ah0 d ay2 s
 gonna  g aa1 n ah0
 test  t eh1 s t
 touching  t ah1 ch ih0 ng
-monument`  m ah n y uw m eh n t
 know  n ow1
 front  f r ah1 n t
 bit  b ih1 t
@@ -35,7 +34,6 @@ now  n aw1
 like  l ay1 k
 drop  d r aa1 p
 facing  f ey1 s ih0 ng
-heeh  hh iy hh
 where  w eh1 r
 upper  ah1 p er0
 right  r ay1 t
@@ -48,7 +46,6 @@ corner  k ao1 r n er0
 yes  y eh1 s
 out  aw1 t
 bottom  b aa1 t ah0 m
-o'  ow1
 nuclear  n uw1 k l iy0 er0
 away  ah0 w ey1
 yup  y ah1 p
@@ -67,13 +64,13 @@ on  aa1 n
 c  s iy1
 canadian  k ah0 n ey1 d iy0 ah0 n
 of  ah1 v
+o aa1
 thing  th ih1 ng
 west  w eh1 s t
 i'm  ay1 m
 wanna  w aa1 n ah0
 or  ao1 r
 otherwise  ah1 dh er0 w ay2 z
-leh-  l eh hh
 down  d aw1 n
 done  d ah1 n
 directly  d er0 eh1 k t l iy0
@@ -83,7 +80,6 @@ standing  s t ae1 n d ih0 ng
 you're  y uh1 r
 little  l ih1 t ah0 l
 from  f r ah1 m
-ung-kay  ah ng k ey
 would  w uh1 d
 it's  ih1 t s
 top  t aa1 p
@@ -140,7 +136,6 @@ towards  t ah0 w ao1 r d z
 okay  ow2 k ey1
 though  dh ow1
 dive  d ay1 v
-i-  ih
 peak  p iy1 k
 kinda  k ih1 n d ah0
 kay  k ey1

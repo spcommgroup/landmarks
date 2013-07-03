@@ -14,11 +14,9 @@ through  th r uw1
 go  g ow1
 follow  f aa1 l ow0
 yes  y eh1 s
-waterhole  w ao t er h ow l
 help  hh eh1 l p
 one  w ah1 n
 horizontally  hh ao2 r ih0 z aa1 n t ah0 l iy0
-mm-hmm  m hh m
 fix  f ih1 k s
 less  l eh1 s
 except  ih0 k s eh1 p t
@@ -34,7 +32,6 @@ good  g uh1 d
 crash  k r ae1 sh
 above  ah0 b ah1 v
 yep  y eh1 p
-like  l ay k
 far  f aa1 r
 big  b ih1 g
 slate  s l ey1 t
@@ -61,7 +58,6 @@ it'll  ih1 t ah0 l
 right  r ay1 t
 elephants  eh1 l ah0 f ah0 n t s
 doing  d uw1 ih0 ng
-w-  w
 back  b ae1 k
 up  ah1 p
 past  p ae1 s t
@@ -69,7 +65,6 @@ see  s iy1
 sure  sh uh1 r
 are  aa1 r
 perfect  p er0 f eh1 k t
-ummm  ah m
 curious  k y uh1 r iy0 ah0 s
 rectangular  r eh0 k t ae1 ng g y ah0 l er0
 out  aw1 t
@@ -95,7 +90,6 @@ across  ah0 k r ao1 s
 told  t ow1 l d
 be  b iy1
 ends  eh1 n d z
-d'you  d y uw
 vertical  v er1 t ih0 k ah0 l
 slight  s l ay1 t
 little  l ih1 t ah0 l
@@ -105,7 +99,6 @@ stay  s t ey1
 by  b ay1
 both  b ow1 th
 about  ah0 b aw1 t
-antelopes  ae n t ah l ow p s
 ahead  ah0 hh eh1 d
 oh  ow1
 of  ah1 v
@@ -135,20 +128,17 @@ straight  s t r ey1 t
 you're  y uh1 r
 guess  g eh1 s
 from  f r ah1 m
-almo-  ao l m ow
 would  w uh1 d
 area  eh1 r iy0 ah0
 that's  dh ae1 t s
 it's  ih1 t s
 top  t aa1 p
 there  dh eh1 r
-savannah'll  s ah v ae n ah l
 three  th r iy1
 long  l ao1 ng
 next  n eh1 k s t
 breath  b r eh1 th
 start  s t aa1 r t
-savann-  s ah v ae n
 too  t uw1
 way  w ey1
 which  w ih1 ch
@@ -163,12 +153,9 @@ exactly  ih0 g z ae1 k t l iy0
 great  g r ey1 t
 but  b ah1 t
 it  ih1 t
-hmm  hh m
-dow-  d aw
 ooh  uw1
 that'll  dh ae1 t ah0 l
 line  l ay1 n
-spot  s p aa t
 with  w ih1 dh
 sorry  s aa1 r iy0
 those  dh ow1 z
@@ -192,7 +179,6 @@ loop  l uw1 p
 and  ah0 n d
 nearest  n ih1 r ah0 s t
 want  w aa1 n t
-s-  s
 then  dh eh1 n
 almost  ao1 l m ow2 s t
 ah  aa1
@@ -206,7 +192,6 @@ at  ae1 t
 have  hh ae1 v
 baths  b ae1 th s
 curved  k er1 v d
-ma-  m aa
 well  w eh1 l
 around  er0 aw1 n d
 yeah  y ae1
@@ -233,15 +218,11 @@ though  dh ow1
 our  aw1 er0
 after  ae1 f t er0
 slant  s l ae1 n t
-those'll  dh ow z l
 hand  hh ae1 n d
 plane  p l ey1 n
 two  t uw1
 kinda  k ih1 n d ah0
-uh-oh  ah ow
-width-wise  w ih d th w ay z
 desert  d eh1 z er0 t
-hh-  hh
 a  ah0
 in  ih0 n
 center  s eh1 n t er0

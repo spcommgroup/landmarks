@@ -245,7 +245,8 @@ public class PhonesFromFile {
 		        	break MatchLoop;
 		        }
 		        if(bestMatching==null){
-//		        	System.out.println("No best matching found for "+correctWords);
+		        	System.out.println("No best matching found for "+correctWords);
+		        	phraseRanks.add(0.0);
 		        } else {
 		        	System.out.println(correctWords);
 			        System.out.println("Best matching: "+bestRank);

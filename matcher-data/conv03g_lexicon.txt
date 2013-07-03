@@ -1,10 +1,8 @@
 ;;; This lexicon is a subset of CMUdict containing words from ../landmarks/matcher-data/conv03g.TextGrid
 ;;; It was generated from the CMU dictionary file cmudict.0.7a
-  w ah n
 all  ao1 l
 don't  d ow1 n t
 over  ow1 v er0
-one,  w ah n
 quarters  k w ao1 r t er0 z
 four  f ao1 r
 paper  p ey1 p er0
@@ -44,6 +42,7 @@ t  t iy1
 eventually  ih0 v eh1 n ch ah0 w ah0 l iy0
 river  r ih1 v er0
 where  w eh1 r
+two  t uw1
 looks  l uh1 k s
 upper  ah1 p er0
 right  r ay1 t
@@ -53,14 +52,12 @@ back  b ae1 k
 up  ah1 p
 are  aa1 r
 cattle  k ae1 t ah0 l
-left-  l eh f t
 rocks  r aa1 k s
 yes  y eh1 s
 even  iy1 v ih0 n
 total  t ow1 t ah0 l
 for  f ao1 r
 bottom  b aa1 t ah0 m
-o'  ow1
 away  ah0 w ey1
 though  dh ow1
 there's  dh eh1 r z
@@ -71,12 +68,10 @@ got  g aa1 t
 across  ah0 k r ao1 s
 tent  t eh1 n t
 be  b iy1
-i bet  ay b eh t
 you're  y uh1 r
 rock  r aa1 k
 diagonal  d ay0 ae1 g ah0 n ah0 l
 apache  ah0 p ae1 ch iy0
-two,  t uw
 come  k ah1 m
 by  b ay1
 both  b ow1 th
@@ -85,6 +80,7 @@ backwards  b ae1 k w er0 d z
 anything  eh1 n iy0 th ih2 ng
 of  ah1 v
 space  s p ey1 s
+o aa1
 keep  k iy1 p
 motion  m ow1 sh ah0 n
 s  eh1 s
@@ -92,11 +88,10 @@ stone  s t ow1 n
 or  ao1 r
 forwards  f ao1 r w er0 d z
 point  p oy1 n t
-two  t uw1
+one  w ah1 n
 down  d aw1 n
 ask  ae1 s k
 pole  p ow1 l
-to-  t uw
 another  ah0 n ah1 dh er0
 should  sh uh1 d
 your  y ao1 r
@@ -120,24 +115,18 @@ then  dh eh1 n
 forward  f ao1 r w er0 d
 sort  s ao1 r t
 flat  f l ae1 t
-c,  k
 diamond  d ay1 m ah0 n d
 inches  ih1 n ch ah0 z
 on  aa1 n
-r-  r
 about  ah0 b aw1 t
 but  b ah1 t
 mine  m ay1 n
-carved-  k aa r v d
 line  l ay1 n
 with  w ih1 dh
 fort  f ao1 r t
 walled  w ao1 l d
 kind  k ay1 n d
 made  m ey1 d
-mmkay  m k ey
-well,  w eh l
-mm  m
 straight  s t r ey1 t
 pretend  p r iy0 t eh1 n d
 say  s ey1
@@ -147,6 +136,7 @@ below  b ih0 l ow1
 can  k ae1 n
 starts  s t aa1 r t s
 making  m ey1 k ih0 ng
+bet  b eh1 t
 at  ae1 t
 and  ah0 n d
 ranch  r ae1 n ch
@@ -163,8 +153,6 @@ as  ae1 z
 carved  k aa1 r v d
 have  hh ae1 v
 in  ih0 n
-in`  ih n
-should i  sh uh d ay
 if  ih1 f
 huge  hh y uw1 jh
 curving  k er1 v ih0 ng
@@ -184,9 +172,7 @@ mountain  m aw1 n t ah0 n
 peak  p iy1 k
 kinda  k ih1 n d ah0
 coming  k ah1 m ih0 ng
-cur-  k er
 a  ah0
-kind of  k ay n d ah v
 i  ay1
 maybe  m ey1 b iy0
 camp  k ae1 m p
