@@ -1,0 +1,113 @@
+;;; This lexicon is a subset of CMUdict containing words from ../landmarks/matcher-data/conv13g.TextGrid
+;;; It was generated from the CMU dictionary file cmudict.0.7a
+all  ao1 l
+spaced  s p ey1 s t
+four  f ao1 r
+paper  p ey1 p er0
+corner  k ao1 r n er0
+to  t uw1
+going  g ow1 ih0 ng
+then  dh eh1 n
+them  dh eh1 m
+around  er0 aw1 n d
+gonna  g aa1 n ah0
+every  eh1 v er0 iy0
+bit  b ih1 t
+bar  b aa1 r
+like  l ay1 k
+wooden  w uh1 d ah0 n
+rocks  r aa1 k s
+stuff  s t ah1 f
+where  w eh1 r
+side  s ay1 d
+two  t uw1
+i'll  ay1 l
+the  dh ah0
+right  r ay1 t
+creek  k r iy1 k
+yeah  y ae1
+are  aa1 r
+what  w ah1 t
+mines  m ay1 n z
+there's  dh eh1 r z
+between  b ih0 t w iy1 n
+be  b iy1
+diagonal  d ay0 ae1 g ah0 n ah0 l
+apache  ah0 p ae1 ch iy0
+by  b ay1
+wait  w ey1 t
+stone  s t ow1 n
+oh  ow1
+of  ah1 v
+page  p ey1 jh
+thing  th ih1 ng
+i'm  ay1 m
+whole  hh ow1 l
+or  ao1 r
+feel  f iy1 l
+one  w ah1 n
+down  d aw1 n
+put  p uh1 t
+pole  p ow1 l
+done  d ah1 n
+total  t ow1 t ah0 l
+your  y ao1 r
+city  s ih1 t iy0
+little  l ih1 t ah0 l
+from  f r ah1 m
+start  s t aa1 r t
+it's  ih1 t s
+there  dh eh1 r
+three  th r iy1
+fast  f ae1 s t
+few  f y uw1
+too  t uw1
+way  w ey1
+more  m ao1 r
+flat  f l ae1 t
+diamond  d ay1 m ah0 n d
+inches  ih1 n ch ah0 z
+that  dh ae1 t
+about  ah0 b aw1 t
+but  b ah1 t
+hu  hh uw1
+town  t aw1 n
+walled  w ao1 l d
+kind  k ay1 n d
+straight  s t r ey1 t
+um  ah1 m
+below  b ih0 l ow1
+canoes  k ah0 n uw1 z
+uh  ah1
+laughter  l ae1 f t er0
+and  ah0 n d
+is  ih1 z
+am  ae1 m
+it  ih1 t
+middle  m ih1 d ah0 l
+carved  k aa1 r v d
+have  hh ae1 v
+in  ih0 n
+different  d ih1 f er0 ah0 n t
+graveyard  g r ey1 v y aa2 r d
+no  n ow1
+six  s ih1 k s
+other  ah1 dh er0
+forge  f ao1 r jh
+you  y uw1
+okay  ow2 k ey1
+hand  hh ae1 n d
+where's  w eh1 r z
+running  r ah1 n ih0 ng
+a  ah0
+kinda  k ih1 n d ah0
+desert  d eh1 z er0 t
+ghost  g ow1 s t
+i  ay1
+camp  k ae1 m p
+edge  eh1 jh
+so  s ow1
+five  f ay1 v
+saloon  s ah0 l uw1 n
+buffalo  b ah1 f ah0 l ow2
+evenly  iy1 v ah0 n l iy0

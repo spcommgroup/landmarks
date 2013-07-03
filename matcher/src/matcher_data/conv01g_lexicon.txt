@@ -1,0 +1,154 @@
+;;; This lexicon is a subset of CMUdict containing words from ../landmarks/matcher-data/conv01g.TextGrid
+;;; It was generated from the CMU dictionary file cmudict.0.7a
+walking  w ao1 k ih0 ng
+golf  g aa1 l f
+just  jh ah1 s t
+move  m uw1 v
+course  k ao1 r s
+shape  sh ey1 p
+paper  p ey1 p er0
+through  th r uw1
+go  g ow1
+follow  f aa1 l ow0
+mill  m ih1 l
+kate  k ey1 t
+fenced  f eh1 n s t
+lake  l ey1 k
+should  sh uh1 d
+to  t uw1
+going  g ow1 ih0 ng
+east  iy1 s t
+meadows  m eh1 d ow2 z
+do  d uw1
+around  er0 aw1 n d
+get  g eh1 t
+very  v eh1 r iy0
+paradise  p eh1 r ah0 d ay2 s
+gonna  g aa1 n ah0
+test  t eh1 s t
+touching  t ah1 ch ih0 ng
+know  n ow1
+front  f r ah1 n t
+bit  b ih1 t
+now  n aw1
+like  l ay1 k
+drop  d r aa1 p
+facing  f ey1 s ih0 ng
+where  w eh1 r
+upper  ah1 p er0
+right  r ay1 t
+old  ow1 l d
+meadow  m eh1 d ow2
+back  b ae1 k
+see  s iy1
+are  aa1 r
+corner  k ao1 r n er0
+yes  y eh1 s
+out  aw1 t
+bottom  b aa1 t ah0 m
+nuclear  n uw1 k l iy0 er0
+away  ah0 w ey1
+yup  y ah1 p
+behind  b ih0 hh ay1 n d
+there's  dh eh1 r z
+above  ah0 b ah1 v
+between  b ih0 t w iy1 n
+cause  k aa1 z
+across  ah0 k r ao1 s
+be  b iy1
+base  b ey1 s
+path  p ae1 th
+along  ah0 l ao1 ng
+wait  w ey1 t
+on  aa1 n
+c  s iy1
+canadian  k ah0 n ey1 d iy0 ah0 n
+of  ah1 v
+o  aa1
+thing  th ih1 ng
+west  w eh1 s t
+i'm  ay1 m
+wanna  w aa1 n ah0
+or  ao1 r
+otherwise  ah1 dh er0 w ay2 z
+down  d aw1 n
+done  d ah1 n
+directly  d er0 eh1 k t l iy0
+your  y ao1 r
+you'd  y uw1 d
+standing  s t ae1 n d ih0 ng
+you're  y uh1 r
+little  l ih1 t ah0 l
+from  f r ah1 m
+would  w uh1 d
+it's  ih1 t s
+top  t aa1 p
+there  dh eh1 r
+two  t uw1
+way  w ey1
+until  ah0 n t ih1 l
+a  ah0
+head  hh eh1 d
+i've  ay1 v
+about  ah0 b aw1 t
+but  b ah1 t
+site  s ay1 t
+hut  hh ah1 t
+cottage  k aa1 t ah0 jh
+hold  hh ow1 l d
+with  w ih1 dh
+distance  d ih1 s t ah0 n s
+kind  k ay1 n d
+made  m ey1 d
+abandoned  ah0 b ae1 n d ah0 n d
+straight  s t r ey1 t
+oh  ow1
+tree  t r iy1
+up  ah1 p
+um  ah1 m
+below  b ih0 l ow1
+monument  m aa1 n y uw0 m ah0 n t
+loop  l uw1 p
+and  ah0 n d
+then  dh eh1 n
+is  ih1 z
+it  ih1 t
+an  ae1 n
+middle  m ih1 d ah0 l
+at  ae1 t
+have  hh ae1 v
+in  ih0 n
+if  ih1 f
+yeah  y ae1
+mountain  m aw1 n t ah0 n
+end  eh1 n d
+not  n aa1 t
+make  m ey1 k
+six  s ih1 k s
+same  s ey1 m
+that  dh ae1 t
+take  t ey1 k
+inch  ih1 n ch
+you  y uw1
+sil  s ih1 l
+wheel  w iy1 l
+towards  t ah0 w ao1 r d z
+okay  ow2 k ey1
+though  dh ow1
+dive  d ay1 v
+peak  p iy1 k
+kinda  k ih1 n d ah0
+kay  k ey1
+building  b ih1 l d ih0 ng
+land  l ae1 n d
+off  ao1 f
+i  ay1
+whole  hh ow1 l
+clock  k l aa1 k
+well  w eh1 l
+think  th ih1 ng k
+so  s ow1
+alright  ao2 l r ay1 t
+the  dh ah0
+once  w ah1 n s
+left  l eh1 f t

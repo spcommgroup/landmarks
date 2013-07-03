@@ -1,0 +1,186 @@
+;;; This lexicon is a subset of CMUdict containing words from ../landmarks/matcher-data/conv03g.TextGrid
+;;; It was generated from the CMU dictionary file cmudict.0.7a
+all  ao1 l
+don't  d ow1 n t
+over  ow1 v er0
+quarters  k w ao1 r t er0 z
+four  f ao1 r
+paper  p ey1 p er0
+farther  f aa1 r dh er0
+go  g ow1
+corner  k ao1 r n er0
+diagonally  d ay0 ae1 g ah0 n ah0 l iy0
+hump  hh ah1 m p
+actually  ae1 k ch uw2 ah0 l iy0
+to  t uw1
+going  g ow1 ih0 ng
+under  ah1 n d er0
+sorry  s aa1 r iy0
+do  d uw1
+them  dh eh1 m
+around  er0 aw1 n d
+get  g eh1 t
+very  v eh1 r iy0
+big  b ih1 g
+flowing  f l ow1 ih0 ng
+gonna  g aa1 n ah0
+underneath  ah2 n d er0 n iy1 th
+were  w er0
+five  f ay1 v
+know  n ow1
+half  hh ae1 f
+not  n aa1 t
+bit  b ih1 t
+now  n aw1
+apart  ah0 p aa1 r t
+mushroom  m ah1 sh r uw0 m
+like  l ay1 k
+wooden  w uh1 d ah0 n
+yeah  y ae1
+correct  k er0 eh1 k t
+t  t iy1
+eventually  ih0 v eh1 n ch ah0 w ah0 l iy0
+river  r ih1 v er0
+where  w eh1 r
+two  t uw1
+looks  l uh1 k s
+upper  ah1 p er0
+right  r ay1 t
+creek  k r iy1 k
+some  s ah1 m
+back  b ae1 k
+up  ah1 p
+are  aa1 r
+cattle  k ae1 t ah0 l
+rocks  r aa1 k s
+yes  y eh1 s
+even  iy1 v ih0 n
+total  t ow1 t ah0 l
+for  f ao1 r
+bottom  b aa1 t ah0 m
+away  ah0 w ey1
+though  dh ow1
+there's  dh eh1 r z
+above  ah0 b ah1 v
+between  b ih0 t w iy1 n
+umm  ah1 m
+got  g aa1 t
+across  ah0 k r ao1 s
+tent  t eh1 n t
+be  b iy1
+you're  y uh1 r
+rock  r aa1 k
+diagonal  d ay0 ae1 g ah0 n ah0 l
+apache  ah0 p ae1 ch iy0
+come  k ah1 m
+by  b ay1
+both  b ow1 th
+c  s iy1
+backwards  b ae1 k w er0 d z
+anything  eh1 n iy0 th ih2 ng
+of  ah1 v
+space  s p ey1 s
+o  aa1
+keep  k iy1 p
+motion  m ow1 sh ah0 n
+s  eh1 s
+stone  s t ow1 n
+or  ao1 r
+forwards  f ao1 r w er0 d z
+point  p oy1 n t
+one  w ah1 n
+down  d aw1 n
+ask  ae1 s k
+pole  p ow1 l
+another  ah0 n ah1 dh er0
+should  sh uh1 d
+your  y ao1 r
+boat  b ow1 t
+city  s ih1 t iy0
+little  l ih1 t ah0 l
+from  f r ah1 m
+would  w uh1 d
+that's  dh ae1 t s
+it's  ih1 t s
+top  t aa1 p
+there  dh eh1 r
+question  k w eh1 s ch ah0 n
+three  th r iy1
+fast  f ae1 s t
+next  n eh1 k s t
+start  s t aa1 r t
+much  m ah1 ch
+too  t uw1
+then  dh eh1 n
+forward  f ao1 r w er0 d
+sort  s ao1 r t
+flat  f l ae1 t
+diamond  d ay1 m ah0 n d
+inches  ih1 n ch ah0 z
+on  aa1 n
+about  ah0 b aw1 t
+but  b ah1 t
+mine  m ay1 n
+line  l ay1 n
+with  w ih1 dh
+fort  f ao1 r t
+walled  w ao1 l d
+kind  k ay1 n d
+made  m ey1 d
+straight  s t r ey1 t
+pretend  p r iy0 t eh1 n d
+say  s ey1
+us  ah1 s
+um  ah1 m
+below  b ih0 l ow1
+can  k ae1 n
+starts  s t aa1 r t s
+making  m ey1 k ih0 ng
+bet  b eh1 t
+at  ae1 t
+and  ah0 n d
+ranch  r ae1 n ch
+want  w aa1 n t
+give  g ih1 v
+well  w eh1 l
+is  ih1 z
+wide  w ay1 d
+it  ih1 t
+you've  y uw1 v
+an  ae1 n
+middle  m ih1 d ah0 l
+as  ae1 z
+carved  k aa1 r v d
+have  hh ae1 v
+in  ih0 n
+if  ih1 f
+huge  hh y uw1 jh
+curving  k er1 v ih0 ng
+graveyard  g r ey1 v y aa2 r d
+no  n ow1
+make  m ey1 k
+that  dh ae1 t
+when  w eh1 n
+you'll  y uw1 l
+same  s ey1 m
+inch  ih1 n ch
+you  y uw1
+circular  s er1 k y ah0 l er0
+finish  f ih1 n ih0 sh
+okay  ow2 k ey1
+mountain  m aw1 n t ah0 n
+peak  p iy1 k
+kinda  k ih1 n d ah0
+coming  k ah1 m ih0 ng
+a  ah0
+i  ay1
+maybe  m ey1 b iy0
+camp  k ae1 m p
+curve  k er1 v
+directly  d er0 eh1 k t l iy0
+edge  eh1 jh
+so  s ow1
+the  dh ah0
+once  w ah1 n s
+buffalo  b ah1 f ah0 l ow2
+left  l eh1 f t

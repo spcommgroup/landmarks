@@ -1,0 +1,181 @@
+;;; This lexicon is a subset of CMUdict containing words from ../landmarks/matcher-data/conv08g.TextGrid
+;;; It was generated from the CMU dictionary file cmudict.0.7a
+slope  s l ow1 p
+saying  s ey1 ih0 ng
+all  ao1 l
+help  hh eh1 l p
+just  jh ah1 s t
+don't  d ow1 n t
+savannah  s ah0 v ae1 n ah0
+over  ow1 v er0
+move  m uw1 v
+antelope  ae1 n t ah0 l ow2 p
+four  f ao1 r
+paper  p ey1 p er0
+looks  l uh1 k s
+go  g ow1
+follow  f aa1 l ow0
+yes  y eh1 s
+still  s t ih1 l
+now  n aw1
+lake  l ey1 k
+should  sh uh1 d
+to  t uw1
+you've  y uw1 v
+going  g ow1 ih0 ng
+bypass  b ay1 p ae2 s
+sorry  s aa1 r iy0
+do  d uw1
+them  dh eh1 m
+hit  hh ih1 t
+around  er0 aw1 n d
+get  g eh1 t
+far  f aa1 r
+slate  s l ey1 t
+stop  s t aa1 p
+gonna  g aa1 n ah0
+coast  k ow1 s t
+underneath  ah2 n d er0 n iy1 th
+know  n ow1
+half  hh ae1 f
+not  n aa1 t
+bit  b ih1 t
+little  l ih1 t ah0 l
+steeper  s t iy1 p er0
+like  l ay1 k
+h  ey1 ch
+went  w eh1 n t
+quarter  k w ao1 r t er0
+where  w eh1 r
+side  s ay1 d
+two  t uw1
+sharp  sh aa1 r p
+right  r ay1 t
+yeah  y ae1
+see  s iy1
+towards  t ah0 w ao1 r d z
+are  aa1 r
+bake  b ey1 k
+out  aw1 t
+even  iy1 v ih0 n
+what  w ah1 t
+for  f ao1 r
+bottom  b aa1 t ah0 m
+away  ah0 w ey1
+yup  y ah1 p
+lean  l iy1 n
+near  n ih1 r
+written  r ih1 t ah0 n
+does  d ah1 z
+finger  f ih1 ng g er0
+above  ah0 b ah1 v
+across  ah0 k r ao1 s
+be  b iy1
+slight  s l ay1 t
+diagonal  d ay0 ae1 g ah0 n ah0 l
+nowhere  n ow1 w eh2 r
+apache  ah0 p ae1 ch iy0
+on  aa1 n
+about  ah0 b aw1 t
+anything  eh1 n iy0 th ih2 ng
+of  ah1 v
+turn  t er1 n
+roman  r ow1 m ah0 n
+i'm  ay1 m
+wanna  w aa1 n ah0
+stony  s t ow1 n iy0
+one  w ah1 n
+down  d aw1 n
+done  d ah1 n
+your  y ao1 r
+you're  y uh1 r
+guess  g eh1 s
+from  f r ah1 m
+it's  ih1 t s
+there  dh eh1 r
+three  th r iy1
+long  l ao1 ng
+hitting  hh ih1 t ih0 ng
+start  s t aa1 r t
+low  l ow1
+white  w ay1 t
+more  m ao1 r
+inches  ih1 n ch ah0 z
+that  dh ae1 t
+collapsed  k ah0 l ae1 p s t
+but  b ah1 t
+finished  f ih1 n ih0 sh t
+basically  b ey1 s ih0 k l iy0
+cottage  k aa1 t ah0 jh
+line  l ay1 n
+with  w ih1 dh
+those  dh ow1 z
+bypassing  b ay1 p ae2 s ih0 ng
+word  w er1 d
+abandoned  ah0 b ae1 n d ah0 n d
+straight  s t r ey1 t
+up  ah1 p
+um  ah1 m
+below  b ih0 l ow1
+r  aa1 r
+uh  ah1
+were  w er0
+following  f aa1 l ow0 ih0 ng
+making  m ey1 k ih0 ng
+slightest  s l ay1 t ah0 s t
+and  ah0 n d
+want  w aa1 n t
+then  dh eh1 n
+ah  aa1
+is  ih1 z
+in  ih0 n
+wann  w aa1 n
+it  ih1 t
+deep  d iy1 p
+an  ae1 n
+as  ae1 z
+at  ae1 t
+have  hh ae1 v
+baths  b ae1 th s
+crash  k r ae1 sh
+if  ih1 f
+again  ah0 g eh1 n
+curving  k er1 v ih0 ng
+end  eh1 n d
+no  n ow1
+make  m ey1 k
+when  w eh1 n
+s  eh1 s
+till  t ih1 l
+hot  hh aa1 t
+take  t ey1 k
+inch  ih1 n ch
+you  y uw1
+really  r ih1 l iy0
+what's  w ah1 t s
+sloping  s l ow1 p ih0 ng
+draw  d r ao1
+finish  f ih1 n ih0 sh
+okay  ow2 k ey1
+trace  t r ey1 s
+mountain  m aw1 n t ah0 n
+shelter  sh eh1 l t er0
+after  ae1 f t er0
+wells  w eh1 l z
+hand  hh ae1 n d
+plane  p l ey1 n
+peak  p iy1 k
+kinda  k ih1 n d ah0
+coming  k ah1 m ih0 ng
+totally  t ow1 t ah0 l iy0
+desert  d eh1 z er0 t
+a  ah0
+i  ay1
+maybe  m ey1 b iy0
+camp  k ae1 m p
+curve  k er1 v
+edge  eh1 jh
+so  s ow1
+the  dh ah0
+that's  dh ae1 t s
+left  l eh1 f t

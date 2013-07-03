@@ -1,0 +1,171 @@
+;;; This lexicon is a subset of CMUdict containing words from ../landmarks/matcher-data/conv09g.TextGrid
+;;; It was generated from the CMU dictionary file cmudict.0.7a
+thirty  th er1 d iy0
+all  ao1 l
+just  jh ah1 s t
+over  ow1 v er0
+soon  s uw1 n
+rest  r eh1 s t
+quarters  k w ao1 r t er0 z
+not  n aa1 t
+looks  l uh1 k s
+counterclockwise  k aw2 n t er0 k l ao1 k w ay0 z
+go  g ow1
+mill  m ih1 l
+halfway  hh ae1 f w ey1
+farmed  f aa1 r m d
+till  t ih1 l
+fenced  f eh1 n s t
+lake  l ey1 k
+to  t uw1
+tail  t ey1 l
+going  g ow1 ih0 ng
+sorry  s aa1 r iy0
+east  iy1 s t
+do  d uw1
+hit  hh ih1 t
+above  ah0 b ah1 v
+very  v eh1 r iy0
+underneath  ah2 n d er0 n iy1 th
+test  t eh1 s t
+five  f ay1 v
+front  f r ah1 n t
+bit  b ih1 t
+like  l ay1 k
+follows  f aa1 l ow0 z
+yeah  y ae1
+that's  dh ae1 t s
+x  eh1 k s
+where  w eh1 r
+page  p ey1 jh
+two  t uw1
+mean  m iy1 n
+right  r ay1 t
+old  ow1 l d
+meadow  m eh1 d ow2
+fence  f eh1 n s
+back  b ae1 k
+past  p ae1 s t
+see  s iy1
+slanted  s l ae1 n t ah0 d
+pass  p ae1 s
+close  k l ow1 s
+bottom  b aa1 t ah0 m
+nuclear  n uw1 k l iy0 er0
+forty  f ao1 r t iy0
+there's  dh eh1 r z
+goes  g ow1 z
+paradise  p eh1 r ah0 d ay2 s
+side  s ay1 d
+be  b iy1
+degree  d ih0 g r iy1
+little  l ih1 t ah0 l
+southeast  s aw2 th iy1 s t
+on  aa1 n
+about  ah0 b aw1 t
+anything  eh1 n iy0 th ih2 ng
+canadian  k ah0 n ey1 d iy0 ah0 n
+of  ah1 v
+could  k uh1 d
+round  r aw1 n d
+uh  ah1
+thing  th ih1 ng
+place  p l ey1 s
+west  w eh1 s t
+slightly  s l ay1 t l iy0
+or  ao1 r
+south  s aw1 th
+while  w ay1 l
+one  w ah1 n
+down  d aw1 n
+directly  d er0 eh1 k t l iy0
+marker  m aa1 r k er0
+you're  y uh1 r
+guess  g eh1 s
+from  f r ah1 m
+picket  p ih1 k ih0 t
+would  w uh1 d
+it's  ih1 t s
+top  t aa1 p
+there  dh eh1 r
+three  th r iy1
+next  n eh1 k s t
+start  s t aa1 r t
+too  t uw1
+legs  l eh1 g z
+until  ah0 n t ih1 l
+more  m ao1 r
+head  hh eh1 d
+north  n ao1 r th
+inches  ih1 n ch ah0 z
+that  dh ae1 t
+but  b ah1 t
+site  s ay1 t
+part  p aa1 r t
+basically  b ey1 s ih0 k l iy0
+cottage  k aa1 t ah0 jh
+line  l ay1 n
+than  dh ae1 n
+kind  k ay1 n d
+abandoned  ah0 b ae1 n d ah0 n d
+straight  s t r ey1 t
+oh  ow1
+up  ah1 p
+um  ah1 m
+below  b ih0 l ow1
+can  k ae1 n
+monument  m aa1 n y uw0 m ah0 n t
+route  r uw1 t
+and  ah0 n d
+then  dh eh1 n
+almost  ao1 l m ow2 s t
+is  ih1 z
+it  ih1 t
+curves  k er1 v z
+an  ae1 n
+as  ae1 z
+ar  aa1 r
+at  ae1 t
+have  hh ae1 v
+in  ih0 n
+around  er0 aw1 n d
+again  ah0 g eh1 n
+colle  k ow1 l
+angle  ae1 ng g ah0 l
+no  n ow1
+when  w eh1 n
+til  t ih1 l
+how  hh aw1
+forest  f ao1 r ah0 s t
+inch  ih1 n ch
+you  y uw1
+if  ih1 f
+sil  s ih1 l
+draw  d r ao1
+finish  f ih1 n ih0 sh
+okay  ow2 k ey1
+mountain  m aw1 n t ah0 n
+farm  f aa1 r m
+after  ae1 f t er0
+slant  s l ae1 n t
+stay  s t ey1
+let's  l eh1 t s
+peak  p iy1 k
+kinda  k ih1 n d ah0
+horizontal  hh ao2 r ah0 z aa1 n t ah0 l
+a  ah0
+land  l ae1 n d
+third  th er1 d
+i  ay1
+maybe  m ey1 b iy0
+curve  k er1 v
+dog  d ao1 g
+curvy  k er1 v iy0
+edge  eh1 jh
+so  s ow1
+pointy  p oy1 n t iy0
+the  dh ah0
+once  w ah1 n s
+starting  s t aa1 r t ih0 ng
+drawing  d r ao1 ih0 ng
+left  l eh1 f t

@@ -1,0 +1,260 @@
+;;; This lexicon is a subset of CMUdict containing words from ../landmarks/matcher-data/conv11g.TextGrid
+;;; It was generated from the CMU dictionary file cmudict.0.7a
+all  ao1 l
+just  jh ah1 s t
+don't  d ow1 n t
+over  ow1 v er0
+soon  s uw1 n
+mines  m ay1 n z
+four  f ao1 r
+bring  b r ih1 ng
+shape  sh ey1 p
+paper  p ey1 p er0
+through  th r uw1
+go  g ow1
+corner  k ao1 r n er0
+still  s t ih1 l
+its  ih1 t s
+before  b ih0 f ao1 r
+horizontally  hh ao2 r ih0 z aa1 n t ah0 l iy0
+apex  ey1 p eh2 k s
+had  hh ae1 d
+should  sh uh1 d
+to  t uw1
+going  g ow1 ih0 ng
+degrees  d ih0 g r iy1 z
+whole  hh ow1 l
+pretty  p r ih1 t iy0
+sorry  s aa1 r iy0
+pass  p ae1 s
+easier  iy1 z iy0 er0
+do  d uw1
+sense  s eh1 n s
+around  er0 aw1 n d
+ample  ae1 m p ah0 l
+walled  w ao1 l d
+read  r eh1 d
+flowing  f l ow1 ih0 ng
+gonna  g aa1 n ah0
+underneath  ah2 n d er0 n iy1 th
+five  f ay1 v
+know  n ow1
+they  dh ey1
+half  hh ae1 f
+not  n aa1 t
+bit  b ih1 t
+yourself  y er0 s eh1 l f
+lefthand  l eh0 f t hh ae1 n d
+vertically  v er1 t ih0 k l iy0
+bar  b aa1 r
+like  l ay1 k
+shaped  sh ey1 p t
+did  d ih1 d
+follows  f aa1 l ow0 z
+pencil  p eh1 n s ah0 l
+rocks  r aa1 k s
+wooden  w uh1 d ah0 n
+follow  f aa1 l ow0
+starting  s t aa1 r t ih0 ng
+though  dh ow1
+x  eh1 k s
+beneath  b ih0 n iy1 th
+river  r ih1 v er0
+where  w eh1 r
+side  s ay1 d
+two  t uw1
+mean  m iy1 n
+em  eh1 m
+the  dh ah0
+because  b ih0 k ao1 z
+creek  k r iy1 k
+uh-huh  ah1 hh ah1
+yeah  y ae1
+dead  d eh1 d
+up  ah1 p
+relative  r eh1 l ah0 t ih0 v
+mentioned  m eh1 n sh ah0 n d
+see  s iy1
+sure  sh uh1 r
+crescent  k r eh1 s ah0 n t
+forgot  f er0 g aa1 t
+close  k l ow1 s
+near  n ih1 r
+goes  g ow1 z
+what  w ah1 t
+said  s eh1 d
+for  f ao1 r
+space  s p ey1 s
+mine  m ay1 n
+julie's  jh uw1 l iy0 z
+nee  n iy1
+forty  f ao1 r t iy0
+moon  m uw1 n
+does  d ah1 z
+above  ah0 b ah1 v
+assuming  ah0 s uw1 m ih0 ng
+umm  ah1 m
+got  g aa1 t
+uh  ah1
+be  b iy1
+terms  t er1 m z
+degree  d ih0 g r iy1
+you're  y uh1 r
+little  l ih1 t ah0 l
+squeezed  s k w iy1 z d
+apache  ah0 p ae1 ch iy0
+path  p ae1 th
+along  ah0 l ao1 ng
+between  b ih0 t w iy1 n
+wait  w ey1 t
+on  aa1 n
+circumference  s er0 k ah1 m f r ah0 n s
+your  y ao1 r
+ahead  ah0 hh eh1 d
+oh  ow1
+of  ah1 v
+wherever  w eh0 r eh1 v er0
+keep  k iy1 p
+turn  t er1 n
+upper  ah1 p er0
+swing  s w ih1 ng
+moving  m uw1 v ih0 ng
+i'm  ay1 m
+parallel  p eh1 r ah0 l eh2 l
+wanna  w aa1 n ah0
+or  ao1 r
+south  s aw1 th
+diameter  d ay0 ae1 m ah0 t er0
+very  v eh1 r iy0
+point  p oy1 n t
+into  ih0 n t uw1
+sweep  s w iy1 p
+marked  m aa1 r k t
+one  w ah1 n
+down  d aw1 n
+pole  p ow1 l
+right  r ay1 t
+done  d ah1 n
+tiny  t ay1 n iy0
+another  ah0 n ah1 dh er0
+mark  m aa1 r k
+straight  s t r ey1 t
+sheet  sh iy1 t
+city  s ih1 t iy0
+guess  g eh1 s
+from  f r ah1 m
+would  w uh1 d
+area  eh1 r iy0 ah0
+it's  ih1 t s
+top  t aa1 p
+there  dh eh1 r
+three  th r iy1
+fast  f ae1 s t
+by  b ay1
+eleven  ih0 l eh1 v ah0 n
+we're  w iy1 r
+way  w ey1
+then  dh eh1 n
+upwards  ah1 p w er0 d z
+was  w aa1 z
+start  s t aa1 r t
+flat  f l ae1 t
+direction  d er0 eh1 k sh ah0 n
+diamond  d ay1 m ah0 n d
+north  n ao1 r th
+graveyard  g r ey1 v y aa2 r d
+that  dh ae1 t
+brains  b r ey1 n z
+what's  w ah1 t s
+anywhere  eh1 n iy0 w eh2 r
+huh  hh ah1
+about  ah0 b aw1 t
+but  b ah1 t
+it  ih1 t
+basically  b ey1 s ih0 k l iy0
+ooh  uw1
+line  l ay1 n
+general  jh eh1 n er0 ah0 l
+fort  f ao1 r t
+town  t aw1 n
+they're  dh eh1 r
+kind  k ay1 n d
+crosses  k r ao1 s ih0 z
+places  p l ey1 s ah0 z
+this  dh ih1 s
+inside  ih0 n s ay1 d
+say  s ey1
+um  ah1 m
+matter  m ae1 t er0
+below  b ih0 l ow1
+canoes  k ah0 n uw1 z
+can  k ae1 n
+were  w er0
+following  f aa1 l ow0 ih0 ng
+making  m ey1 k ih0 ng
+my  m ay1
+carved  k aa1 r v d
+and  ah0 n d
+seven  s eh1 v ah0 n
+ranch  r ae1 n ch
+give  g ih1 v
+lines  l ay1 n z
+is  ih1 z
+cattle  k ae1 t ah0 l
+gently  jh eh1 n t l iy0
+curves  k er1 v z
+an  ae1 n
+middle  m ih1 d ah0 l
+as  ae1 z
+at  ae1 t
+have  hh ae1 v
+in  ih0 n
+well  w eh1 l
+relatively  r eh1 l ah0 t ih0 v l iy0
+again  ah0 g eh1 n
+curving  k er1 v ih0 ng
+inches  ih1 n ch ah0 z
+no  n ow1
+make  m ey1 k
+six  s ih1 k s
+able  ey1 b ah0 l
+stone  s t ow1 n
+same  s ey1 m
+located  l ow1 k ey2 t ah0 d
+inch  ih1 n ch
+instead  ih0 n s t eh1 d
+you  y uw1
+really  r ih1 l iy0
+perimeter  p er0 ih1 m ah0 t er0
+picture  p ih1 k ch er0
+draw  d r ao1
+finish  f ih1 n ih0 sh
+okay  ow2 k ey1
+o'clock  ah0 k l aa1 k
+why  w ay1
+slant  s l ae1 n t
+hand  hh ae1 n d
+where's  w eh1 r z
+running  r ah1 n ih0 ng
+graveyards  g r ey1 v y aa2 r d z
+a  ah0
+kinda  k ih1 n d ah0
+desert  d eh1 z er0 t
+man  m ae1 n
+ghost  g ow1 s t
+lower  l ow1 er0
+center  s eh1 n t er0
+i  ay1
+maybe  m ey1 b iy0
+camp  k ae1 m p
+curve  k er1 v
+roughly  r ah1 f l iy0
+think  th ih1 ng k
+encompassing  eh0 n k ah1 m p ah0 s ih0 ng
+edge  eh1 jh
+so  s ow1
+landmark  l ae1 n d m aa2 r k
+saloon  s ah0 l uw1 n
+that's  dh ae1 t s
+buffalo  b ah1 f ah0 l ow2
+left  l eh1 f t
