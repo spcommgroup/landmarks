@@ -1,7 +1,7 @@
-conv01g: 85.117%
-	Perfect match in top 1: 9.1%
-	Perfect match in top 2: 18.2%
-	Perfect match in top 3: 18.2%
+conv01g: 90.712%
+	Perfect match in top 1: 54.6%
+	Perfect match in top 2: 72.2%
+	Perfect match in top 3: 72.2%
 conv02g: 85.19%
 	Perfect match in top 1: 62.3%
 	Perfect match in top 2: 72.2%
