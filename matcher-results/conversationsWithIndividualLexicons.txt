@@ -1,0 +1,64 @@
+conv01g: 87.833%
+	Perfect match in top 1: 18.2%
+	Perfect match in top 2: 22.7%
+	Perfect match in top 3: 22.7%
+conv02g: 87.776%
+	Perfect match in top 1: 71.7%
+	Perfect match in top 2: 73.6%
+	Perfect match in top 3: 73.6%
+conv03g: 94.495%
+	Perfect match in top 1: 80.9%
+	Perfect match in top 2: 80.9%
+	Perfect match in top 3: 80.9%
+conv04g: 99.376%
+	Perfect match in top 1: 96.8%
+	Perfect match in top 2: 96.8%
+	Perfect match in top 3: 96.8%
+conv05g: 98.671%
+	Perfect match in top 1: 92.1%
+	Perfect match in top 2: 92.1%
+	Perfect match in top 3: 92.1%
+conv06g: 95.97%
+	Perfect match in top 1: 90.5%
+	Perfect match in top 2: 92.6%
+	Perfect match in top 3: 92.6%
+Conv07: 94.469%
+	Perfect match in top 1: 75.5%
+	Perfect match in top 2: 90.9%
+	Perfect match in top 3: 90.9%
+conv08g: 98.948%
+	Perfect match in top 1: 97.7%
+	Perfect match in top 2: 98.1%
+	Perfect match in top 3: 98.1%
+conv09g: 91.886%
+	Perfect match in top 1: 81.6%
+	Perfect match in top 2: 81.6%
+	Perfect match in top 3: 81.6%
+conv10g: 95.249%
+	Perfect match in top 1: 89.9%
+	Perfect match in top 2: 91%
+	Perfect match in top 3: 91%
+conv11g: 91.229%
+	Perfect match in top 1: 84.7%
+	Perfect match in top 2: 84.9%
+	Perfect match in top 3: 84.9%
+conv12g: 94.679%
+	Perfect match in top 1: 85%
+	Perfect match in top 2: 86.1%
+	Perfect match in top 3: 86.1%
+conv13g: 90.264%
+	Perfect match in top 1: 88.5%
+	Perfect match in top 2: 88.5%
+	Perfect match in top 3: 88.5%
+conv14g: 72.545%
+	Perfect match in top 1: 62.8%
+	Perfect match in top 2: 62.8%
+	Perfect match in top 3: 62.8%
+conv15g: 97.148%
+	Perfect match in top 1: 92.9%
+	Perfect match in top 2: 93.8%
+	Perfect match in top 3: 93.8%
+conv16g: 97.75%
+	Perfect match in top 1: 91.7%
+	Perfect match in top 2: 93.3%
+	Perfect match in top 3: 93.3%
