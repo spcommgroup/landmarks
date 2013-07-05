@@ -64,7 +64,7 @@ on  aa1 n
 c  s iy1
 canadian  k ah0 n ey1 d iy0 ah0 n
 of  ah1 v
-o  aa1
+o aa1
 thing  th ih1 ng
 west  w eh1 s t
 i'm  ay1 m
@@ -89,6 +89,7 @@ way  w ey1
 until  ah0 n t ih1 l
 a  ah0
 head  hh eh1 d
+form  f ao1 r m
 i've  ay1 v
 about  ah0 b aw1 t
 but  b ah1 t
