@@ -24,17 +24,34 @@ import datastructures.Ranking;
  */
 public class ConvMatchInTopN {
 
+	private static double averageLength(List<ArrayList<String>> list){
+		int sum = 0;
+		for (ArrayList<String> sublist : list){
+			sum += sublist.size();
+		}
+		return (sum + 0.0)/list.size();
+	}
     public static void main(String[] args) throws IOException{
+      String output = "";
       for (int conv = 1; conv < 17; conv++){
-    	String convName = "conv" + String.format("%02d", conv) + "g";
+    	String convName;
+    	String convSrc;
+    	if(conv==7){
+    		convName = "Conv07";
+    		convSrc = "src/english/"+convName;
+    	} else {
+    		convName = "conv" + String.format("%02d", conv) + "g";
+    		convSrc = "src/matcher_data/"+convName;
+    	}
 //    	System.out.println("Matching "+convName+"...");
         //create the lexicon (from the file timitdict.txt)
-        Lexicon lexicon = new CMULexicon("src/matcher_data/"+convName+"_lexicon.txt");
+        //Lexicon lexicon = new CMULexicon(convSrc+"_lexicon.txt");
+        Lexicon lexicon = new CMULexicon("src/matcher_data/conv_all_lexicon.txt");
         //creating the matcher, based off of that lexicon.
         Matcher matcher = new Matcher(lexicon);
         
         //Read the phone sequence from file
-        BufferedReader br = new BufferedReader(new FileReader("src/matcher_data/"+convName+"_phones.lm"));
+        BufferedReader br = new BufferedReader(new FileReader(convSrc+"_phones.lm"));
         List<String> phones = new ArrayList<String>();
         List<Float> phonesTimes = new ArrayList<Float>(); //Start time of each phone in phones
         String line;
@@ -55,7 +72,7 @@ public class ConvMatchInTopN {
         br.close();
         
         //Read the words sequence from file (same as above)
-        br = new BufferedReader(new FileReader("src/matcher_data/"+convName+"_words.lm"));
+        br = new BufferedReader(new FileReader(convSrc+"_words.lm"));
         List<String> words = new ArrayList<String>();
         List<Float> wordsTimes = new ArrayList<Float>();
         while ((line = br.readLine()) != null){
@@ -229,6 +246,10 @@ public class ConvMatchInTopN {
         percentFormat.setMaximumFractionDigits(3);
         String result = percentFormat.format(totalRank);
         System.out.println(convName + ": " + result);
+//        System.out.printf("Avg phone group size: %.2f%n",averageLength(phoneGroups));
+//        System.out.printf("Avg word group size: %.2f%n",averageLength(wordGroups));
+        output += "Name\tRank\tAvg Phone Group Length\t% Perfect Match in top 1\tIn top 2\tIn top 3\n";
+        output += convName + "\t" + result + "\t" + averageLength(phoneGroups) + "\t";
 //        System.out.println(matchInTopN);
         double sumOfRanks = 0;
         for (int i=0; i<3; i++){
@@ -237,8 +258,12 @@ public class ConvMatchInTopN {
             percentRank.setMaximumFractionDigits(1);
             String percent = percentRank.format(sumOfRanks/phraseRanks.size());
         	System.out.println("\tPerfect match in top "+ (i+1) + ": "+percent);
+        	output += percent + "\t";
         }
+        output += "\n";
       }
+      //Tab-separated data for pasting into a spreadsheet
+      //System.out.print(output);
     }
 
 }
