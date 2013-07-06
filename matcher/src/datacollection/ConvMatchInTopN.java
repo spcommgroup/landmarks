@@ -252,12 +252,16 @@ public class ConvMatchInTopN {
 //        System.out.println(matchInTopN);
         double sumOfRanks = 0;
         for (int i=0; i < N_TOPS; i++){
-        	sumOfRanks+=matchInTopN[i];
+            sumOfRanks += matchInTopN[i];
+
             NumberFormat percentRank = NumberFormat.getPercentInstance();
             percentRank.setMaximumFractionDigits(1);
-            String percent = percentRank.format(sumOfRanks/phraseRanks.size());
-        	System.out.println("\tPerfect match in top "+ (i+1) + ": "+percent);
-        	tab_sep_vals += percent + "\t";
+
+            String accumPercent = percentRank.format(sumOfRanks / phraseRanks.size());
+            String inNPercent = percentRank.format(matchInTopN[i] / phraseRanks.size());
+
+        	System.out.println("\tPerfect match in top "+ (i+1) + ": " + accumPercent);
+        	tab_sep_vals += accumPercent + "\t";
         }
         tab_sep_vals += "\n";
       }
