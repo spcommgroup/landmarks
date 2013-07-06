@@ -23,7 +23,6 @@ import datastructures.Ranking;
  *
  */
 public class ConvMatchInTopN {
-
 	private static double averageLength(List<ArrayList<String>> list){
 		int sum = 0;
 		for (ArrayList<String> sublist : list){
@@ -32,6 +31,7 @@ public class ConvMatchInTopN {
 		return (sum + 0.0)/list.size();
 	}
     public static void main(String[] args) throws IOException{
+      final int N_TOPS = 3;
       String tab_sep_vals = "";
       for (int conv = 1; conv < 17; conv++){
     	String convName;
@@ -135,7 +135,7 @@ public class ConvMatchInTopN {
 //        System.out.println(phoneGroups);
 //        System.out.println(wordGroups);
         List<Double> phraseRanks = new ArrayList<Double>();
-        double[] matchInTopN = {0,0,0,0,0};
+        double[] matchInTopN = new double[N_TOPS];
         int currentPhonePhraseIndex = 0;
         for (ArrayList<String> phonePhrase : phoneGroups){
         	if(phonePhrase.size() > 0){
@@ -251,7 +251,7 @@ public class ConvMatchInTopN {
         tab_sep_vals += convName + "\t" + result + "\t" + averageLength(phoneGroups) + "\t";
 //        System.out.println(matchInTopN);
         double sumOfRanks = 0;
-        for (int i=0; i<3; i++){
+        for (int i=0; i < N_TOPS; i++){
         	sumOfRanks+=matchInTopN[i];
             NumberFormat percentRank = NumberFormat.getPercentInstance();
             percentRank.setMaximumFractionDigits(1);
@@ -262,7 +262,19 @@ public class ConvMatchInTopN {
         tab_sep_vals += "\n";
       }
       //Tab-separated data for pasting into a spreadsheet
-      String headers = "Name\tRank\tAvg Phone Group Length\t% Perfect Match in top 1\tIn top 2\tIn top 3\n";
+      String headers = "";
+      headers += "Name\t";
+      headers += "Rank\t";
+      headers += "Avg Phone Group Length\t";
+
+      if (N_TOPS > 0) {
+          headers += "% Perfect Match in top 1\t";
+
+          for (int i = 1; i < N_TOPS; i++) {
+            headers += String.format("In top %d\t", i+1);
+          }
+      }
+
     System.out.println(headers);
       System.out.print(tab_sep_vals);
     }
