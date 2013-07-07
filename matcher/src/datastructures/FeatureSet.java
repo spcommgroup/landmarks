@@ -35,6 +35,10 @@ public class FeatureSet {
             Feature.ANTERIOR, Feature.DISTRIBUTED, Feature.LATERAL, Feature.RHOTIC, Feature.ROUND
             };
     
+    public static final Feature[] reducedFeatures= {
+        Feature.VOWEL, Feature.GLIDE, Feature.CONSONANT, Feature.SONORANT, Feature.CONTINUANT
+    };
+    
     private HashMap<Feature, Float> featureValues;
     
     public FeatureSet(Map<Feature, Float> featureValues) {

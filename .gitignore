@@ -1,2 +1,13 @@
 matcher/bin
 .DS_Store
+*.lab
+*/convertLM/*.TextGrid
+*/convertLM/*.lm
+*.pyc
+*log.txt
+*.odt
+*.docx
+*outfile.txt
+*test.py
+*sample*
+*.metadata/

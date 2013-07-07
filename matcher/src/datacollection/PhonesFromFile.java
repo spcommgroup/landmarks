@@ -14,6 +14,7 @@ import datastructures.FeatureSetLookup;
 import datastructures.Lexicon;
 import datastructures.Matching;
 import datastructures.Ranking;
+import datastructures.ReducedFeatureSetLookup;
 
 /**
  * Reads phones from a file (.lm file format) and attempts to match.

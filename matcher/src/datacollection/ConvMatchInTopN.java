@@ -16,6 +16,7 @@ import datastructures.FeatureSetLookup;
 import datastructures.Lexicon;
 import datastructures.Matching;
 import datastructures.Ranking;
+import datastructures.ReducedFeatureSetLookup;
 
 /**
  * Reads phones from a file (.lm file format) and attempts to match.
@@ -31,7 +32,7 @@ public class ConvMatchInTopN {
 		return (sum + 0.0)/list.size();
 	}
     public static void main(String[] args) throws IOException{
-      final int N_TOPS = 3;
+      final int N_TOPS = 5;
       String tab_sep_vals = "";
       for (int conv = 1; conv < 17; conv++){
     	String convName;
@@ -143,7 +144,7 @@ public class ConvMatchInTopN {
 		        List<FeatureSet> featureSetSequence = new ArrayList<FeatureSet>();
 		        for (String phone : phonePhrase){
 		          try {
-		            for (FeatureSet fs : FeatureSetLookup.lookup(phone)){
+		            for (FeatureSet fs : ReducedFeatureSetLookup.lookup(phone)){
 		                featureSetSequence.add(fs);
 		            }
 		          } catch (NullPointerException e) {
@@ -173,6 +174,10 @@ public class ConvMatchInTopN {
 		        	}
 		        	int cwi = 0; //currentWordIndex
 		        	boolean perfect = true;
+		        	
+//		        	for (Ranking r : m.getRankings()){//Print this match
+//		        		System.out.print(r.getBestProbabilitySet().getWords()+ " ");
+//		        	}System.out.println("\n");
 
 		        	WordLoop:
 		        	for (Ranking r : m.getRankings()){//each word in a phrase
@@ -207,7 +212,7 @@ public class ConvMatchInTopN {
 //		        		}System.out.print("\n");
 			        	cwi++;
 		        	}
-		        	if(perfect){
+		        	if(perfect && matchInTopN.length > matchingsChecked){
 		        		matchInTopN[matchingsChecked]+=1;
 		        	}
 		        	thisRank = thisRank * (1.0 - 0.2 * matchingsChecked);
