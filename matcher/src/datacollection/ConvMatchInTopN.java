@@ -23,7 +23,6 @@ import datastructures.Ranking;
  *
  */
 public class ConvMatchInTopN {
-
 	private static double averageLength(List<ArrayList<String>> list){
 		int sum = 0;
 		for (ArrayList<String> sublist : list){
@@ -32,7 +31,8 @@ public class ConvMatchInTopN {
 		return (sum + 0.0)/list.size();
 	}
     public static void main(String[] args) throws IOException{
-      String output = "";
+      final int N_TOPS = 3;
+      String tab_sep_vals = "";
       for (int conv = 1; conv < 17; conv++){
     	String convName;
     	String convSrc;
@@ -49,7 +49,7 @@ public class ConvMatchInTopN {
         //Lexicon lexicon = new CMULexicon("src/matcher_data/conv_all_lexicon.txt");
         //creating the matcher, based off of that lexicon.
         Matcher matcher = new Matcher(lexicon);
-        
+
         //Read the phone sequence from file
         BufferedReader br = new BufferedReader(new FileReader(convSrc+"_phones.lm"));
         List<String> phones = new ArrayList<String>();
@@ -70,7 +70,7 @@ public class ConvMatchInTopN {
             phonesTimes.add(Float.parseFloat(parts[0]));
         }
         br.close();
-        
+
         //Read the words sequence from file (same as above)
         br = new BufferedReader(new FileReader(convSrc+"_words.lm"));
         List<String> words = new ArrayList<String>();
@@ -87,7 +87,7 @@ public class ConvMatchInTopN {
             }
         }
         br.close();
-        
+
         //Split into "phone groups", separating by spaces in the phone list
         //So instead of running the matcher on the entire file, it splits up
         //into smaller, more manageable chunks
@@ -116,7 +116,7 @@ public class ConvMatchInTopN {
         int currentWordIndex = 0;
         int nextPhoneTimesIndex = 0;
         for (String word : words)  {
-    		if(phoneGroupsStartTimes.size() > nextPhoneTimesIndex && 
+    		if(phoneGroupsStartTimes.size() > nextPhoneTimesIndex &&
         	   wordsTimes.get(currentWordIndex)>= phoneGroupsStartTimes.get(nextPhoneTimesIndex)){
     			wordGroups.add(wordGroup);
         		ArrayList<String> newWordGroup = new ArrayList<String>();
@@ -135,7 +135,7 @@ public class ConvMatchInTopN {
 //        System.out.println(phoneGroups);
 //        System.out.println(wordGroups);
         List<Double> phraseRanks = new ArrayList<Double>();
-        double[] matchInTopN = {0,0,0,0,0};
+        double[] matchInTopN = new double[N_TOPS];
         int currentPhonePhraseIndex = 0;
         for (ArrayList<String> phonePhrase : phoneGroups){
         	if(phonePhrase.size() > 0){
@@ -151,7 +151,7 @@ public class ConvMatchInTopN {
 		        	  throw e;
 		          }
 		        }
-		        
+
 		        List<Matching> matchings = matcher.match(featureSetSequence, 0.1f);
 
 		        Matching bestMatching = null;
@@ -173,7 +173,7 @@ public class ConvMatchInTopN {
 		        	}
 		        	int cwi = 0; //currentWordIndex
 		        	boolean perfect = true;
-		    
+
 		        	WordLoop:
 		        	for (Ranking r : m.getRankings()){//each word in a phrase
 //		        		if(correctWords.size() > cwi) {
@@ -184,7 +184,7 @@ public class ConvMatchInTopN {
 //		        		System.out.println("Ranking: "+ r.getBestProbabilitySet().getWords());
 //	        			boolean goodLength = (correctWords.size() > cwi);
 //		        		if (goodLength) {System.out.println(r.getBestProbabilitySet().getWords().contains(correctWords.get(cwi)));}
-		        		
+
 		        		if(correctWords.size() > cwi &&
 	        			   r.getBestProbabilitySet().getWords().contains(correctWords.get(cwi))){
 		        			thisRank += 1.0/correctWords.size();
@@ -241,29 +241,46 @@ public class ConvMatchInTopN {
         	rankSum += rank;
         }
         Double totalRank = rankSum / phraseRanks.size();
-        
+
         NumberFormat percentFormat = NumberFormat.getPercentInstance();
         percentFormat.setMaximumFractionDigits(3);
         String result = percentFormat.format(totalRank);
         System.out.println(convName + ": " + result);
 //        System.out.printf("Avg phone group size: %.2f%n",averageLength(phoneGroups));
 //        System.out.printf("Avg word group size: %.2f%n",averageLength(wordGroups));
-        output += "Name\tRank\tAvg Phone Group Length\t% Perfect Match in top 1\tIn top 2\tIn top 3\n";
-        output += convName + "\t" + result + "\t" + averageLength(phoneGroups) + "\t";
+        tab_sep_vals += convName + "\t" + result + "\t" + averageLength(phoneGroups) + "\t";
 //        System.out.println(matchInTopN);
         double sumOfRanks = 0;
-        for (int i=0; i<3; i++){
-        	sumOfRanks+=matchInTopN[i];
+        for (int i=0; i < N_TOPS; i++){
+            sumOfRanks += matchInTopN[i];
+
             NumberFormat percentRank = NumberFormat.getPercentInstance();
             percentRank.setMaximumFractionDigits(1);
-            String percent = percentRank.format(sumOfRanks/phraseRanks.size());
-        	System.out.println("\tPerfect match in top "+ (i+1) + ": "+percent);
-        	output += percent + "\t";
+
+            String accumPercent = percentRank.format(sumOfRanks / phraseRanks.size());
+            String inNPercent = percentRank.format(matchInTopN[i] / phraseRanks.size());
+
+        	System.out.println("\tPerfect match in top "+ (i+1) + ": " + accumPercent);
+        	tab_sep_vals += accumPercent + "\t";
         }
-        output += "\n";
+        tab_sep_vals += "\n";
       }
       //Tab-separated data for pasting into a spreadsheet
-      //System.out.print(output);
+      String headers = "";
+      headers += "Name\t";
+      headers += "Rank\t";
+      headers += "Avg Phone Group Length\t";
+
+      if (N_TOPS > 0) {
+          headers += "% Perfect Match in top 1\t";
+
+          for (int i = 1; i < N_TOPS; i++) {
+            headers += String.format("In top %d\t", i+1);
+          }
+      }
+
+    System.out.println(headers);
+      System.out.print(tab_sep_vals);
     }
 
 }

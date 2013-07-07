@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# tested on OSX 10.7.5 with
+# Java(TM) SE Runtime Environment (build 1.6.0_51-b11-457-11M4509)
+# Java HotSpot(TM) 64-Bit Server VM (build 20.51-b01-457, mixed mode)
+
+javac -d bin src/*/*.java
