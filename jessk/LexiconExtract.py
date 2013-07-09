@@ -7,7 +7,7 @@ if sys.version_info < (3, 0):
     sys.exit(1)
 
 # Dictionary Path
-cmupath = "cmudict.0.7a"
+cmupath = "../../landmark/cmudict.0.7a"
 DICT=open(cmupath)
 
 # File Path(s)
