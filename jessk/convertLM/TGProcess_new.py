@@ -12,17 +12,12 @@
   - Updates (6/7/13) jessk:
         * added TextGrid.readAsLM() and TextGrid.saveAsLM() for .lm file format
         * added PointTier.removeBlankPoints()
-  - Updates (6/12/13) jessk:
-        * added option to supress text output
-  - Updates (6/18/13) jessk:
-        * added checking for python 3 (exits gracefully instead of throwing error)
 """
 
 import re
 import operator
 import csv
 from time import strftime
-import sys
 
 """Conventions:
 This script zero-indexes everything. So, the first point/interval in the first tier is
@@ -58,22 +53,14 @@ class TextGrid:
         del(self.tiers[i])
     def append(self, t):
         self.tiers.append(t)
-        if self.oprint:
-            print('Added ', t)
+        print('Added ', t)
     def remove(self, t_index):
-        if self.oprint:
-            print('Removed ', self.tiers[t_index])        
+        print('Removed ', self.tiers[t_index])        
         self.tiers.remove(self.tiers[t_index])
 
-    def __init__(self,fileType="ooTextFile", objectClass="TextGrid", xmin=0, xmax=0, hasTiers="exists", filepath=None, oprint=True ):
+    def __init__(self,fileType="ooTextFile", objectClass="TextGrid", xmin=0, xmax=0, hasTiers="exists", filepath=None ):
         """Creates an empty TextGrid with to specified metadata, or reads a grid from the filepath into a new TextGrid instance."""
         
-        if sys.version_info < (3, 0):
-            print("The TextGrid processor requires Python 3.0 or above. Exiting.\n")
-            sys.exit(1)
-
-        self.oprint = oprint
-
         #Only used for .lm filetype:
         self.waveformName = ""
         self.waveformChecksum = ""
@@ -100,18 +87,14 @@ class TextGrid:
         
     def writeGridToPath(self, path):
         """Writes the TextGrid in the standard TextGrid format to the file path."""
-        if not path.lower().endswith('.textgrid'):
-            path += ".TextGrid"
-        f = open(path,'w',encoding=self.enc)
+        f = open(path+'.textgrid','w',encoding=self.enc)
         self.writeGrid(f, range(len(self.tiers)))
         
     def writePartialGrid(self, path, tiers):
         """ Write textgrid selectively.
         tiers: list of tier indices.
         """
-        if not path.lower().endswith('.textgrid'):
-            path += ".TextGrid"
-        f = open(path,'w',encoding=self.enc)
+        f = open(path+'.textgrid','w',encoding=self.enc)
         self.writeGrid(f, tiers)    
         
     def writeGrid(self,f, tiers):
@@ -318,8 +301,7 @@ class TextGrid:
                 if match:
                     inTierMeta = True #We just started a tier, we need to read the metadata.
                     continue
-        if self.oprint:
-            print("Constructed new",self)
+        print("Constructed new",self)
 
     def listTiers(self):
         for i in range(0,len(self)):
@@ -332,8 +314,7 @@ class TextGrid:
                 t = tier
         if t == None:
             raise Exception("Tier named \"", n,"\" not found.")
-        if self.oprint:
-            print('Found', t)
+        print('Found', t)
         return t
         
 
@@ -354,15 +335,13 @@ class TextGrid:
             interval = t.items[i]
             if abs(interval.xmin-gapEnd)>EPSILON:
                 t.items.insert(i, Interval(gapEnd, interval.xmin, ""))
-                if self.oprint:
-                    print("inserted at ", i, " ", gapEnd, "-", interval.xmin)
+                print("inserted at ", i, " ", gapEnd, "-", interval.xmin)
                 i+=1
             gapEnd = interval.xmax
             i+=1
         if abs(interval.xmax- t.xmax)>EPSILON:
             t.append(Interval(interval.xmax, t.xmax, ""))
-            if self.oprint:
-                print("inserted at ", i, " ", interval.xmax, "-", t.xmax)
+            print("inserted at ", i, " ", interval.xmax, "-", t.xmax)
 
 
     def sample(self, end, start = 0):
@@ -415,29 +394,14 @@ class TextGrid:
         f.write("#--------------------------------------------------------------\n")
         f.write("#\n")
         #condense tiers into single list
-        items = []
-        for tier in self:
-            if type(tier[0])==Interval:
-                items.extend([(item.text.replace(" ","_"), "%.3f" % float(item.xmin), "%.3f" % float(item.xmax)) for item in tier])
-            elif type(tier[0])==Point:
-                items.extend([(item.mark.replace(" ","_"), "%.3f" % float(item.time)) for item in tier])
-            else:
-                print("Error")
-                return
-        items.sort(key=lambda item: float(item[1]))
-        #write items to both files
+        items = [(item.mark.replace(" ","_"), "%.3f" % float(item.time)) for tier in self.tiers for item in tier if type(item)==Point]
+        items.sort(key=lambda item: item[1])
         last_time = "0"
+        #write items to both files
         for item in items:
-            if len(item)==3: #Interval
-                f.write(item[2]+" "+item[0]+"\n")
-                f_lab.write(item[2]+" "+item[1]+" "+item[0]+"\n")
-                last_time = item[2]
-            elif len(item)==2: #Point
-                f.write(item[1]+" "+item[0]+"\n")
-                f_lab.write(last_time + " " + item[1] + " " + item[0]+"\n")
-                last_time = item[1]
-        # print(items)
-        
+            f.write(item[1]+" "+item[0]+"\n")
+            f_lab.write(last_time + " " + item[1] + " " + item[0]+"\n")
+            last_time = item[1]
 
     def readAsLM(self, path):
         """Parses a .lm file and represents it internally in this TextTier() instance."""

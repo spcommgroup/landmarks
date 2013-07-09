@@ -46,8 +46,8 @@ public class ConvMatchInTopN {
     	}
 //    	System.out.println("Matching "+convName+"...");
         //create the lexicon (from the file timitdict.txt)
-        Lexicon lexicon = new CMULexicon(convSrc+"_lexicon.txt");
-        //Lexicon lexicon = new CMULexicon("src/matcher_data/conv_all_lexicon.txt");
+        //Lexicon lexicon = new CMULexicon(convSrc+"_lexicon.txt");
+        Lexicon lexicon = new CMULexicon("src/matcher_data/conv_all_lexicon.txt");
         //creating the matcher, based off of that lexicon.
         Matcher matcher = new Matcher(lexicon);
 

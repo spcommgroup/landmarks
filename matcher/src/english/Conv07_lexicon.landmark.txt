@@ -1,0 +1,180 @@
+golf  Sc Sr V G Fc Fr
+just  Sc Sr Fc Fr V Fc Fr Sc Sr
+don't  Sc Sr V Nc Nr Sc Sr
+over  V Fc Fr G
+move  Nc Nr V Fc Fr
+course  Sc Sr V G Fc Fr
+looks  G V Sc Sr Fc Fr
+go  Sc Sr V
+corner  Sc Sr V G Nc Nr G
+mill  Nc Nr V G
+still  Fc Fr Sc Sr V G
+underline  V Nc Nr Sc Sr G G V Nc Nr
+ground  Sc Sr G V Nc Nr Sc Sr
+begin  Sc Sr V Sc Sr V Nc Nr
+di-  Sc Sr V
+fenced  Fc Fr V Nc Nr Fc Fr Sc Sr
+lake  G V Sc Sr
+should  Fc Fr V Sc Sr
+to  Sc Sr V
+going  Sc Sr V V Nc Nr
+under  V Nc Nr Sc Sr G
+riding  G V Sc Sr V Nc Nr
+east  V Fc Fr Sc Sr
+ride  G V Sc Sr
+do  Sc Sr V
+good  Sc Sr V Sc Sr
+around  G V Nc Nr Sc Sr
+get  Sc Sr V Sc Sr
+far  Fc Fr V G
+between  Sc Sr V Sc Sr G V Nc Nr
+gonna  Sc Sr V Nc Nr V
+coast  Sc Sr V Fc Fr Sc Sr
+underneath  V Nc Nr Sc Sr G Nc Nr V Fc Fr
+inch  V Nc Nr Sc Sr Fc Fr
+know  Nc Nr V
+not  Nc Nr V Sc Sr
+now  Nc Nr V
+beginning  Sc Sr V Sc Sr V Nc Nr V Nc Nr
+like  G V Sc Sr
+drop  Sc Sr G V Sc Sr
+go-(nna)  Sc Sr V
+cur-(ve)  Sc Sr G
+where  G V G
+side  Fc Fr V Sc Sr
+mean  Nc Nr V Nc Nr
+right  G V Sc Sr
+old  V G Sc Sr
+directly  Sc Sr G V Sc Sr Sc Sr G V
+ascend  V Fc Fr V Nc Nr Sc Sr
+back  Sc Sr V Sc Sr
+oh  V
+second  Fc Fr V Sc Sr V Nc Nr Sc Sr
+uhum  V G V Nc Nr
+out  V Sc Sr
+what  G V Sc Sr
+bottom  Sc Sr V Sc Sr V Nc Nr
+nuclear  Nc Nr V Sc Sr G V G
+looking  G V Sc Sr V Nc Nr
+there's  Fc Fr V G Fc Fr
+above  V Sc Sr V Fc Fr
+paradise  Sc Sr V G V Sc Sr V Fc Fr
+it  V Sc Sr
+got  Sc Sr V Sc Sr
+across  V Sc Sr G V Fc Fr
+uh  V
+be  Sc Sr V
+quarter  Sc Sr G V G Sc Sr G
+monument  Nc Nr V Nc Nr G V Nc Nr V Nc Nr Sc Sr
+diagonal  Sc Sr V V Sc Sr V Nc Nr V G
+base  Sc Sr V Fc Fr
+along  V G V Nc Nr
+come  Sc Sr V Nc Nr
+on  V Nc Nr
+about  V Sc Sr V Sc Sr
+farmland  Fc Fr V G Nc Nr G V Nc Nr Sc Sr
+canadian  Sc Sr V Nc Nr V Sc Sr V V Nc Nr
+of  V Fc Fr
+canad-  Sc Sr V Nc Nr V Sc Sr
+page  Sc Sr V Sc Sr Fc Fr
+thing  Fc Fr V Nc Nr
+west  G V Fc Fr Sc Sr
+or  V G
+mhum  Nc Nr G V Nc Nr
+teeny  Sc Sr V Nc Nr V
+one  G V Nc Nr
+down  Sc Sr V Nc Nr
+another  V Nc Nr V Fc Fr G
+marker  Nc Nr V G Sc Sr G
+says  Fc Fr V Fc Fr
+your  G V G
+meadow  Nc Nr V Sc Sr V
+you're  G V G
+little  G V Sc Sr V G
+from  Fc Fr G V Nc Nr
+would  G V Sc Sr
+it's  V Sc Sr Fc Fr
+top  Sc Sr V Sc Sr
+there  Fc Fr V G
+two  Sc Sr V
+next  Nc Nr V Sc Sr Fc Fr Sc Sr
+start  Fc Fr Sc Sr V G Sc Sr
+too  Sc Sr V
+lot  G V Sc Sr
+a  V
+way  G V
+inches  V Nc Nr Sc Sr Fc Fr V Fc Fr
+that  Fc Fr V Sc Sr
+started  Fc Fr Sc Sr V G Sc Sr V Sc Sr
+but  Sc Sr V Sc Sr
+(o)-kay  Sc Sr V
+finished  Fc Fr V Nc Nr V Fc Fr Sc Sr
+part  Sc Sr V G Sc Sr
+cottage  Sc Sr V Sc Sr V Sc Sr Fc Fr
+line  G V Nc Nr
+kind  Sc Sr V Nc Nr Sc Sr
+word  G G Sc Sr
+abandoned  V Sc Sr V Nc Nr Sc Sr V Nc Nr Sc Sr
+straight  Fc Fr Sc Sr G V Sc Sr
+pretend  Sc Sr G V Sc Sr V Nc Nr Sc Sr
+up  V Sc Sr
+n  V Nc Nr
+um  V Nc Nr
+below  Sc Sr V G V
+three  Fc Fr G V
+yup  G V Sc Sr
+making  Nc Nr V Sc Sr V Nc Nr
+toward  Sc Sr V G V G Sc Sr
+my  Nc Nr V
+loop  G V Sc Sr
+and  V Nc Nr Sc Sr
+then  Fc Fr V Nc Nr
+almost  V G Nc Nr V Fc Fr Sc Sr
+is  V Fc Fr
+site  Fc Fr V Sc Sr
+an  V Nc Nr
+high  G V
+middle  Nc Nr V Sc Sr V G
+as  V Fc Fr
+skimming  Fc Fr Sc Sr V Nc Nr V Nc Nr
+at  V Sc Sr
+have  G V Fc Fr
+in  V Nc Nr
+curved  Sc Sr G Fc Fr Sc Sr
+it's-  V Sc Sr Fc Fr
+if  V Fc Fr
+mountain  Nc Nr V Nc Nr Sc Sr V Nc Nr
+end  V Nc Nr Sc Sr
+no  Nc Nr V
+make  Nc Nr V Sc Sr
+when  G V Nc Nr
+how  G V
+take  Sc Sr V Sc Sr
+which  G V Sc Sr Fc Fr
+test  Sc Sr V Fc Fr Sc Sr
+so  Fc Fr V
+you  G V
+sloping  Fc Fr G V Sc Sr V Nc Nr
+wheel  G V G
+draw  Sc Sr G V
+towards  Sc Sr V G V G Sc Sr Fc Fr
+okay  V Sc Sr V
+see  Fc Fr V
+southern  Fc Fr V Fc Fr G Nc Nr
+where's  G V G Fc Fr
+most  Nc Nr V Fc Fr Sc Sr
+ri-  G V
+peak  Sc Sr V Sc Sr
+kinda  Sc Sr V Nc Nr Sc Sr V
+kay  Sc Sr V
+yeah  G V
+i  V
+maybe  Nc Nr V Sc Sr V
+curve  Sc Sr G Fc Fr
+drive  Sc Sr G V Fc Fr
+tombstone  Sc Sr V Nc Nr Fc Fr Sc Sr V Nc Nr
+very  Fc Fr V G V
+the  Fc Fr V
+left  G V Fc Fr Sc Sr
+dot  Sc Sr V Sc Sr
+that's  Fc Fr V Sc Sr Fc Fr

@@ -1,0 +1,676 @@
+all  V G
+forget  Fc Fr G Sc Sr V Sc Sr
+four  Fc Fr V G
+go  Sc Sr V
+follow  Fc Fr V G V
+mill  Nc Nr V G
+kate  Sc Sr V Sc Sr
+hump  G V Nc Nr Sc Sr
+fenced  Fc Fr V Nc Nr Fc Fr Sc Sr
+to  Sc Sr V
+tail  Sc Sr V G
+sil  Fc Fr V G
+under  V Nc Nr Sc Sr G
+sorry  Fc Fr V G V
+meadows  Nc Nr V Sc Sr V Fc Fr
+me  Nc Nr V
+outside  V Sc Sr Fc Fr V Sc Sr
+very  Fc Fr V G V
+every  V Fc Fr G V
+lefthand  G V Fc Fr Sc Sr G V Nc Nr Sc Sr
+look  G V Sc Sr
+we'll  G V G
+wooden  G V Sc Sr V Nc Nr
+leave  G V Fc Fr
+spaced  Fc Fr Sc Sr V Fc Fr Sc Sr
+oooh  V
+dip  Sc Sr V Sc Sr
+heading  G V Sc Sr V Nc Nr
+it'll  V Sc Sr V G
+i'll  V G
+upper  V Sc Sr G
+says  Fc Fr V Fc Fr
+meadow  Nc Nr V Sc Sr V
+fence  Fc Fr V Nc Nr Fc Fr
+yourself  G G Fc Fr V G Fc Fr
+sign  Fc Fr V Nc Nr
+past  Sc Sr V Fc Fr Sc Sr
+located  G V Sc Sr V Sc Sr V Sc Sr
+second  Fc Fr V Sc Sr V Nc Nr Sc Sr
+crescent  Sc Sr G V Fc Fr V Nc Nr Sc Sr
+pass  Sc Sr V Fc Fr
+bake  Sc Sr V Sc Sr
+click  Sc Sr G V Sc Sr
+even  V Fc Fr V Nc Nr
+what  G V Sc Sr
+this'll  Fc Fr V Fc Fr V G
+clock  Sc Sr G V Sc Sr
+nee  Nc Nr V
+while  G V G
+ahead  V G V Sc Sr
+canoes  Sc Sr V Nc Nr V Fc Fr
+above  V Sc Sr V Fc Fr
+flowing  Fc Fr G V V Nc Nr
+ever  V Fc Fr G
+told  Sc Sr V G Sc Sr
+degree  Sc Sr V Sc Sr G V
+v  Fc Fr V
+water  G V Sc Sr G
+trunk  Sc Sr G V Nc Nr Sc Sr
+apache  V Sc Sr V Sc Sr Fc Fr V
+path  Sc Sr V Fc Fr
+along  V G V Nc Nr
+change  Sc Sr Fc Fr V Nc Nr Sc Sr Fc Fr
+wait  G V Sc Sr
+box  Sc Sr V Sc Sr Fc Fr
+great  Sc Sr G V Sc Sr
+thirty  Fc Fr G Sc Sr V
+canadian  Sc Sr V Nc Nr V Sc Sr V V Nc Nr
+root  G V Sc Sr
+wherever  G V G V Fc Fr G
+round  G V Nc Nr Sc Sr
+bulges  Sc Sr V G Sc Sr Fc Fr V Fc Fr
+base  Sc Sr V Fc Fr
+i'm  V Nc Nr
+makes  Nc Nr V Sc Sr Fc Fr
+diameter  Sc Sr V V Nc Nr V Sc Sr G
+marked  Nc Nr V G Sc Sr Sc Sr
+put  Sc Sr V Sc Sr
+marker  Nc Nr V G Sc Sr G
+total  Sc Sr V Sc Sr V G
+standing  Fc Fr Sc Sr V Nc Nr Sc Sr V Nc Nr
+from  Fc Fr G V Nc Nr
+would  G V Sc Sr
+two  Sc Sr V
+next  Nc Nr V Sc Sr Fc Fr Sc Sr
+eleven  V G V Fc Fr V Nc Nr
+h  V Sc Sr Fc Fr
+type  Sc Sr V Sc Sr
+until  V Nc Nr Sc Sr V G
+more  Nc Nr V G
+sort  Fc Fr V G Sc Sr
+flat  Fc Fr G V Sc Sr
+diamond  Sc Sr V Nc Nr V Nc Nr Sc Sr
+started  Fc Fr Sc Sr V G Sc Sr V Sc Sr
+wann  G V Nc Nr
+stone  Fc Fr Sc Sr V Nc Nr
+site  Fc Fr V Sc Sr
+farmland  Fc Fr V G Nc Nr G V Nc Nr Sc Sr
+far  Fc Fr V G
+hole  G V G
+hold  G V G Sc Sr
+town  Sc Sr V Nc Nr
+walled  G V G Sc Sr
+crosses  Sc Sr G V Fc Fr V Fc Fr
+word  G G Sc Sr
+this  Fc Fr V Fc Fr
+ride  G V Sc Sr
+pretend  Sc Sr G V Sc Sr V Nc Nr Sc Sr
+anywhere  V Nc Nr V G V G
+can  Sc Sr V Nc Nr
+yup  G V Sc Sr
+following  Fc Fr V G V V Nc Nr
+making  Nc Nr V Sc Sr V Nc Nr
+my  Nc Nr V
+route  G V Sc Sr
+slightest  Fc Fr G V Sc Sr V Fc Fr Sc Sr
+nearest  Nc Nr V G V Fc Fr Sc Sr
+stream  Fc Fr Sc Sr G V Nc Nr
+give  Sc Sr V Fc Fr
+in  V Nc Nr
+didn't  Sc Sr V Sc Sr V Nc Nr Sc Sr
+confused  Sc Sr V Nc Nr Fc Fr G V Fc Fr Sc Sr
+high  G V
+something  Fc Fr V Nc Nr Fc Fr V Nc Nr
+want  G V Nc Nr Sc Sr
+sense  Fc Fr V Nc Nr Fc Fr
+sharp  Fc Fr V G Sc Sr
+huge  G G V Sc Sr Fc Fr
+curving  Sc Sr G Fc Fr V Nc Nr
+end  V Nc Nr Sc Sr
+turn  Sc Sr G Nc Nr
+six  Fc Fr V Sc Sr Fc Fr
+sandstone  Fc Fr V Nc Nr Sc Sr Fc Fr Sc Sr V Nc Nr
+pine  Sc Sr V Nc Nr
+write  G V Sc Sr
+till  Sc Sr V G
+hot  G V Sc Sr
+forest  Fc Fr V G V Fc Fr Sc Sr
+instead  V Nc Nr Fc Fr Sc Sr V Sc Sr
+circular  Fc Fr G Sc Sr G V G G
+map  Nc Nr V Sc Sr
+okay  V Sc Sr V
+tried  Sc Sr G V Sc Sr
+farm  Fc Fr V G Nc Nr
+dive  Sc Sr V Fc Fr
+after  V Fc Fr Sc Sr G
+spot  Fc Fr Sc Sr V Sc Sr
+plane  Sc Sr G V Nc Nr
+graveyards  Sc Sr G V Fc Fr G V G Sc Sr Fc Fr
+coming  Sc Sr V Nc Nr V Nc Nr
+horizontal  G V G V Fc Fr V Nc Nr Sc Sr V G
+parallel  Sc Sr V G V G V G
+man  Nc Nr V Nc Nr
+a  V
+remember  G V Nc Nr V Nc Nr Sc Sr G
+third  Fc Fr G Sc Sr
+maybe  Nc Nr V Sc Sr V
+lines  G V Nc Nr Fc Fr
+encompassing  V Nc Nr Sc Sr V Nc Nr Sc Sr V Fc Fr V Nc Nr
+bakery  Sc Sr V Sc Sr G V
+rectangular  G V Sc Sr Sc Sr V Nc Nr Sc Sr G V G G
+so  Fc Fr V
+keeps  Sc Sr V Sc Sr Fc Fr
+that's  Fc Fr V Sc Sr Fc Fr
+antelope  V Nc Nr Sc Sr V G V Sc Sr
+help  G V G Sc Sr
+don't  Sc Sr V Nc Nr Sc Sr
+gradual  Sc Sr G V Sc Sr Fc Fr V V G
+over  V Fc Fr G
+move  Nc Nr V Fc Fr
+soon  Fc Fr V Nc Nr
+course  Sc Sr V G Fc Fr
+paper  Sc Sr V Sc Sr G
+through  Fc Fr G V
+looks  G V Sc Sr Fc Fr
+counterclockwise  Sc Sr V Nc Nr Sc Sr G Sc Sr G V Sc Sr G V Fc Fr
+mentioned  Nc Nr V Nc Nr Fc Fr V Nc Nr Sc Sr
+diagonally  Sc Sr V V Sc Sr V Nc Nr V G V
+still  Fc Fr Sc Sr V G
+its  V Sc Sr Fc Fr
+before  Sc Sr V Fc Fr V G
+perfect  Sc Sr G Fc Fr V Sc Sr Sc Sr
+horizontally  G V G V Fc Fr V Nc Nr Sc Sr V G V
+how  G V
+apex  V Sc Sr V Sc Sr Fc Fr
+fix  Fc Fr V Sc Sr Fc Fr
+actually  V Sc Sr Sc Sr Fc Fr V V G V
+parts  Sc Sr V G Sc Sr Fc Fr
+degrees  Sc Sr V Sc Sr G V Fc Fr
+bypass  Sc Sr V Sc Sr V Fc Fr
+might  Nc Nr V Sc Sr
+easier  V Fc Fr V G
+eventually  V Fc Fr V Nc Nr Sc Sr Fc Fr V G V G V
+them  Fc Fr V Nc Nr
+good  Sc Sr V Sc Sr
+crash  Sc Sr G V Fc Fr
+slate  Fc Fr G V Sc Sr
+underneath  V Nc Nr Sc Sr G Nc Nr V Fc Fr
+touching  Sc Sr V Sc Sr Fc Fr V Nc Nr
+you've  G V Fc Fr
+they  Fc Fr V
+half  G V Fc Fr
+front  Fc Fr G V Nc Nr Sc Sr
+now  Nc Nr V
+down  Sc Sr V Nc Nr
+drop  Sc Sr G V Sc Sr
+l  V G
+rocks  G V Sc Sr Fc Fr
+did  Sc Sr V Sc Sr
+stopped  Fc Fr Sc Sr V Sc Sr Sc Sr
+rock  G V Sc Sr
+went  G V Nc Nr Sc Sr
+quarter  Sc Sr G V G Sc Sr G
+side  Fc Fr V Sc Sr
+isn't  V Fc Fr V Nc Nr Sc Sr
+mean  Nc Nr V Nc Nr
+em  V Nc Nr
+perimeter  Sc Sr G V Nc Nr V Sc Sr G
+square  Fc Fr Sc Sr G V G
+directly  Sc Sr G V Sc Sr Sc Sr G V
+elephants  V G V Fc Fr V Nc Nr Sc Sr Fc Fr
+doing  Sc Sr V V Nc Nr
+house  G V Fc Fr
+positioned  Sc Sr V Fc Fr V Fc Fr V Nc Nr Sc Sr
+yeah  G V
+forgot  Fc Fr G Sc Sr V Sc Sr
+our  V G
+evens  V Fc Fr V Nc Nr Fc Fr
+out  V Sc Sr
+lake's  G V Sc Sr Fc Fr
+space  Fc Fr Sc Sr V Fc Fr
+god  Sc Sr V Sc Sr
+forty  Fc Fr V G Sc Sr V
+looking  G V Sc Sr V Nc Nr
+re  G V
+stuff  Fc Fr Sc Sr V Fc Fr
+shouldn't  Fc Fr V Sc Sr V Nc Nr Sc Sr
+wide  G V Sc Sr
+paradise  Sc Sr V G V Sc Sr V Fc Fr
+got  Sc Sr V Sc Sr
+size  Fc Fr V Fc Fr
+cause  Sc Sr V Fc Fr
+correct  Sc Sr G V Sc Sr Sc Sr
+uh-huh  V G V
+you're  G V G
+southern  Fc Fr V Fc Fr G Nc Nr
+diagonal  Sc Sr V V Sc Sr V Nc Nr V G
+completely  Sc Sr V Nc Nr Sc Sr G V Sc Sr G V
+jill  Sc Sr Fc Fr V G
+ask  V Fc Fr Sc Sr
+beginning  Sc Sr V Sc Sr V Nc Nr V Nc Nr
+backwards  Sc Sr V Sc Sr G G Sc Sr Fc Fr
+g  Sc Sr Fc Fr V
+starts  Fc Fr Sc Sr V G Sc Sr Fc Fr
+could  Sc Sr V Sc Sr
+keep  Sc Sr V Sc Sr
+motion  Nc Nr V Fc Fr V Nc Nr
+thing  Fc Fr V Nc Nr
+place  Sc Sr G V Fc Fr
+swing  Fc Fr G V Nc Nr
+think  Fc Fr V Nc Nr Sc Sr
+south  Fc Fr V Fc Fr
+first  Fc Fr G Fc Fr Sc Sr
+forwards  Fc Fr V G G G Sc Sr Fc Fr
+feel  Fc Fr V G
+one  G V Nc Nr
+feet  Fc Fr V Sc Sr
+done  Sc Sr V Nc Nr
+long  G V Nc Nr
+another  V Nc Nr V Fc Fr G
+thick  Fc Fr V Sc Sr
+open  V Sc Sr V Nc Nr
+you'd  G V Sc Sr
+city  Fc Fr V Sc Sr V
+little  G V Sc Sr V G
+sheet  Fc Fr V Sc Sr
+picket  Sc Sr V Sc Sr V Sc Sr
+top  Sc Sr V Sc Sr
+too  Sc Sr V
+white  G V Sc Sr
+legs  G V Sc Sr Fc Fr
+low  G V
+lot  G V Sc Sr
+mostly  Nc Nr V Fc Fr Sc Sr G V
+that  Fc Fr V Sc Sr
+brains  Sc Sr G V Nc Nr Fc Fr
+exactly  V Sc Sr Fc Fr V Sc Sr Sc Sr G V
+huh  G V
+hut  G V Sc Sr
+part  Sc Sr V G Sc Sr
+that'll  Fc Fr V Sc Sr V G
+than  Fc Fr V Nc Nr
+distance  Sc Sr V Fc Fr Sc Sr V Nc Nr Fc Fr
+kind  Sc Sr V Nc Nr Sc Sr
+gently  Sc Sr Fc Fr V Nc Nr Sc Sr G V
+tree  Sc Sr G V
+matter  Nc Nr V Sc Sr G
+r  V G
+supposed  Fc Fr V Sc Sr V Fc Fr Sc Sr
+were  G G
+toward  Sc Sr V G V G Sc Sr
+steep  Fc Fr Sc Sr V Sc Sr
+bet  Sc Sr V Sc Sr
+and  V Nc Nr Sc Sr
+swerve  Fc Fr G G Fc Fr
+basically  Sc Sr V Fc Fr V Sc Sr G V
+mine  Nc Nr V Nc Nr
+curves  Sc Sr G Fc Fr Fc Fr
+say  Fc Fr V
+have  G V Fc Fr
+curved  Sc Sr G Fc Fr Sc Sr
+any  V Nc Nr V
+relatively  G V G V Sc Sr V Fc Fr G V
+triangle  Sc Sr G V V Nc Nr Sc Sr V G
+mountain  Nc Nr V Nc Nr Sc Sr V Nc Nr
+angle  V Nc Nr Sc Sr V G
+able  V Sc Sr V G
+also  V G Fc Fr V
+rome  G V Nc Nr
+take  Sc Sr V Sc Sr
+which  G V Sc Sr Fc Fr
+green  Sc Sr G V Nc Nr
+begin  Sc Sr V Sc Sr V Nc Nr
+towards  Sc Sr V G V G Sc Sr Fc Fr
+trace  Sc Sr G V Fc Fr
+though  Fc Fr V
+wells  G V G Fc Fr
+where's  G V G Fc Fr
+most  Nc Nr V Fc Fr Sc Sr
+eight  V Sc Sr
+laughter  G V Fc Fr Sc Sr G
+kay  Sc Sr V
+why  G V
+forage  Fc Fr V G V Sc Sr Fc Fr
+camp  Sc Sr V Nc Nr Sc Sr
+drive  Sc Sr G V Fc Fr
+yours  G V G Fc Fr
+looked  G V Sc Sr Sc Sr
+you'll  G V G
+pointy  Sc Sr V Nc Nr Sc Sr V
+saloon  Fc Fr V G V Nc Nr
+er  G
+julie's  Sc Sr Fc Fr V G V Fc Fr
+came  Sc Sr V Nc Nr
+slope  Fc Fr G V Sc Sr
+saying  Fc Fr V V Nc Nr
+walking  G V Sc Sr V Nc Nr
+golf  Sc Sr V G Fc Fr
+stoney  Fc Fr Sc Sr V Nc Nr V
+anyway  V Nc Nr V G V
+bring  Sc Sr G V Nc Nr
+corner  Sc Sr V G Nc Nr G
+crane  Sc Sr G V Nc Nr
+ground  Sc Sr G V Nc Nr Sc Sr
+slop  Fc Fr G V Sc Sr
+rocket  G V Sc Sr V Sc Sr
+explain  V Sc Sr Fc Fr Sc Sr G V Nc Nr
+written  G V Sc Sr V Nc Nr
+should  Fc Fr V Sc Sr
+only  V Nc Nr G V
+going  Sc Sr V V Nc Nr
+pretty  Sc Sr G V Sc Sr V
+riding  G V Sc Sr V Nc Nr
+circle  Fc Fr G Sc Sr V G
+rectangle  G V Sc Sr Sc Sr V Nc Nr Sc Sr V G
+exhale  V Sc Sr Fc Fr G V G
+do  Sc Sr V
+hit  G V Sc Sr
+goes  Sc Sr V Fc Fr
+get  Sc Sr V Sc Sr
+air  V G
+hopefully  G V Sc Sr Fc Fr V G V
+stop  Fc Fr Sc Sr V Sc Sr
+trees  Sc Sr G V Fc Fr
+coast  Sc Sr V Fc Fr Sc Sr
+words  G G Sc Sr Fc Fr
+chimney  Sc Sr Fc Fr V Nc Nr Nc Nr V
+bar  Sc Sr V G
+fields  Fc Fr V G Sc Sr Fc Fr
+bay  Sc Sr V
+miles  Nc Nr V G Fc Fr
+x  V Sc Sr Fc Fr
+finishing  Fc Fr V Nc Nr V Fc Fr V Nc Nr
+river  G V Fc Fr G
+where  G V G
+circling  Fc Fr G Sc Sr V G V Nc Nr
+set  Fc Fr V Sc Sr
+ends  V Nc Nr Sc Sr Fc Fr
+relative  G V G V Sc Sr V Fc Fr
+see  Fc Fr V
+slanted  Fc Fr G V Nc Nr Sc Sr V Sc Sr
+are  V G
+cattle  Sc Sr V Sc Sr V G
+close  Sc Sr G V Fc Fr
+said  Fc Fr V Sc Sr
+ways  G V Fc Fr
+nuclear  Nc Nr V Sc Sr G V G
+away  V G V
+sites  Fc Fr V Sc Sr Fc Fr
+underline  V Nc Nr Sc Sr G G V Nc Nr
+teeny  Sc Sr V Nc Nr V
+behind  Sc Sr V G V Nc Nr Sc Sr
+there's  Fc Fr V G Fc Fr
+finger  Fc Fr V Nc Nr Sc Sr G
+between  Sc Sr V Sc Sr G V Nc Nr
+probably  Sc Sr G V Sc Sr V Sc Sr G V
+nope  Nc Nr V Sc Sr
+across  V Sc Sr G V Fc Fr
+tent  Sc Sr V Nc Nr Sc Sr
+we  G V
+terms  Sc Sr G Nc Nr Fc Fr
+vertical  Fc Fr G Sc Sr V Sc Sr V G
+farmed  Fc Fr V G Nc Nr Sc Sr
+southeast  Fc Fr V Fc Fr V Fc Fr Sc Sr
+come  Sc Sr V Nc Nr
+both  Sc Sr V Fc Fr
+c  Fc Fr V
+many  Nc Nr V Nc Nr V
+barely  Sc Sr V G G V
+against  V Sc Sr V Nc Nr Fc Fr Sc Sr
+roman  G V Nc Nr V Nc Nr
+passing  Sc Sr V Fc Fr V Nc Nr
+whole  G V G
+comes  Sc Sr V Nc Nr Fc Fr
+otherwise  V Fc Fr G G V Fc Fr
+point  Sc Sr V Nc Nr Sc Sr
+sweep  Fc Fr G V Sc Sr
+whatever  G V Sc Sr V Fc Fr G
+except  V Sc Sr Fc Fr V Sc Sr Sc Sr
+pole  Sc Sr V G
+springs  Fc Fr Sc Sr G V Nc Nr Fc Fr
+boat  Sc Sr V Sc Sr
+lighthouse  G V Sc Sr G V Fc Fr
+light  G V Sc Sr
+it's  V Sc Sr Fc Fr
+three  Fc Fr G V
+tiny  Sc Sr V Nc Nr V
+mark  Nc Nr V G Sc Sr
+hitting  G V Sc Sr V Nc Nr
+much  Nc Nr V Sc Sr Fc Fr
+pi  Sc Sr V
+direction  Sc Sr G V Sc Sr Fc Fr V Nc Nr
+graveyard  Sc Sr G V Fc Fr G V G Sc Sr
+what's  G V Sc Sr Fc Fr
+circumference  Fc Fr G Sc Sr V Nc Nr Fc Fr G V Nc Nr Fc Fr
+else  V G Fc Fr
+finished  Fc Fr V Nc Nr V Fc Fr Sc Sr
+forge  Fc Fr V G Sc Sr Fc Fr
+ooh  V
+general  Sc Sr Fc Fr V Nc Nr G V G
+those  Fc Fr V Fc Fr
+has  G V Fc Fr
+abandoned  V Sc Sr V Nc Nr Sc Sr V Nc Nr Sc Sr
+these  Fc Fr V Fc Fr
+straight  Fc Fr Sc Sr G V Sc Sr
+straighten  Fc Fr Sc Sr G V Sc Sr V Nc Nr
+n  V Nc Nr
+will  G V G
+near  Nc Nr V G
+ar  V G
+squeezed  Fc Fr Sc Sr G V Fc Fr Sc Sr
+loop  G V Sc Sr
+savanna  Fc Fr V Fc Fr V Nc Nr V
+seven  Fc Fr V Fc Fr V Nc Nr
+then  Fc Fr V Nc Nr
+almost  V G Nc Nr V Fc Fr Sc Sr
+is  V Fc Fr
+it  V Sc Sr
+middle  Nc Nr V Sc Sr V G
+baths  Sc Sr V Fc Fr Fc Fr
+if  V Fc Fr
+funny  Fc Fr V Nc Nr V
+different  Sc Sr V Fc Fr G V Nc Nr Sc Sr
+righthand  G V Sc Sr G V Nc Nr Sc Sr
+evenly  V Fc Fr V Nc Nr G V
+things  Fc Fr V Nc Nr Fc Fr
+make  Nc Nr V Sc Sr
+s  V Fc Fr
+same  Fc Fr V Nc Nr
+makeshift  Nc Nr V Sc Sr Fc Fr V Fc Fr Sc Sr
+i'd  V Sc Sr
+inch  V Nc Nr Sc Sr Fc Fr
+wheel  G V G
+finish  Fc Fr V Nc Nr V Fc Fr
+infinity  V Nc Nr Fc Fr V Nc Nr V Sc Sr V
+slightly  Fc Fr G V Sc Sr G V
+hand  G V Nc Nr Sc Sr
+running  G V Nc Nr V Nc Nr
+moving  Nc Nr V Fc Fr V Nc Nr
+totally  Sc Sr V Sc Sr V G V
+lower  G V G
+off  V Fc Fr
+center  Fc Fr V Nc Nr Sc Sr G
+i  V
+ranch  G V Nc Nr Sc Sr Fc Fr
+well  G V G
+roughly  G V Fc Fr G V
+edge  V Sc Sr Fc Fr
+tombstone  Sc Sr V Nc Nr Fc Fr Sc Sr V Nc Nr
+landmark  G V Nc Nr Sc Sr Nc Nr V G Sc Sr
+the  Fc Fr V
+drawing  Sc Sr G V V Nc Nr
+left  G V Fc Fr Sc Sr
+just  Sc Sr Fc Fr V Fc Fr Sc Sr
+less  G V Fc Fr
+savannah  Fc Fr V Fc Fr V Nc Nr V
+tip  Sc Sr V Sc Sr
+rest  G V Fc Fr Sc Sr
+quarters  Sc Sr G V G Sc Sr G Fc Fr
+not  Nc Nr V Sc Sr
+shape  Fc Fr V Sc Sr
+farther  Fc Fr V G Fc Fr G
+slanting  Fc Fr G V Nc Nr Sc Sr V Nc Nr
+yep  G V Sc Sr
+yes  G V Fc Fr
+yet  G V Sc Sr
+halfway  G V Fc Fr G V
+thinking  Fc Fr V Nc Nr Sc Sr V Nc Nr
+had  G V Sc Sr
+lake  G V Sc Sr
+hind  G V Nc Nr Sc Sr
+east  V Fc Fr Sc Sr
+around  G V Nc Nr Sc Sr
+ample  V Nc Nr Sc Sr V G
+read  G V Sc Sr
+big  Sc Sr V Sc Sr
+couple  Sc Sr V Sc Sr V G
+gonna  Sc Sr V Nc Nr V
+test  Sc Sr V Fc Fr Sc Sr
+five  Fc Fr V Fc Fr
+know  Nc Nr V
+bit  Sc Sr V Sc Sr
+apart  V Sc Sr V G Sc Sr
+vertically  Fc Fr G Sc Sr V Sc Sr G V
+mhm  V Nc Nr G V Nc Nr
+like  G V Sc Sr
+shaped  Fc Fr V Sc Sr Sc Sr
+bulge  Sc Sr V G Sc Sr Fc Fr
+follows  Fc Fr V G V Fc Fr
+facing  Fc Fr V Fc Fr V Nc Nr
+continue  Sc Sr V Nc Nr Sc Sr V Nc Nr G V
+t  Sc Sr V
+page  Sc Sr V Sc Sr Fc Fr
+right  G V Sc Sr
+old  V G Sc Sr
+creek  Sc Sr G V Sc Sr
+some  Fc Fr V Nc Nr
+back  Sc Sr V Sc Sr
+dead  Sc Sr V Sc Sr
+sure  Fc Fr V G
+curious  Sc Sr G V G V V Fc Fr
+guess  Sc Sr V Fc Fr
+bypassing  Sc Sr V Sc Sr V Fc Fr V Nc Nr
+ignore  V Sc Sr Nc Nr V G
+gradually  Sc Sr G V Sc Sr Fc Fr V V G V
+clockwise  Sc Sr G V Sc Sr G V Fc Fr
+for  Fc Fr V G
+bottom  Sc Sr V Sc Sr V Nc Nr
+lean  G V Nc Nr
+mines  Nc Nr V Nc Nr Fc Fr
+moon  Nc Nr V Nc Nr
+does  Sc Sr V Fc Fr
+assuming  V Fc Fr V Nc Nr V Nc Nr
+umm  V Nc Nr
+be  Sc Sr V
+wheat  G V Sc Sr
+slight  Fc Fr G V Sc Sr
+perpendicular  Sc Sr G Sc Sr V Nc Nr Sc Sr V Sc Sr G V G G
+nowhere  Nc Nr V G V G
+few  Fc Fr G V
+by  Sc Sr V
+on  V Nc Nr
+about  V Sc Sr V Sc Sr
+cliffs  Sc Sr G V Fc Fr Fc Fr
+anything  V Nc Nr V Fc Fr V Nc Nr
+oh  V
+of  V Fc Fr
+o  V
+west  G V Fc Fr Sc Sr
+wanna  G V Nc Nr V
+or  V G
+stony  Fc Fr Sc Sr V Nc Nr V
+into  V Nc Nr Sc Sr V
+'bout  Sc Sr V Sc Sr
+because  Sc Sr V Sc Sr V Fc Fr
+your  G V G
+canal  Sc Sr V Nc Nr V G
+breath  Sc Sr G V Fc Fr
+beneath  Sc Sr V Nc Nr V Fc Fr
+area  V G V V
+there  Fc Fr V G
+question  Sc Sr G V Fc Fr Sc Sr Fc Fr V Nc Nr
+fast  Fc Fr V Fc Fr Sc Sr
+start  Fc Fr Sc Sr V G Sc Sr
+we're  G V G
+way  G V
+forward  Fc Fr V G G G Sc Sr
+slopes  Fc Fr G V Sc Sr Fc Fr
+cliff  Sc Sr G V Fc Fr
+was  G V Fc Fr
+ghost  Sc Sr V Fc Fr Sc Sr
+head  G V Sc Sr
+north  Nc Nr V G Fc Fr
+inches  V Nc Nr Sc Sr Fc Fr V Fc Fr
+i've  V Fc Fr
+ascend  V Fc Fr V Nc Nr Sc Sr
+collapsed  Sc Sr V G V Sc Sr Fc Fr Sc Sr
+but  Sc Sr V Sc Sr
+hu  G V
+cottage  Sc Sr V Sc Sr V Sc Sr Fc Fr
+line  G V Nc Nr
+trying  Sc Sr G V V Nc Nr
+with  G V Fc Fr
+fort  Fc Fr V G Sc Sr
+they're  Fc Fr V G
+made  Nc Nr V Sc Sr
+places  Sc Sr G V Fc Fr V Fc Fr
+inside  V Nc Nr Fc Fr V Sc Sr
+j  Sc Sr Fc Fr V
+up  V Sc Sr
+us  V Fc Fr
+tell  Sc Sr V G
+um  V Nc Nr
+below  Sc Sr V G V
+uh  V
+monument  Nc Nr V Nc Nr G V Nc Nr V Nc Nr Sc Sr
+called  Sc Sr V G Sc Sr
+gone  Sc Sr V Nc Nr
+pencil  Sc Sr V Nc Nr Fc Fr V G
+ah  V
+describe  Sc Sr V Fc Fr Sc Sr G V Sc Sr
+am  V Nc Nr
+deep  Sc Sr V Sc Sr
+an  V Nc Nr
+as  V Fc Fr
+skimming  Fc Fr Sc Sr V Nc Nr V Nc Nr
+at  V Sc Sr
+widow's  G V Sc Sr V Fc Fr
+steeper  Fc Fr Sc Sr V Sc Sr G
+again  V Sc Sr V Nc Nr
+colle  Sc Sr V G
+mushroom  Nc Nr V Fc Fr G V Nc Nr
+no  Nc Nr V
+when  G V Nc Nr
+ne  Nc Nr V
+til  Sc Sr V G
+other  V Fc Fr G
+holding  G V G Sc Sr V Nc Nr
+warehouse  G V G G V Fc Fr
+you  G V
+really  G V G V
+sloping  Fc Fr G V Sc Sr V Nc Nr
+picture  Sc Sr V Sc Sr Sc Sr Fc Fr G
+draw  Sc Sr G V
+o'clock  V Sc Sr G V Sc Sr
+shelter  Fc Fr V G Sc Sr G
+slant  Fc Fr G V Nc Nr Sc Sr
+stay  Fc Fr Sc Sr V
+let's  G V Sc Sr Fc Fr
+alright  V G G V Sc Sr
+peak  Sc Sr V Sc Sr
+kinda  Sc Sr V Nc Nr Sc Sr V
+desert  Sc Sr V Fc Fr G Sc Sr
+upwards  V Sc Sr G G Sc Sr Fc Fr
+building  Sc Sr V G Sc Sr V Nc Nr
+land  G V Nc Nr Sc Sr
+e  V
+starting  Fc Fr Sc Sr V G Sc Sr V Nc Nr
+dog  Sc Sr V Sc Sr
+curve  Sc Sr G Fc Fr
+curvy  Sc Sr G Fc Fr V
+dot  Sc Sr V Sc Sr
+carved  Sc Sr V G Fc Fr Sc Sr
+backward  Sc Sr V Sc Sr G G Sc Sr
+buffalo  Sc Sr V Fc Fr V G V
+once  G V Nc Nr Fc Fr
