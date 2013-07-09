@@ -463,6 +463,7 @@ class TextGrid:
                     self[0].append(Point(float(match.groups()[0]), match.groups()[1]))
         if len(self[0].items)>0:
             self.xmax = self[0].items[-1].time
+            self[0].xmax = self.xmax
 
 
 # TO-DO: Seperate PointTier and IntervalTier subclasses and enable class invariant checking
@@ -544,7 +545,7 @@ class PointTier(Tier):
         if not isinstance(point, Point):
             raise Exception( "Not a Point instance: ", point)
         if point.time<self.xmin or point.time>self.xmax:
-            raise Exception("Point", point, "exceeded tier boundary [", self.xmin, ',',self.xmax)
+            raise Exception("Point "+str(point)+" exceeded tier boundary ["+str(self.xmin)+', '+str(self.xmax)+"]")
         
         if self.items == [] or self.items[-1].time<point.time:
             self.items.append(point)
