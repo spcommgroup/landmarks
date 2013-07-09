@@ -2,7 +2,7 @@
 lexiconToLMTypes.py
 Takes a CMU-formatted lexicon and returns a lexicon using LM types instead of phones.
 Example: Input: FOG  F AO G
-Output: DOG  Fc Fr V Sc Sr
+Output: FOG  Fc Fr V Sc Sr
 """
 import sys
 # Require Python 3.x
