@@ -26,13 +26,21 @@ import datastructures.Ranking;
 public class Matcher {
     private final LexTreeNode lexTree;
     private final int maxWordLength;
+    private final boolean useLM; //False = match with featuresets, like normal.
+    //True = match with Landmark instead
 
     public Matcher(Lexicon lexicon) {
+    	this(lexicon, false);
+    }
+    public Matcher(Lexicon lexicon, boolean useLM) {
         LexTreeFactory lexTreeFactory = new LexTreeFactory(lexicon);
         this.lexTree = lexTreeFactory.lexTree();
         this.maxWordLength = lexTree.getHeight();
+        this.useLM = useLM;
     }
-    
+//    public List<Matching> match(List<Landmark> LandmarkSequence, float probabilityThreshold){
+//    	
+//    }
     public List<Matching> match(List<FeatureSet> featureSetSequence, FeatureWeights weights, float probabilityThreshold){
         final int MAX_INSERTIONS = 10;
         final Ranking[][] rankings = new Ranking[featureSetSequence.size()][maxWordLength + MAX_INSERTIONS + 1];
