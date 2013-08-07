@@ -23,7 +23,7 @@ public class ReducedFeatureSetLookup {
         featureSetMap = new HashMap<String, List<FeatureSet>>();
         HashMap<Feature, Float> map;
         ArrayList<FeatureSet> list; //To be reused for each sound.
-        
+        /*
         //iy
         map = new HashMap<Feature, Float>();
         map.put(Feature.VOWEL, +1.0f);
@@ -406,6 +406,51 @@ public class ReducedFeatureSetLookup {
         
         //axr
         featureSetMap.put("axr", featureSetMap.get("er"));
+        */
+        
+        //Using only landmarks for now
+        
+        //S
+        map = new HashMap<Feature, Float>();
+        map.put(Feature.CONSONANT, +1.0f);
+        map.put(Feature.SONORANT, -1.0f);
+        map.put(Feature.CONTINUANT, -1.0f);
+        list = new ArrayList<FeatureSet>();
+        list.add(new FeatureSet(map));
+        featureSetMap.put("S", list);
+        
+        //F
+        map = new HashMap<Feature, Float>();
+        map.put(Feature.CONSONANT, +1.0f);
+        map.put(Feature.SONORANT, -1.0f);
+        map.put(Feature.CONTINUANT, +1.0f);
+        map.put(Feature.STRIDENT, +1.0f);
+        list = new ArrayList<FeatureSet>();
+        list.add(new FeatureSet(map));
+        featureSetMap.put("F", list);
+        
+        //N
+        map = new HashMap<Feature, Float>();
+        map.put(Feature.CONSONANT, +1.0f);
+        map.put(Feature.SONORANT, +1.0f);
+        map.put(Feature.CONTINUANT, -1.0f);
+        list = new ArrayList<FeatureSet>();
+        list.add(new FeatureSet(map));
+        featureSetMap.put("N", list);
+        
+        //G
+        map = new HashMap<Feature, Float>();
+        map.put(Feature.GLIDE, +1.0f);
+        list = new ArrayList<FeatureSet>();
+        list.add(new FeatureSet(map));
+        featureSetMap.put("G", list);
+        
+        //V
+        map = new HashMap<Feature, Float>();
+        map.put(Feature.VOWEL, +1.0f);
+        list = new ArrayList<FeatureSet>();
+        list.add(new FeatureSet(map));
+        featureSetMap.put("V", list);
         
     }
     
