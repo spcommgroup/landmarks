@@ -37,4 +37,10 @@ public class PhonePhrase {
 	public int size() {
 		return this.phrase.size();
 	}
+	public void print() {
+		for(Phone phone : this.phrase){
+			System.out.print(phone.value+" ");
+		}
+		System.out.print("\n");
+	}
 }
