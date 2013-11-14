@@ -14,4 +14,8 @@ public class WordPhrase extends PhonePhrase {
 		this.time = 0.0f;
 	}
 	
+	public String toString(){
+		return this.phrase.toString();
+	}
+	
 }

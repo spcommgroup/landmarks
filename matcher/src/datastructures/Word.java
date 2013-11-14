@@ -10,4 +10,8 @@ public class Word extends Phone {
 		super(value);
 	}
 	
+	public String toString(){
+		return this.value;
+	}
+	
 }

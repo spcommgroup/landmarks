@@ -18,9 +18,14 @@ public class Phone {
 	public List<FeatureSet> featureSet(){
 	    try {
 	    	return FeatureSetLookup.lookup(this.value);
-	      } catch (NullPointerException e) {
-//	    	  System.out.println("Phone does not exist: "+ this.value);
-	    	  throw e;
-	      }
+	      } catch (NullPointerException e) {throw e;}
+	}
+	public List<FeatureSet> reducedFeatureSet(){
+	    try {
+	    	return ReducedFeatureSetLookup.lookup(this.value);
+	      } catch (NullPointerException e) {throw e;}
+	}
+	public String toString() {
+		return "/"+value + "/, " + time;
 	}
 }

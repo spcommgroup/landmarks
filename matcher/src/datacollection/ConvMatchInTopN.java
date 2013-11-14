@@ -44,6 +44,7 @@ public class ConvMatchInTopN {
     	} else {
     		convName = "conv" + String.format("%02d", conv) + "g";
     		convSrc = "src/matcher_data/"+convName;
+    		continue;
     	}
     	
     	Pair<List<PhonePhrase>, List<WordPhrase>> PhnWrdPair = PhonesFromFile.read(convSrc+"_phones.lm", convSrc+"_words.lm");
@@ -62,7 +63,8 @@ public class ConvMatchInTopN {
         for (PhonePhrase phonePhrase : phonePhrases){
         	if(phonePhrase.size() > 0){
 
-		        List<Matching> matchings = matcher.match(phonePhrase.featureSetSequence(), 0.1f);
+		        List<Matching> matchings = matcher.match(phonePhrase.reducedFeatureSetSequence(), 0.1f);
+		        
 
 		        Matching bestMatching = null;
 		        double bestRank = 0.0;
@@ -77,6 +79,10 @@ public class ConvMatchInTopN {
 //	        	phonePhrase.print();
 //	        	System.out.print("wordPhrase: ");
 //	        	correctWordPhrase.print();
+		        
+		        MeasureCohortSize.cohortSize(matchings, phonePhrase, lexicon, true);
+
+		        
 	        	MatchLoop:
 		        for (Matching m : matchings){
 //		        	System.out.println("New match for "+correctWords);
@@ -155,7 +161,7 @@ public class ConvMatchInTopN {
             String accumPercent = percentRank.format(sumOfRanks / phraseRanks.size());
             String inNPercent = percentRank.format(matchInTopN[i] / phraseRanks.size());
 
-        	System.out.println("\tPerfect match in top "+ (i+1) + ": " + accumPercent);
+//        	System.out.println("\tPerfect match in top "+ (i+1) + ": " + accumPercent);
         	tab_sep_vals += accumPercent + "\t";
         }
         tab_sep_vals += "\n";
@@ -174,8 +180,8 @@ public class ConvMatchInTopN {
           }
       }
 
-    System.out.println(headers);
-      System.out.print(tab_sep_vals);
+//    System.out.println(headers);
+//      System.out.print(tab_sep_vals);
     }
 
 }

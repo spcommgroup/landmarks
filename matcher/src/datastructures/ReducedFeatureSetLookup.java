@@ -23,390 +23,6 @@ public class ReducedFeatureSetLookup {
         featureSetMap = new HashMap<String, List<FeatureSet>>();
         HashMap<Feature, Float> map;
         ArrayList<FeatureSet> list; //To be reused for each sound.
-        /*
-        //iy
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("iy", list);
-        
-        //ih
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("ih", list);
-
-        //ey
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("ey", list);
-        
-        //eh
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("eh", list);
-        
-        //ae
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("ae", list);
-        
-        
-        //aa
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("aa", list);
-        
-        //ao
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("ao", list);
-        
-        //ow
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("ow", list);
-        
-        //ah
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("ah", list);
-        
-        //uw
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("uw", list);
-        
-        //uh
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("uh", list);
-        
-        //er
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("er", list);
-        
-        //aw
-        //first part of aw
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        map.put(Feature.GLIDE, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        
-        //second part of aw
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        map.put(Feature.GLIDE, +1.0f);
-        list.add(new FeatureSet(map));
-        
-        featureSetMap.put("aw", list);
-        
-        //ay
-        //first part of ay
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        map.put(Feature.GLIDE, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        
-        //second part of ay
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        map.put(Feature.GLIDE, +1.0f);
-        list.add(new FeatureSet(map));
-        featureSetMap.put("ay", list);
-        
-        //oy
-        //first part of oy
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        map.put(Feature.GLIDE, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        
-        //second part of oy
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.VOWEL, +1.0f);
-        map.put(Feature.GLIDE, +1.0f);
-        list.add(new FeatureSet(map));
-
-        featureSetMap.put("oy", list);
-        
-        //hh
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.GLIDE, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("hh", list);
-        //Alias "h"
-        featureSetMap.put("h",list);
-        
-        //w
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.GLIDE, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("w", list);
-        
-        
-        //y
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.GLIDE, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("y", list);
-        
-        
-        //r
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.GLIDE, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("r", list);
-        
-        
-        //l
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, +1.0f);
-        map.put(Feature.CONTINUANT, -1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("l", list);
-        
-        //m
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, +1.0f);
-        map.put(Feature.CONTINUANT, -1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("m", list);
-        
-        //n
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, +1.0f);
-        map.put(Feature.CONTINUANT, -1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("n", list);
-        
-        //ng
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, +1.0f);
-        map.put(Feature.CONTINUANT, -1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("ng", list);
-        
-        //v
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("v", list);
-        
-        //dh
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, +1.0f);
-        map.put(Feature.CONTINUANT, -1.0f);
-        map.put(Feature.STRIDENT, -1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("dh", list);
-        
-        //z
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, +1.0f);
-        map.put(Feature.STRIDENT, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("z", list);
-        
-        //zh
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, +1.0f);
-        map.put(Feature.STRIDENT, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("zh", list);
-
-        //f
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("f", list);
-        
-        //th
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, +1.0f);
-        map.put(Feature.STRIDENT, -1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("th", list);
-        
-        //s
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, +1.0f);
-        map.put(Feature.STRIDENT, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("s", list);
-        
-        //sh
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, +1.0f);
-        map.put(Feature.STRIDENT, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("sh", list);
-        
-        
-        //b
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, -1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("b", list);
-        
-        //d
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, -1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("d", list);
-        
-        //g
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, -1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("g", list);
-        
-        //p
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, -1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("p", list);
-        
-        //t
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, -1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("t", list);
-        
-        //k
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, -1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        featureSetMap.put("k", list);
-
-        //jh
-        //first part of jh
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, -1.0f);
-        map.put(Feature.STRIDENT, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        
-        //second part of jh
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, +1.0f);
-        map.put(Feature.STRIDENT, +1.0f);
-        list.add(new FeatureSet(map));
-        
-        featureSetMap.put("jh", list);
-        
-        //ch
-        //first part of ch
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, -1.0f);
-        map.put(Feature.STRIDENT, +1.0f);
-        list = new ArrayList<FeatureSet>();
-        list.add(new FeatureSet(map));
-        
-        //second part of ch
-        map = new HashMap<Feature, Float>();
-        map.put(Feature.CONSONANT, +1.0f);
-        map.put(Feature.SONORANT, -1.0f);
-        map.put(Feature.CONTINUANT, +1.0f);
-        map.put(Feature.STRIDENT, +1.0f);
-        list.add(new FeatureSet(map));
-        
-        featureSetMap.put("ch", list);
-        
-        //ix
-        featureSetMap.put("ix", featureSetMap.get("ah"));
-        
-        //ax
-        featureSetMap.put("ax", featureSetMap.get("ah"));
-        
-        //axr
-        featureSetMap.put("axr", featureSetMap.get("er"));
-        */
         
         //Using only landmarks for now
         
@@ -424,7 +40,7 @@ public class ReducedFeatureSetLookup {
         map.put(Feature.CONSONANT, +1.0f);
         map.put(Feature.SONORANT, -1.0f);
         map.put(Feature.CONTINUANT, +1.0f);
-        map.put(Feature.STRIDENT, +1.0f);
+//        map.put(Feature.STRIDENT, +1.0f);
         list = new ArrayList<FeatureSet>();
         list.add(new FeatureSet(map));
         featureSetMap.put("F", list);
@@ -452,6 +68,95 @@ public class ReducedFeatureSetLookup {
         list.add(new FeatureSet(map));
         featureSetMap.put("V", list);
         
+        
+        //Vowels
+        featureSetMap.put("iy", featureSetMap.get("V"));
+        featureSetMap.put("ih", featureSetMap.get("V"));
+        featureSetMap.put("ey", featureSetMap.get("V"));
+        featureSetMap.put("eh", featureSetMap.get("V"));
+        featureSetMap.put("ae", featureSetMap.get("V"));
+        featureSetMap.put("aa", featureSetMap.get("V"));
+        featureSetMap.put("ao", featureSetMap.get("V"));
+        featureSetMap.put("ow", featureSetMap.get("V"));
+        featureSetMap.put("ah", featureSetMap.get("V"));
+        featureSetMap.put("uw", featureSetMap.get("V"));
+        featureSetMap.put("uh", featureSetMap.get("V"));
+        featureSetMap.put("er", featureSetMap.get("V"));
+        featureSetMap.put("aw", featureSetMap.get("V"));
+        featureSetMap.put("ix", featureSetMap.get("V"));
+        featureSetMap.put("ax", featureSetMap.get("V"));
+        featureSetMap.put("axr", featureSetMap.get("V"));
+
+        //aw --- vowel/glide dipthong (2 parts)
+	        map = new HashMap<Feature, Float>();
+	        map.put(Feature.VOWEL, +1.0f);
+	        map.put(Feature.GLIDE, +1.0f);
+	        list = new ArrayList<FeatureSet>();
+	        list.add(new FeatureSet(map));
+	        
+	        map = new HashMap<Feature, Float>();
+	        map.put(Feature.VOWEL, +1.0f);
+	        map.put(Feature.GLIDE, +1.0f);
+	        list.add(new FeatureSet(map));
+	        
+	        featureSetMap.put("aw", list);
+        
+        //other V/G dipthongs
+        featureSetMap.put("ay", featureSetMap.get("aw"));
+        featureSetMap.put("oy", featureSetMap.get("aw"));
+
+        //Glides
+        featureSetMap.put("hh", featureSetMap.get("G"));
+        featureSetMap.put("h", featureSetMap.get("G"));
+        featureSetMap.put("w", featureSetMap.get("G"));
+        featureSetMap.put("y", featureSetMap.get("G"));
+        featureSetMap.put("r", featureSetMap.get("G"));
+        featureSetMap.put("l", featureSetMap.get("G"));
+
+        //Nasals
+        featureSetMap.put("m", featureSetMap.get("N"));
+        featureSetMap.put("n", featureSetMap.get("N"));
+        featureSetMap.put("ng", featureSetMap.get("N"));
+
+        //Fricatives
+        featureSetMap.put("v", featureSetMap.get("F"));
+        featureSetMap.put("dh", featureSetMap.get("F"));
+        featureSetMap.put("z", featureSetMap.get("F"));
+        featureSetMap.put("zh", featureSetMap.get("F"));
+        featureSetMap.put("f", featureSetMap.get("F"));
+        featureSetMap.put("th", featureSetMap.get("F"));
+        featureSetMap.put("s", featureSetMap.get("F"));
+        featureSetMap.put("sh", featureSetMap.get("F"));
+
+        //Stops
+        featureSetMap.put("b", featureSetMap.get("S"));
+        featureSetMap.put("d", featureSetMap.get("S"));
+        featureSetMap.put("g", featureSetMap.get("S"));
+        featureSetMap.put("p", featureSetMap.get("S"));
+        featureSetMap.put("t", featureSetMap.get("S"));
+        featureSetMap.put("k", featureSetMap.get("S"));
+
+        //jh --- Affricate (S/F) - 2 parts
+	        map = new HashMap<Feature, Float>();
+	        map.put(Feature.CONSONANT, +1.0f);
+	        map.put(Feature.SONORANT, -1.0f);
+	        map.put(Feature.CONTINUANT, -1.0f);
+//	        map.put(Feature.STRIDENT, +1.0f);
+	        list = new ArrayList<FeatureSet>();
+	        list.add(new FeatureSet(map));
+	        
+	        map = new HashMap<Feature, Float>();
+	        map.put(Feature.CONSONANT, +1.0f);
+	        map.put(Feature.SONORANT, -1.0f);
+	        map.put(Feature.CONTINUANT, +1.0f);
+//	        map.put(Feature.STRIDENT, +1.0f);
+	        list.add(new FeatureSet(map));
+	        
+	        featureSetMap.put("jh", list);
+        
+        //ch
+        featureSetMap.put("ch", featureSetMap.get("jh"));
+
     }
     
     public static List<FeatureSet> lookup(String phone){

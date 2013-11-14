@@ -56,6 +56,21 @@ public abstract class Lexicon {
         }
         return featureSetSequence;
     }
+    public List<FeatureSet> reducedFeatureSetSequence(String sentence){
+        List<FeatureSet> reducedFeatureSetSequence = new ArrayList<FeatureSet>();
+        for (String word : getWords(sentence)){
+            if (!hasWord(word)){
+                //System.out.println("Cannot find word: " + word);
+                return null;
+            }
+            for (String phone : getPhoneList(word)){
+                for (FeatureSet fs : ReducedFeatureSetLookup.lookup(phone)){
+                    reducedFeatureSetSequence.add(fs);
+                }
+            }
+        }
+        return reducedFeatureSetSequence;
+    }
     
     public List<Integer> correctPartitioning(String sentence){
         List<Integer> correctPartitioning = new ArrayList<Integer>();
