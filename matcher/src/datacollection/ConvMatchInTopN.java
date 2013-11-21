@@ -44,7 +44,7 @@ public class ConvMatchInTopN {
     	} else {
     		convName = "conv" + String.format("%02d", conv) + "g";
     		convSrc = "src/matcher_data/"+convName;
-    		continue;
+//    		continue;
     	}
     	
     	Pair<List<PhonePhrase>, List<WordPhrase>> PhnWrdPair = PhonesFromFile.read(convSrc+"_phones.lm", convSrc+"_words.lm");
@@ -52,8 +52,8 @@ public class ConvMatchInTopN {
     	List<WordPhrase> wordPhrases = PhnWrdPair.second;
 //    	System.out.println("Matching "+convName+"...");
         //create the lexicon (from the file timitdict.txt)
-//        Lexicon lexicon = new CMULexicon(convSrc+"_lexicon.txt");
-        Lexicon lexicon = new CMULexicon("src/matcher_data/conv_all_lexicon.txt");
+        Lexicon lexicon = new CMULexicon(convSrc+"_lexicon.txt");
+//        Lexicon lexicon = new CMULexicon("src/matcher_data/conv_all_lexicon.txt");
         //creating the matcher, based off of that lexicon.
         Matcher matcher = new Matcher(lexicon);
 
@@ -63,7 +63,7 @@ public class ConvMatchInTopN {
         for (PhonePhrase phonePhrase : phonePhrases){
         	if(phonePhrase.size() > 0){
 
-		        List<Matching> matchings = matcher.match(phonePhrase.reducedFeatureSetSequence(), 0.1f);
+		        List<Matching> matchings = matcher.match(phonePhrase.featureSetSequence(), 0.1f);
 		        
 
 		        Matching bestMatching = null;
@@ -80,7 +80,7 @@ public class ConvMatchInTopN {
 //	        	System.out.print("wordPhrase: ");
 //	        	correctWordPhrase.print();
 		        
-		        MeasureCohortSize.cohortSize(matchings, phonePhrase, lexicon, true);
+		        MeasureCohortSize.cohortSize(matchings, phonePhrase, lexicon, true, "none");
 
 		        
 	        	MatchLoop:

@@ -18,21 +18,43 @@ import datastructures.WordPhrase;
  *
  */
 public class PhonesFromFile {
+	
+	public static Pair<List<PhonePhrase>, List<WordPhrase>> read(String phonesPath, String wordsPath) throws IOException{
+		return read(phonesPath, wordsPath, "phones");
+	}
 
-    public static Pair<List<PhonePhrase>, List<WordPhrase>> read(String phonesPath, String wordsPath) throws IOException{
+    public static Pair<List<PhonePhrase>, List<WordPhrase>> read(String phonesPath, String wordsPath, String type) throws IOException{
         
         BufferedReader br = new BufferedReader(new FileReader(phonesPath));
         List<Phone> phones = new ArrayList<Phone>();
         String line;
+        String open = ""; //Open landmark. e.g. we read "Sc" and mark open="S" and close it on the next line.
         while ((line = br.readLine()) != null){
-            if (line.startsWith("#")){
+            if (line.startsWith("#") || line.startsWith("_")){
                 continue;
             }
             line = line.replace("\n", "").replace("\r", "");
             String[] parts = line.split(" ");
             Phone phone;
-            if (parts.length == 2 && !parts[1].startsWith("#")){
-            	phone = new Phone(parts[1].replaceAll("[0-9]","").toLowerCase().trim());
+            if (parts.length == 2 && !parts[1].startsWith("#") && !parts[1].startsWith("_")){
+            	phone = new Phone(parts[1].replaceAll("[0-9]","").trim());
+            	if(type=="landmarks"){
+	            	if(phone.value.endsWith("c")){
+	            		phone.value = phone.value.substring(0,1); // remove the "c" in "Sc"
+	            		open = phone.value;
+	            	} else {
+	            		if (phone.value.endsWith("r")){
+	            			if(open != "" && phone.value.startsWith(open)){
+	            				open = "";
+	            				continue; // this LM was open and now is closed. don't add release as a phone.
+	            			} else {
+	            				//this is a release but there was no closure. add it anyway (removing the 'r').
+	            				phone.value = phone.value.substring(0,1);
+	            			}
+	            		}
+	            		open = "";
+	            	}
+            	}
             }
             else {
             	phone = new Phone("");
@@ -46,13 +68,13 @@ public class PhonesFromFile {
         br = new BufferedReader(new FileReader(wordsPath));
         List<Word> words = new ArrayList<Word>();
         while ((line = br.readLine()) != null){
-            if (line.startsWith("#")){
+            if (line.startsWith("#") || line.startsWith("_")){
                 continue;
             }
             line = line.replace("\n", "").replace("\r", "");
             String[] parts = line.split(" ");
             Word word;
-            if (parts.length == 2 && !parts[1].startsWith("<") && !parts[1].startsWith("#") && !parts[1].startsWith("?")){
+            if (parts.length == 2 && !parts[1].startsWith("<") && !parts[1].startsWith("#") && !parts[1].startsWith("_") && !parts[1].startsWith("?")){
                 word = new Word(parts[1].toLowerCase().trim());
             }
             else {

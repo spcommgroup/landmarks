@@ -1,0 +1,170 @@
+;;; This lexicon is a subset of CMUdict containing words from ../TIMIT labeling/AEMT/conv09g_jessk.TextGrid
+;;; It was generated from the CMU dictionary file cmudict.0.7a
+just  jh ah1 s t
+basically  b ey1 s ih0 k l iy0
+land  l ae1 n d
+straight  s t r ey1 t
+almost  ao1 l m ow2 s t
+left  l eh1 f t
+cover  k ah1 v er0
+finish  f ih1 n ih0 sh
+uh  ah1
+nuclear  n uw1 k l iy0 er0
+test  t eh1 s t
+okay  ow2 k ey1
+tail  t ey1 l
+not  n aa1 t
+it's  ih1 t s
+rest  r eh1 s t
+route  r uw1 t
+three  th r iy1
+slant  s l ae1 n t
+down  d aw1 n
+more  m ao1 r
+above  ah0 b ah1 v
+until  ah0 n t ih1 l
+at  ae1 t
+then  dh eh1 n
+on  aa1 n
+where  w eh1 r
+old  ow1 l d
+kind  k ay1 n d
+of  ah1 v
+over  ow1 v er0
+pass  p ae1 s
+picket  p ih1 k ih0 t
+like  l ay1 k
+so  s ow1
+little  l ih1 t ah0 l
+x  eh1 k s
+cottage  k aa1 t ah0 jh
+directly  d er0 eh1 k t l iy0
+or  ao1 r
+round  r aw1 n d
+you're  y uh1 r
+next  n eh1 k s t
+inches  ih1 n ch ah0 z
+around  er0 aw1 n d
+north  n ao1 r th
+third  th er1 d
+very  v eh1 r iy0
+bottom  b aa1 t ah0 m
+anything  eh1 n iy0 th ih2 ng
+marker  m aa1 r k er0
+legs  l eh1 g z
+see  s iy1
+two  t uw1
+one  w ah1 n
+counterclockwise  k aw2 n t er0 k l ao1 k w ay0 z
+forest  f ao1 r ah0 s t
+thing  th ih1 ng
+as  ae1 z
+let's  l eh1 t s
+goes  g ow1 z
+lake  l ey1 k
+five  f ay1 v
+the  dh ah0
+site  s ay1 t
+that's  dh ae1 t s
+dog  d ao1 g
+top  t aa1 p
+back  b ae1 k
+guess  g eh1 s
+all  ao1 l
+mill  m ih1 l
+mean  m iy1 n
+thirty  th er1 d iy0
+looks  l uh1 k s
+slanted  s l ae1 n t ah0 d
+after  ae1 f t er0
+there  dh eh1 r
+too  t uw1
+hit  hh ih1 t
+place  p l ey1 s
+page  p ey1 jh
+maybe  m ey1 b iy0
+would  w uh1 d
+abandoned  ah0 b ae1 n d ah0 n d
+do  d uw1
+close  k l ow1 s
+um  ah1 m
+but  b ah1 t
+from  f r ah1 m
+yeah  y ae1
+be  b iy1
+about  ah0 b aw1 t
+that  dh ae1 t
+thirds  th er1 d z
+south  s aw1 th
+below  b ih0 l ow1
+monument  m aa1 n y uw0 m ah0 n t
+kinda  k ih1 n d ah0
+meadow  m eh1 d ow2
+starting  s t aa1 r t ih0 ng
+bit  b ih1 t
+follows  f aa1 l ow0 z
+right  r ay1 t
+in  ih0 n
+stay  s t ey1
+northwest  n ao2 r th w eh1 s t
+to  t uw1
+start  s t aa1 r t
+farm  f aa1 r m
+halfway  hh ae1 f w ey1
+can  k ae1 n
+curve  k er1 v
+head  hh eh1 d
+a  ah0
+an  ae1 n
+slightly  s l ay1 t l iy0
+past  p ae1 s t
+horizontal  hh ao2 r ah0 z aa1 n t ah0 l
+mountain  m aw1 n t ah0 n
+curvy  k er1 v iy0
+paradise  p eh1 r ah0 d ay2 s
+it  ih1 t
+is  ih1 z
+front  f r ah1 n t
+oh  ow1
+drawing  d r ao1 ih0 ng
+angle  ae1 ng g ah0 l
+there's  dh eh1 r z
+sorry  s aa1 r iy0
+mhm  ah0 m hh ah0 m
+soon  s uw1 n
+pointy  p oy1 n t iy0
+go  g ow1
+canadian  k ah0 n ey1 d iy0 ah0 n
+going  g ow1 ih0 ng
+i'm  ay1 m
+up  ah1 p
+quarters  k w ao1 r t er0 z
+fence  f eh1 n s
+forty  f ao1 r t iy0
+til  t ih1 l
+fenced  f eh1 n s t
+have  hh ae1 v
+you  y uw1
+once  w ah1 n s
+side  s ay1 d
+root  r uw1 t
+east  iy1 s t
+southeast  s aw2 th iy1 s t
+curves  k er1 v z
+no  n ow1
+degree  d ih0 g r iy1
+i  ay1
+edge  eh1 jh
+draw  d r ao1
+farmed  f aa1 r m d
+inch  ih1 n ch
+if  ih1 f
+well  w eh1 l
+part  p aa1 r t
+west  w eh1 s t
+again  ah0 g eh1 n
+peak  p iy1 k
+underneath  ah2 n d er0 n iy1 th
+line  l ay1 n
+how  hh aw1
+and  ah0 n d

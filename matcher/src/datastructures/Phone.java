@@ -21,8 +21,11 @@ public class Phone {
 	      } catch (NullPointerException e) {throw e;}
 	}
 	public List<FeatureSet> reducedFeatureSet(){
+	    return reducedFeatureSet("reduced");
+	}
+	public List<FeatureSet> reducedFeatureSet(String type){
 	    try {
-	    	return ReducedFeatureSetLookup.lookup(this.value);
+	    	return ReducedFeatureSetLookup.lookup(this.value, type);
 	      } catch (NullPointerException e) {throw e;}
 	}
 	public String toString() {

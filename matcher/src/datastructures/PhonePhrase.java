@@ -35,10 +35,13 @@ public class PhonePhrase {
 	    return featureSetSequence;
     }
     public List<FeatureSet> reducedFeatureSetSequence() {
+	    return reducedFeatureSetSequence("reduced");
+    }
+    public List<FeatureSet> reducedFeatureSetSequence(String type) {
 	    List<FeatureSet> reducedFeatureSetSequence = new ArrayList<FeatureSet>();
 	    for (Phone phone : this.phrase){
 	      try { 
-	        reducedFeatureSetSequence.addAll(phone.reducedFeatureSet());
+	        reducedFeatureSetSequence.addAll(phone.reducedFeatureSet(type));
 	      } catch (NullPointerException e) {
 	    	  System.out.println("Phone not found! "+ phone);
 	    	  throw e;
@@ -46,6 +49,7 @@ public class PhonePhrase {
 	    }
 	    return reducedFeatureSetSequence;
     }
+    
 	public int size() {
 		return this.phrase.size();
 	}
@@ -54,5 +58,8 @@ public class PhonePhrase {
 			System.out.print(phone.value+" ");
 		}
 		System.out.print("\n");
+	}
+	public String toString() {
+		return "PhonePhrase(" + this.phrase + ")";
 	}
 }

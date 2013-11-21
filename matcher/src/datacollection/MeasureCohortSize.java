@@ -26,46 +26,47 @@ import datastructures.WordPhrase;
  */
 public class MeasureCohortSize {
 	
-    public static void cohortSize(List<Matching> matchings, PhonePhrase seq, Lexicon lexicon, boolean reduced) throws IOException{
+    public static int cohortSize(List<Matching> matchings, PhonePhrase seq, Lexicon lexicon, boolean reduced, String type) throws IOException{
       	
-    	System.out.println("\nPhone Phrase: "+seq);
+//    	System.out.println("\nPhone Phrase: "+seq);
     	List<FeatureSet> featureSeq;
     	if(reduced){
-    		featureSeq = seq.reducedFeatureSetSequence();
+    		featureSeq = seq.reducedFeatureSetSequence(type);
     	}else {
     		featureSeq = seq.featureSetSequence();
     	}
-    	String sentence = "";
 //    	int max_matchings = 5;
     	int cohort_size = 0;
     	int current_matchings = 0;
         for (Matching m : matchings){
         	//evaluate size of matching
+        	String sentence = "";
         	int size = 1;
         	for (Ranking r : m.getRankings()){
         		sentence += r.getBestProbabilitySet().getWords().iterator().next() + " "; //construct sentence for lexicon lookup
-        		System.out.print(r.getBestProbabilitySet().getWords());
+//        		System.out.print(r.getBestProbabilitySet().getWords());
         		size *= r.getBestProbabilitySet().getWords().size();
         	}
 
-        	System.out.println("\nSize: "+size);
-            System.out.println(String.format("Matching (p = %f):",m.getBestProbability()));
             
         	List<FeatureSet> correctSeq;
         	if(reduced){
-        		correctSeq = lexicon.reducedFeatureSetSequence(sentence);
+        		correctSeq = lexicon.reducedFeatureSetSequence(sentence, type);
         	} else {
         		correctSeq = lexicon.featureSetSequence(sentence);
         	}
-        	if(correctSeq == featureSeq){
-        		cohort_size++;
-        	} else {
-        		System.out.println("Cohort size: "+cohort_size);
-        		return;
+        	System.out.println("featureSeq = "+featureSeq);
+        	System.out.println("correctSeq = "+correctSeq);
+        	if(correctSeq != null && correctSeq.equals(featureSeq)){
+//            	System.out.println("\nSize: "+size);
+//                System.out.println(String.format("Matching (p = %f):",m.getBestProbability()));
+        		cohort_size+= size;
         	}
 
         	current_matchings++;
         }
+//		System.out.println("Cohort size: "+cohort_size);
+		return cohort_size;
     }
 
 }

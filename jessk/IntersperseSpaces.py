@@ -13,10 +13,10 @@ if sys.version_info[0] < 3:
     sys.exit(1)
 
 if len(sys.argv) == 3:
-	fpath = sys.argv[1]
-	f2path = sys.argv[2]
+    fpath = sys.argv[1]
+    f2path = sys.argv[2]
 elif len(sys.argv) == 2:
-	fpath = sys.argv[1]
+    fpath = sys.argv[1]
 f = None
 while not f:
     try:
@@ -34,12 +34,14 @@ while not f2:
 
 t = TextGrid(filepath=fpath, oprint=False)
 for line in f2:
-	linesplit = line.strip("\n").split()
-	if not line.startswith("#") and len(linesplit)==1:
-		ltime = float(linesplit[0])
-		if len([point for point in t[0] if point.time == ltime]) > 0:
-			ltime -= .001
-		t[0].insert(Point(ltime, " "))
+    linesplit = line.strip("\n").split()
+    if not line.startswith("#") and (len(linesplit)==1 or linesplit[1] in " _#"):
+        ltime = float(linesplit[0])
+        if len([point for point in t[0] if point.time == ltime]) > 0:
+            ltime -= .001
+        if t[0].xmax < ltime:
+            ltime = t[0].xmax
+        t[0].insert(Point(ltime, "_"))
 outpath = ".".join(fpath.split(".")[:-1])+"_spaces.lm"
 t.saveAsLM(outpath)
 print("File saved as "+outpath)

@@ -158,9 +158,44 @@ public class ReducedFeatureSetLookup {
         featureSetMap.put("ch", featureSetMap.get("jh"));
 
     }
-    
+
     public static List<FeatureSet> lookup(String phone){
-        return featureSetMap.get(phone);
+        return lookup(phone, "reduced");
+    }
+    public static List<FeatureSet> lookup(String phone, String type){
+//    	System.out.println(featureSetMap);
+    	List<FeatureSet> fs = featureSetMap.get(phone);
+		HashMap<Feature, Float> map;
+        ArrayList<FeatureSet> list = new ArrayList<FeatureSet>();
+        
+        boolean specialFS = false;
+        Feature[] useFS;
+        Feature[] VGC = {Feature.VOWEL, Feature.GLIDE, Feature.CONSONANT};
+        Feature[] V = {Feature.VOWEL};
+        if(type=="VGC"){
+        	specialFS=true;
+        	useFS=VGC;
+        } else if(type=="V"){
+        	specialFS=true;
+        	useFS=V;
+        } else {
+        	useFS = new Feature[] {};
+        }
+        if(specialFS){
+//        	System.out.println("VGC");
+	        for(FeatureSet fs1 : fs){
+                map = new HashMap<Feature, Float>();
+	        	for (Feature f : useFS){
+	                map.put(f, fs1.getValue(f));
+	        	}
+                list.add(new FeatureSet(map));
+	        }
+	        fs = list;
+        }
+//        System.out.println(fs);
+//        System.out.println("-----------");
+        return fs;
+
     }
 
 }

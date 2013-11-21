@@ -56,7 +56,7 @@ public abstract class Lexicon {
         }
         return featureSetSequence;
     }
-    public List<FeatureSet> reducedFeatureSetSequence(String sentence){
+    public List<FeatureSet> reducedFeatureSetSequence(String sentence, String type){
         List<FeatureSet> reducedFeatureSetSequence = new ArrayList<FeatureSet>();
         for (String word : getWords(sentence)){
             if (!hasWord(word)){
@@ -64,12 +64,15 @@ public abstract class Lexicon {
                 return null;
             }
             for (String phone : getPhoneList(word)){
-                for (FeatureSet fs : ReducedFeatureSetLookup.lookup(phone)){
+                for (FeatureSet fs : ReducedFeatureSetLookup.lookup(phone, type)){
                     reducedFeatureSetSequence.add(fs);
                 }
             }
         }
         return reducedFeatureSetSequence;
+    }
+    public List<FeatureSet> reducedFeatureSetSequence(String sentence){
+    	return reducedFeatureSetSequence(sentence, "reduced");
     }
     
     public List<Integer> correctPartitioning(String sentence){

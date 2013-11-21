@@ -157,4 +157,14 @@ public class FeatureSet {
         return DELETION_PROBABILITY;
     }
     
+    public String toString(){
+    	String str = "FeatureSet(\n";
+    	for (Feature f : FeatureSet.allFeatures) {
+    		if (featureValues.get(f) != 0) {
+    			str += " " + f + "=" + featureValues.get(f) + "\n";
+    		}
+    	}
+    	return str + ")";
+    }
+    
 }
